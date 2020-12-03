@@ -67,7 +67,6 @@ plugins=(
 dnf
 fzf
 git
-sublime
 web-search
 z
 zsh-autosuggestions
@@ -122,6 +121,7 @@ unset __conda_setup
 alias node="nodejs"
 alias cat="batcat"
 alias bat="batcat"
+alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
 
 alias rm="rm -i"
 
