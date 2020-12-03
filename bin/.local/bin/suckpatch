@@ -1,6 +1,11 @@
 
 #!/usr/bin/env sh
 
+# rm -rf $HOME/dwm &&
+# rm -rf $HOME/.config/dwm &&
+# git clone https://git.suckless.org/dwm $HOME/.config/dwm &&
+# cd $HOME/.config/dwm &&
+
 current=${PWD##*/}
 if [ ! -d "$HOME/.config/suckless/${current}_diffs/" ];then
 	echo "No patches"
