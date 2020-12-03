@@ -98,14 +98,6 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias node="nodejs"
-alias cat="batcat"
-alias bat="batcat"
-alias vim="nvim -u ~/.vimrc"
-alias rm="rm -i"
 
 export PATH="$PATH:$HOME/miniconda3/bin"
 
@@ -126,3 +118,21 @@ unset __conda_setup
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias node="nodejs"
+alias cat="batcat"
+alias bat="batcat"
+
+alias rm="rm -i"
+
+alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
+alias branch='git branch'
+
+#stow
+sto(){
+    stow -vSt ~ $1
+}
+
+unsto(){
+    stow -vDt ~ $1
+}
