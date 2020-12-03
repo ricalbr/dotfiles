@@ -118,14 +118,18 @@ unset __conda_setup
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# useful programs
 alias node="nodejs"
 alias cat="batcat"
 alias bat="batcat"
 alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
 
+# safe remove
 alias rm="rm -i"
 
+# suckless programs
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
+alias configinstall='git checkout master && rm -f config.h && sudo make clean install'
 alias branch='git branch'
 
 #stow
