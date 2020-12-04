@@ -143,3 +143,7 @@ sto(){
 unsto(){
     stow -vDt ~ $1
 }
+
+adopt(){
+    stow --adopt -vSt ~ $1
+}
