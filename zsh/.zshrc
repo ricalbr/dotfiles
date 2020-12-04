@@ -132,6 +132,9 @@ alias fullclean='git checkout master && make clean && rm -f config.h && git rese
 alias configinstall='git checkout master && rm -f config.h && sudo make clean install'
 alias branch='git branch'
 
+# x
+alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
+
 #stow
 sto(){
     stow -vSt ~ $1
