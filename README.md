@@ -1,4 +1,4 @@
-# ./~
+# ~/.
 dot dot dotfiles
 
 ## Usage
