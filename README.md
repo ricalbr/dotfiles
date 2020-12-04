@@ -2,7 +2,8 @@
 dot dot dotfiles
 
 ## Usage
-Use `stow` for managing my dotfiles
+I manage my dotfiles with `stow`
+
 ```bash
 git clone https://github.com/ricalbr/.dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
