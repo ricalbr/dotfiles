@@ -129,7 +129,7 @@ alias rm="rm -i"
 
 # suckless programs
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
-alias configinstall='git checkout master && rm -f config.h && sudo make clean install'
+alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
 alias branch='git branch'
 
 # x
