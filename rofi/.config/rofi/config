@@ -1,0 +1,15 @@
+!Rofi Settings
+rofi.lines: 12
+rofi.width: 40
+rofi.columns: 1
+rofi.padding: 58
+rofi.location: 0
+rofi.font: Iosevka 11
+rofi.sidebar-mode: true
+rofi.color-enabled: true
+rofi.display-drun: 
+rofi.modi: drun
+rofi.color-window: #222222, #222222, #222222
+rofi.color-normal: #222222, #d8dee9, #222222, #222222, #bf616a
+rofi.color-active: #222222, #b48ead, #222222, #222222, #93e5cc
+rofi.color-urgent: #222222, #ebcb8b, #222222, #222222, #ebcb8b
