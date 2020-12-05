@@ -6,7 +6,7 @@ nitrogen --restore &
 # lauch notification daemon
 /usr/bin/dunst > /dev/null 2>&1 &
 
-setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle
+setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle &
 
 xset +fp $HOME/.local/share/fonts &
 xset fp rehash &
