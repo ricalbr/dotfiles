@@ -22,14 +22,14 @@ dte(){
 wfi(){
     wifi=`nmcli dev wifi list | awk '/\*/{if (NR!=1) {print $8}}'`
 
-    # check if $wifi is empty
-
-    if [[ $wifi -gt 74 ]];then      # high signal
-        echo -e "\ue0f0"
+    if [[ -z $wifi ]]; then
+        echo -e "\ue21f"
+    elif [[ $wifi -gt 74 ]];then      # high signal
+        echo -e "\ue220"
     elif [[ $wifi -gt 29 ]];then    # mid signal
-        echo -e "\ue0ef"
+        echo -e "\ue221"
     else
-        echo -e "\ue0ee"            # low signal
+        echo -e "\ue222"            # low signal
     fi
 }
 
