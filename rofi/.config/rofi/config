@@ -4,7 +4,7 @@ rofi.width: 40
 rofi.columns: 1
 rofi.padding: 58
 rofi.location: 0
-rofi.font: Iosevka 11
+rofi.font: Iosevka 13
 rofi.sidebar-mode: true
 rofi.color-enabled: true
 rofi.display-drun: 
