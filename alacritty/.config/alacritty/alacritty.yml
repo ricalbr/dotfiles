@@ -1,3 +1,6 @@
+env:
+  WINIT_X11_SCALE_FACTOR: "1"
+
 font:
   # Normal (roman) font face
   normal:
@@ -10,7 +13,7 @@ font:
   italic:
     family: 'Iosevka Nerd Font Mono'
     style: italic
-  size: 10.0
+  size: 13.0
 
 
 # Colors (One Dark)
