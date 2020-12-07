@@ -119,6 +119,9 @@ unset __conda_setup
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # useful programs
+alias ls='ls --group-directories-first --color=auto'
+alias l='ls -lah'
+alias ll='ls -lh'
 alias node="nodejs"
 alias cat="batcat"
 alias bat="batcat"
