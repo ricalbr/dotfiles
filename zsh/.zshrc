@@ -83,8 +83,9 @@ alias fullclean='git checkout master && make clean && rm -f config.h && git rese
 alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
 alias branch='git branch'
 
-# x
+# quick fixes
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
+alias audioreset='systemctl --user restart pulseaudio'
 
 #stow
 sto(){
