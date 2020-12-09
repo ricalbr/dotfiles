@@ -150,14 +150,16 @@ screens = [
                 widget.Spacer(),
                 widget.TextBox(
                     text='',
-                    fontsize=14,
+                    fontsize=13,
                 ),
                 widget.Volume(),
-                widget.Systray(),
+                widget.Systray(
+                    icon_size=13,
+                ),
                 widget.QuickExit(
                     font='Iosevka Light',
                     default_text='',
-                    fontsize=11,
+                    fontsize=13,
                     countdown_format='[{}]',
                     padding=None,
                     countdown_start=3,
