@@ -85,7 +85,7 @@ alias branch='git branch'
 
 # quick fixes
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
-alias audioreset='systemctl --user restart pulseaudio'
+alias resetaudio='systemctl --user restart pulseaudio'
 
 #stow
 sto(){
