@@ -44,9 +44,12 @@ def dbus_register():
 
 class Commands:
     alsamixer = ' -e alsamixer'
-    volume_up = 'amixer -q -c 0 sset Master 2dB+'
-    volume_down = 'amixer -q -c 0 sset Master 2dB-'
-    volume_toggle = 'amixer -q set Master toggle'
+    # volume_up = 'amixer -q -c 0 sset Master 2dB+'
+    # volume_down = 'amixer -q -c 0 sset Master 2dB-'
+    # volume_toggle = 'amixer -q set Master toggle'
+    volume_up = 'volume u'
+    volume_down = 'volume d'
+    volume_toggle = 'volume m'
     # mic_toggle = 'amixer -q set Dmic0 toggle'
     screenshot_all = 'sscrot'
     screenshot_window = 'sscrot u'
@@ -117,8 +120,10 @@ keys = [
     Key([MODKEY], "w", lazy.spawn('brave'), desc="Launch browser"),
     Key([MODKEY], "e", lazy.spawn(terminal + " -e mutt"),
         desc="Launch email-client"),
-    Key([MODKEY], "f", lazy.spawn(terminal + " -e ranger"),
-        desc="Launch filemanager"),
+    Key([MODKEY], "f", lazy.spawn('nautilus'),
+        desc="Launch graphical filemanager"),
+    Key([MODKEY, SHIFT], "f", lazy.spawn(terminal + " -e ranger"),
+        desc="Launch filemanager in terminal"),
 
     # Volume control
     Key([], "F10", lazy.spawn(Commands.volume_toggle),
@@ -257,14 +262,14 @@ screens = [
                 ),
                 widget.Clock(
                     format='%a, %d/%m %H:%M',
-                    font='Iosevka Medium',
+                    font='Iosevka Bold',
                 ),
                 widget.Sep(
                     linewidth=0,
                     padding=10,
                 ),
             ],
-            24,
+            30,
         ),
     ),
 ]
