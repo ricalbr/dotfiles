@@ -16,7 +16,6 @@ from libqtile import hook
 # TODO:
 # * fix floating blue border
 # * add audio notification with dunst
-# * polish bar
 # * add redshift toggle button
 
 
@@ -223,43 +222,40 @@ screens = [
                     linewidth=0,
                     padding=10,
                 ),
-                widget.Clock(format='%a %d/%m, %H:%M'),
-                widget.Sep(
-                    linewidth=0,
-                    padding=10,
-                ),
                 widget.Prompt(),
                 widget.Spacer(),
                 widget.GroupBox(
                     font='Iosevka Heavy',
-                    active='AF9595',
+                    active='#AF9595',
+                    inactive='#262626',
                     borderwidth=0,
                     hide_unused=False,
                     highlight_method='text',
                     invert_mouse_wheel=True,
-                    this_current_screen_border='ffffff',
+                    this_current_screen_border='#ffffff',
                 ),
                 widget.CurrentLayout(),
                 widget.Spacer(),
-                widget.TextBox(
-                    text='',
-                    fontsize=13,
-                    mouse_callbacks={
-                        'Button1': lambda qtile: qtile.cmd_spawn(terminal +
-                                                                 commands.alsamixer),
-                    },
-                ),
-                widget.Volume(),
+                # widget.TextBox(
+                #     text='',
+                #     fontsize=13,
+                #     mouse_callbacks={
+                #         'Button1': lambda qtile: qtile.cmd_spawn(terminal +
+                #                                                  commands.alsamixer),
+                #     },
+                # ),
+                # widget.Volume(),
                 widget.Systray(
                     icon_size=13,
+                    padding=7,
                 ),
-                widget.QuickExit(
-                    font='Iosevka Light',
-                    default_text='',
-                    fontsize=13,
-                    countdown_format='[{}]',
-                    padding=None,
-                    countdown_start=3,
+                widget.Sep(
+                    linewidth=0,
+                    padding=10,
+                ),
+                widget.Clock(
+                    format='%a, %d/%m %H:%M',
+                    font='Iosevka Medium',
                 ),
                 widget.Sep(
                     linewidth=0,
