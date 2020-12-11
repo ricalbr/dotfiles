@@ -78,6 +78,12 @@ alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
 # safe remove
 alias rm="rm -i"
 
+#git aliases
+alias commit='git commit'
+alias status='git status'
+alias push='git push'
+alias pull='git pull'
+
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
 alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
