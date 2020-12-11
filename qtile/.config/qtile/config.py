@@ -14,7 +14,6 @@ from libqtile.lazy import lazy
 from libqtile import hook
 
 # TODO:
-# * fix floating blue border
 # * add audio notification with dunst
 # * add redshift toggle button
 
@@ -201,6 +200,9 @@ layouts = [
     ),
     layout.Floating(
         auto_float_types='dialog',
+        border_width=0,
+        max_border_width=0,
+        fullscreen_border_width=0,
         border_focus='#303030',
         border_normal='#101010',
         name='f',
