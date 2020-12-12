@@ -14,8 +14,8 @@ from libqtile.lazy import lazy
 from libqtile import hook
 
 # TODO:
-# * add audio notification with dunst
 # * add redshift toggle button
+# * define set of colors for whole etup
 
 
 @hook.subscribe.startup_once
@@ -221,6 +221,11 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+
+def open_cal(qtile):
+    qtile.cmd_spawn('gsimplecal')
+
+
 screens = [
     Screen(
         top=bar.Bar(
@@ -261,8 +266,9 @@ screens = [
                     padding=10,
                 ),
                 widget.Clock(
-                    format='%a, %d/%m %H:%M',
+                    format='%a, %b %d %H:%M',
                     font='Iosevka Bold',
+                    mouse_callbacks={'Button1': open_cal},
                 ),
                 widget.Sep(
                     linewidth=0,
@@ -292,6 +298,7 @@ floating_layout = layout.Floating(float_rules=[
     {'wmclass': 'notification'},
     {'wmclass': 'splash'},
     {'wmclass': 'toolbar'},
+    {'wmclass': 'gsimplecal'},
     {'wmclass': 'confirmreset'},  # gitk
     {'wmclass': 'makebranch'},  # gitk
     {'wmclass': 'maketag'},  # gitk
