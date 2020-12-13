@@ -51,6 +51,7 @@ class Commands:
     screenshot_all = 'sscrot'
     screenshot_window = 'sscrot u'
     screenshot_selection = 'sscrot s'
+    powermenu = 'powermenu'
 
 
 commands = Commands()
@@ -168,19 +169,21 @@ keys = [
     Key([MODKEY], "r", lazy.spawncmd(prompt=prompt_cmd),
         desc="Spawn a command using a prompt widget"),
     Key([MODKEY], "q", lazy.window.kill(), desc="Kill focused window"),
-    Key([MODKEY, SHIFT], "q", lazy.run_extension(extension.CommandSet(
-        commands={
-            'poweroff': 'systemctl poweroff',
-            'restart': 'reboot',
-            'logout': 'qtile-cmd -o cmd -f shutdown',
-            'reload': 'qtile-cmd -o cmd -f restart',
-        },
-        foreground=colors['foreground'],
-        background=colors['background'],
-        selected_background=colors['color8'],
-        font='Iosevka Heavy',
-        fontsize=11,)),
-        desc='dmenu session manager'),
+    Key([MODKEY, SHIFT], "q", lazy.spawn(Commands.powermenu),
+        desc='Spawn powermenu'),
+    # Key([MODKEY, SHIFT], "q", lazy.run_extension(extension.CommandSet(
+    #     commands={
+    #         'poweroff': 'systemctl poweroff',
+    #         'restart': 'reboot',
+    #         'logout': 'qtile-cmd -o cmd -f shutdown',
+    #         'reload': 'qtile-cmd -o cmd -f restart',
+    #     },
+    #     foreground=colors['foreground'],
+    #     background=colors['background'],
+    #     selected_background=colors['color8'],
+    #     font='Iosevka Heavy',
+    #     fontsize=11,)),
+    #     desc='dmenu session manager'),
 ]
 
 # Mouse bindings
