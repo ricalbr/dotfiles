@@ -13,6 +13,10 @@ from libqtile.config import Click, Drag, Group, Key, Screen
 from libqtile.lazy import lazy
 from libqtile import hook
 
+# TODO:
+# * timer script
+# * custom email widget
+
 
 @hook.subscribe.startup_once
 def autostart():
@@ -114,7 +118,7 @@ keys = [
     # Toggle floating / fullscreen
     Key([MODKEY], "t", lazy.window.toggle_floating(),
         desc="Toggle floating window"),
-    Key([MODKEY, SHIFT], "f", lazy.window.toggle_fullscreen(),
+    Key([MODKEY, CTRL], "f", lazy.window.toggle_fullscreen(),
         desc="Toggle fullscreen"),
 
     # Toggle between different layouts
@@ -133,6 +137,8 @@ keys = [
 
     Key([MODKEY], "space", lazy.spawn('rofi -show drun'),
         desc="Rofi application launcher"),
+    Key([MODKEY], "d", lazy.spawn(
+        'rofi -modi TODO:~/.config/qtile/scripts/rofi_todo.sh -key-todo SuperL+t -show TODO'), desc="Minimal Rofi TODO tool"),
     Key([MODKEY], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     Key([MODKEY], "w", lazy.spawn('brave'), desc="Launch browser"),
     Key([MODKEY], "e", lazy.spawn(terminal + " -e mutt"),
@@ -256,6 +262,7 @@ screens = [
                 widget.Spacer(),
                 widget.GroupBox(
                     font='Iosevka Heavy',
+                    diable_drag=True,
                     active=colors['color3'],
                     # active='#AF9595',
                     inactive=colors['color1'],
@@ -263,7 +270,7 @@ screens = [
                     hide_unused=False,
                     highlight_method='text',
                     invert_mouse_wheel=True,
-                    this_current_screen_border=colors['foreground'],
+                    this_current_screen_border='#ffffff',
                 ),
                 widget.CurrentLayout(),
                 widget.Spacer(),
@@ -285,7 +292,7 @@ screens = [
                     padding=10,
                 ),
                 widget.Clock(
-                    format='%a, %b %d %H:%M',
+                    format='%a %d %b, %H:%M',
                     font='Iosevka Bold',
                     mouse_callbacks={'Button1': open_cal},
                 ),
@@ -294,7 +301,7 @@ screens = [
                     padding=10,
                 ),
             ],
-            30,
+            25,
             background=colors['background'],
         ),
     ),
