@@ -6,6 +6,7 @@ from typing import List  # noqa: F401
 import os
 import socket
 import subprocess
+from powermenu import powermenu
 # from subprocess import call, check_output
 
 from libqtile import bar, layout, widget, extension
@@ -169,21 +170,8 @@ keys = [
     Key([MODKEY], "r", lazy.spawncmd(prompt=prompt_cmd),
         desc="Spawn a command using a prompt widget"),
     Key([MODKEY], "q", lazy.window.kill(), desc="Kill focused window"),
-    Key([MODKEY, SHIFT], "q", lazy.spawn(Commands.powermenu),
-        desc='Spawn powermenu'),
-    # Key([MODKEY, SHIFT], "q", lazy.run_extension(extension.CommandSet(
-    #     commands={
-    #         'poweroff': 'systemctl poweroff',
-    #         'restart': 'reboot',
-    #         'logout': 'qtile-cmd -o cmd -f shutdown',
-    #         'reload': 'qtile-cmd -o cmd -f restart',
-    #     },
-    #     foreground=colors['foreground'],
-    #     background=colors['background'],
-    #     selected_background=colors['color8'],
-    #     font='Iosevka Heavy',
-    #     fontsize=11,)),
-    #     desc='dmenu session manager'),
+    Key([MODKEY, SHIFT], "q", lazy.function(
+        powermenu), desc='Spawn powermenu'),
 ]
 
 # Mouse bindings
