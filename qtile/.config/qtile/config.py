@@ -13,10 +13,6 @@ from libqtile.config import Click, Drag, Group, Key, Screen
 from libqtile.lazy import lazy
 from libqtile import hook
 
-# TODO:
-# * add redshift toggle button
-# * define set of colors for whole etup
-
 
 @hook.subscribe.startup_once
 def autostart():
@@ -44,9 +40,6 @@ def dbus_register():
 
 class Commands:
     alsamixer = ' -e alsamixer'
-    # volume_up = 'amixer -q -c 0 sset Master 2dB+'
-    # volume_down = 'amixer -q -c 0 sset Master 2dB-'
-    # volume_toggle = 'amixer -q set Master toggle'
     volume_up = 'volume u'
     volume_down = 'volume d'
     volume_toggle = 'volume m'
@@ -59,6 +52,30 @@ class Commands:
 commands = Commands()
 
 prompt_cmd = "{0}@{1}".format(os.environ["USER"], socket.gethostname())
+
+# colors
+colors = {
+    'background': "#0f1215",
+    'foreground': "#b6c7d7",
+    'cursor': "#b6c7d7",
+
+    'color0': "#0f1215",
+    'color1': "#515762",
+    'color2': "#926D48",
+    'color3': "#B28D63",
+    'color4': "#DAAB71",
+    'color5': "#4D759F",
+    'color6': "#678CB0",
+    'color7': "#b6c7d7",
+    'color8': "#7f8b96",
+    'color9': "#515762",
+    'color10': "#926D48",
+    'color11': "#B28D63",
+    'color12': "#DAAB71",
+    'color13': "#4D759F",
+    'color14': "#678CB0",
+    'color15': "#b6c7d7",
+}
 
 # key macros
 ALT = 'mod1'
@@ -152,8 +169,9 @@ keys = [
             'logout': 'qtile-cmd -o cmd -f shutdown',
             'reload': 'qtile-cmd -o cmd -f restart',
         },
-        foreground='#863034',
-        selected_background='#863034',
+        foreground=colors['foreground'],
+        background=colors['background'],
+        selected_background=colors['color8'],
         font='Iosevka Heavy',
         fontsize=11,)),
         desc='dmenu session manager'),
@@ -192,7 +210,7 @@ for i in groups:
 layouts = [
     layout.MonadTall(
         margin=10,
-        border_focus='#303030',
+        border_focus=colors['background'],
         ratio=0.55,
         max_ratio=0.75,
         min_ratio=0.35,
@@ -208,8 +226,8 @@ layouts = [
         border_width=0,
         max_border_width=0,
         fullscreen_border_width=0,
-        border_focus='#303030',
-        border_normal='#101010',
+        border_focus=colors['background'],
+        border_normal=colors['background'],
         name='f',
     ),
 ]
@@ -238,13 +256,14 @@ screens = [
                 widget.Spacer(),
                 widget.GroupBox(
                     font='Iosevka Heavy',
-                    active='#AF9595',
-                    inactive='#262626',
+                    active=colors['color3'],
+                    # active='#AF9595',
+                    inactive=colors['color1'],
                     borderwidth=0,
                     hide_unused=False,
                     highlight_method='text',
                     invert_mouse_wheel=True,
-                    this_current_screen_border='#ffffff',
+                    this_current_screen_border=colors['foreground'],
                 ),
                 widget.CurrentLayout(),
                 widget.Spacer(),
@@ -276,6 +295,7 @@ screens = [
                 ),
             ],
             30,
+            background=colors['background'],
         ),
     ),
 ]
