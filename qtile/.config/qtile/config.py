@@ -317,13 +317,14 @@ floating_layout = layout.Floating(float_rules=[
     {'wmclass': 'splash'},
     {'wmclass': 'toolbar'},
     {'wmclass': 'gsimplecal'},
-    {'wmclass': 'confirmreset'},  # gitk
-    {'wmclass': 'makebranch'},  # gitk
-    {'wmclass': 'maketag'},  # gitk
-    {'wname': 'branchdialog'},  # gitk
-    {'wname': 'pinentry'},  # GPG key password entry
-    {'wname': 'pinentry-gtk-2'},  # GPG key password entry
-    {'wmclass': 'ssh-askpass'},  # ssh-askpass
+    {'wmclass': 'ssh-askpass'},         # ssh-askpass
+    {'wmclass': 'confirmreset'},        # gitk
+    {'wmclass': 'makebranch'},          # gitk
+    {'wmclass': 'maketag'},             # gitk
+    {'wname': 'branchdialog'},          # gitk
+    {'wname': 'pinentry'},              # GPG key password entry
+    {'wname': 'pinentry-gtk-2'},        # GPG key password entry
+    {'wname': 'Info'},                  # info box
     {'role': 'about'},
 ])
 auto_fullscreen = True
