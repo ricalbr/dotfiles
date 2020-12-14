@@ -27,7 +27,6 @@ window {
     border-color:                   @border;
     border-radius:                  0%;
     height:                         15%;
-    width:                          32.5%;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -42,7 +41,7 @@ listview {
     spacing:                        1%;
     cycle:                          true;
     layout:                         horizontal;
-    lines:                          3;
+    lines:                          4;
     location:                       center;
 }
 

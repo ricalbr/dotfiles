@@ -7,6 +7,7 @@ import os
 import socket
 import subprocess
 from bin.powermenu import powermenu
+from bin.switcher import switcher
 # from subprocess import call, check_output
 
 from libqtile import bar, layout, widget, extension
@@ -52,7 +53,6 @@ class Commands:
     screenshot_all = 'sscrot'
     screenshot_window = 'sscrot u'
     screenshot_selection = 'sscrot s'
-    powermenu = 'powermenu'
 
 
 commands = Commands()
@@ -140,9 +140,8 @@ keys = [
     Key([MODKEY], "space", lazy.spawn('rofi -show drun'),
         desc="Rofi application launcher"),
     Key([MODKEY], "d", lazy.spawn(
-        'rofi -modi TODO:~/.config/qtile/scripts/rofi_todo.sh -key-todo SuperL+t -show TODO'), desc="Minimal Rofi TODO tool"),
-    Key([MODKEY], "Tab", lazy.spawn(
-        'rofi -theme "~/.config/rofi/themes/windows.rasi" -show window'),
+        'rofi -modi TODO:~/.config/qtile/bin/rofi_todo.sh -key-todo SuperL+t -show TODO'), desc="Minimal Rofi TODO tool"),
+    Key([MODKEY], "Tab", lazy.function(switcher),
         desc="Open windows switcher"),
     Key([MODKEY], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     Key([MODKEY], "w", lazy.spawn('brave'), desc="Launch browser"),
