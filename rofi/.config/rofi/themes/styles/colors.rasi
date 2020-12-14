@@ -4,6 +4,7 @@
     foreground:                     #b6c7d7;
     border:               			#0f1215;
     border-alt:               		#0f1215;
+    focus:                          #678cb0;
     selected:               		#515762;
     urgent:                         #DA4453FF;
 }

@@ -23,7 +23,7 @@ def powermenu(qtile):
     logout = ""
     options = [shutdown, logout, reboot]
 
-    r = Rofi(rofi_args=['-theme', '~/.config/rofi/powermenu/powermenu.rasi'])
+    r = Rofi(rofi_args=['-theme', '~/.config/rofi/themes/powermenu.rasi'])
     index, key = r.select('', options)
 
     if index == 0:

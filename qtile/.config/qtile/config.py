@@ -21,7 +21,7 @@ from libqtile import hook
 
 @hook.subscribe.startup_once
 def autostart():
-    home = os.path.expanduser('~/.config/qtile/autostart.sh')
+    home = os.path.expanduser('~/.config/qtile/bin/autostart.sh')
     subprocess.call([home])
 
 
@@ -124,7 +124,7 @@ keys = [
         desc="Toggle fullscreen"),
 
     # Toggle between different layouts
-    Key([MODKEY], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
+    Key([CTRL], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
 
 
     # GAPS and RESIZING ############
@@ -141,6 +141,9 @@ keys = [
         desc="Rofi application launcher"),
     Key([MODKEY], "d", lazy.spawn(
         'rofi -modi TODO:~/.config/qtile/scripts/rofi_todo.sh -key-todo SuperL+t -show TODO'), desc="Minimal Rofi TODO tool"),
+    Key([MODKEY], "Tab", lazy.spawn(
+        'rofi -theme "~/.config/rofi/themes/windows.rasi" -show window'),
+        desc="Open windows switcher"),
     Key([MODKEY], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     Key([MODKEY], "w", lazy.spawn('brave'), desc="Launch browser"),
     Key([MODKEY], "e", lazy.spawn(terminal + " -e mutt"),
