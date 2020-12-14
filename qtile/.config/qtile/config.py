@@ -6,7 +6,7 @@ from typing import List  # noqa: F401
 import os
 import socket
 import subprocess
-from powermenu import powermenu
+from bin.powermenu import powermenu
 # from subprocess import call, check_output
 
 from libqtile import bar, layout, widget, extension
