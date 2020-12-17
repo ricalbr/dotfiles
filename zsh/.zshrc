@@ -66,10 +66,19 @@ unset __conda_setup
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# useful programs
+# better formatting
 alias ls='ls --group-directories-first --color=auto'
 alias l='ls -lah'
 alias ll='ls -lh'
+
+# navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
+# useful programs
 alias node="nodejs"
 alias cat="batcat"
 alias bat="batcat"
@@ -77,6 +86,10 @@ alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
 
 # safe remove
 alias rm="rm -i"
+
+# adding flags
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
 
 #git aliases
 alias add='git add'
