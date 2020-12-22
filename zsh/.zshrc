@@ -83,8 +83,6 @@ alias .5='cd ../../../../..'
 
 # useful programs
 alias node="nodejs"
-alias cat="batcat"
-alias bat="batcat"
 alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
 
 # safe remove
@@ -101,11 +99,11 @@ alias diff='git diff'
 alias pull='git pull'
 alias push='git push'
 alias status='git status'
+alias branch='git branch'
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
 alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
-alias branch='git branch'
 
 # quick fixes
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
