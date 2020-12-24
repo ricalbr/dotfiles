@@ -1,0 +1,1 @@
+../../.dotfiles/local/.local/bin/screen_res.sh

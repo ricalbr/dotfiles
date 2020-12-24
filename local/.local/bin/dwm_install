@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-
-rm -rf $HOME/dwm &&
-rm -rf $HOME/.config/dwm &&
-git clone https://git.suckless.org/dwm $HOME/.config/dwm &&
-cd $HOME/.config/dwm 
