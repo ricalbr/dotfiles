@@ -1,0 +1,94 @@
+/*
+ *
+ * Author  : Riccardo Albiero
+ * Github  : @ricalbr
+ * inspired by @adi1090x
+ *
+ */
+
+configuration {
+	font:							"Iosevka Nerd Font 10";
+    show-icons:                     false;
+    drun-display-format:            "{name}";
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+@import "styles/colors.rasi"
+
+window {
+    transparency:                   "real";
+    background-color:               @background;
+    text-color:                     @foreground;
+    border-radius:                  0px;
+    height:                         12.5%;
+    width:                          17.5%;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+prompt { enabled: false; }
+textbox-prompt-colon { enabled: false; }
+inputbar { enabled: false; }
+
+listview {
+    background-color:               @background;
+    margin:                         0% 0% 0% 0%;
+    spacing:                        3%;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         horizontal;
+    columns:                        3;
+}
+
+mainbox {
+    background-color:               @background;
+    children:                       [listview];
+    padding:                        4% 3% 0%;
+}
+
+element {
+    background-color:               @background;
+    text-color:                     @selected;
+    position:                       center;
+    orientation:                    horizontal;
+    border-radius:                  100%;
+}
+
+element-text {
+	font:							"feather 25";
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color:               @urgent;
+    text-color:                     @foreground;
+    border-radius:                  0.2%;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @background;
+    text-color:                     @selected;
+}
+
+element selected {
+    background-color:               @background;
+    text-color:                     @foreground;
+}
+
+element selected.urgent {
+    background-color:               @urgent;
+    text-color:                     @foreground;
+}
+
+element selected.active {
+    background-color:               @background-alt;
+    color:                          @foreground;
+}

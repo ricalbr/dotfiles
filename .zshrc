@@ -100,7 +100,7 @@ alias pull='git pull --recurse-submodules'
 alias push='git push'
 alias status='git status'
 alias branch='git branch'
-alias config='/usr/bin/git --git-dir=$HOME/.dot.git/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
