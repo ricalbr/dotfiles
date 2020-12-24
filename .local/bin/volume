@@ -1,1 +1,50 @@
-../../.dotfiles/local/.local/bin/volume
+#!/bin/bash
+
+# IMPORTANT! install dunst with make install
+# (https://github.com/dunst-project/dunst)
+
+# You can call this script like this:
+# $./volume.sh up
+# $./volume.sh down
+# $./volume.sh mute
+
+function get_volume {
+    amixer -D pulse get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1
+}
+
+function is_mute {
+    amixer -D pulse get Master | grep '%' | grep -oE '[^ ]+$' | grep off > /dev/null
+}
+
+function send_notification {
+    volume=`get_volume`
+    # Make the bar with the special character ─ (it's not dash -)
+    # https://en.wikipedia.org/wiki/Box-drawing_character
+    bar=$(seq -s "─" $(($volume / 3)) | sed 's/[0-9]//g')
+    # Send the notification
+    dunstify -i audio-volume-muted-blocking -t 1000 -r 2593 -u low "墳 $bar"
+}
+
+case $1 in
+    u)
+	# Set the volume on (if it was muted)
+	amixer -D pulse set Master on > /dev/null
+	# Up the volume (+ 5%)
+	amixer -q -c 0 sset Master 2dB+ > /dev/null
+	send_notification
+	;;
+    d)
+	amixer -D pulse set Master on > /dev/null
+	amixer -q -c 0 sset Master 2dB- > /dev/null
+	send_notification
+	;;
+    m)
+    	# Toggle mute
+	amixer -D pulse set Master 1+ toggle > /dev/null
+	if is_mute ; then
+	    dunstify -i audio-volume-muted -t 1000 -r 2593 -u normal "婢"
+	else
+	    send_notification
+	fi
+	;;
+esac
