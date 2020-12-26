@@ -1,0 +1,16 @@
+brave-bin
+caffeine-ng
+gnome-shell-extension-pop-shell-git
+gnome-shell-extension-tray-icons-reloaded-git
+jabref
+nerd-fonts-iosevka
+pdf-append
+picom-jonaburg-git
+skypeforlinux-stable-bin
+slack-desktop
+spotify
+teams
+ttf-iosevka
+visual-studio-code-bin
+yaru-plus-git
+zoom
