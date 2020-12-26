@@ -26,6 +26,7 @@ plugins=(
 dnf
 fzf
 git
+gitfast
 web-search
 z
 zsh-autosuggestions
@@ -84,6 +85,7 @@ alias .5='cd ../../../../..'
 # useful programs
 alias node="nodejs"
 alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
+alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
 
 # safe remove
 alias rm="rm -i"
