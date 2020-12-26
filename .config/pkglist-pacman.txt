@@ -162,6 +162,7 @@ net-tools
 netctl
 networkmanager
 networkmanager-openvpn
+nitrogen
 noto-fonts
 noto-fonts-cjk
 nss-mdns
