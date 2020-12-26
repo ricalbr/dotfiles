@@ -84,8 +84,9 @@ alias .5='cd ../../../../..'
 
 # useful programs
 alias node="nodejs"
-alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
 alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
+alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
+alias tvim="tmux new-session nvim"
 
 # safe remove
 alias rm="rm -i"
