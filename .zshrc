@@ -82,6 +82,10 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
+#typo
+alias claer="clear"
+alias sl="ls"
+
 # useful programs
 alias node="nodejs"
 alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
