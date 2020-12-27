@@ -30,6 +30,7 @@ efibootmgr
 endeavouros-keyring
 endeavouros-mirrorlist
 endeavouros-theming
+entr
 eog
 eos-hooks
 eos-log-tool
@@ -156,13 +157,13 @@ nano
 nautilus
 ndisc6
 neofetch
-neomutt
 neovim
 net-tools
 netctl
 networkmanager
 networkmanager-openvpn
 nitrogen
+nnn
 noto-fonts
 noto-fonts-cjk
 nss-mdns
