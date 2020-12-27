@@ -11,6 +11,7 @@ slack-desktop
 spotify
 teams
 ttf-iosevka
+ufetch-git
 visual-studio-code-bin
 yaru-plus-git
 zoom
