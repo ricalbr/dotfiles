@@ -19,6 +19,7 @@ btrfs-progs
 cheese
 chrome-gnome-shell
 clang
+ctags
 dhclient
 dialog
 diffutils
