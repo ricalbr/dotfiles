@@ -189,12 +189,14 @@ pulseaudio
 qbittorrent
 r8168
 ranger
+rclone
 reflector
 reflector-simple
 reiserfsprogs
 ripgrep
 rofi
 rp-pppoe
+rsync
 rygel
 s-nail
 s-tui

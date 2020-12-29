@@ -87,6 +87,7 @@ alias claer="clear"
 alias sl="ls"
 
 # useful programs
+alias sz="source ~/.zshrc"
 alias node="nodejs"
 alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
 alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
@@ -116,6 +117,8 @@ alias configinstall='git checkout master && rm -f config.h && make && sudo make 
 # quick fixes
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
 alias resetaudio='systemctl --user restart pulseaudio'
+alias updrive='rclone sync GoogleDrive: ~/Drive/'
+alias dwdrive='rclone sync ~/Drive/ GoogleDrive:'
 
 #stow
 sto(){
