@@ -117,8 +117,8 @@ alias configinstall='git checkout master && rm -f config.h && make && sudo make 
 # quick fixes
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
 alias resetaudio='systemctl --user restart pulseaudio'
-alias updrive='rclone sync GoogleDrive: ~/Drive/'
-alias dwdrive='rclone sync ~/Drive/ GoogleDrive:'
+alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
+alias updrive='rclone -P sync ~/Drive/ GoogleDrive:'
 
 #stow
 sto(){
