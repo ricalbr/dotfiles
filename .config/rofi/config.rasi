@@ -1,0 +1,16 @@
+configuration {
+	modi: "drun";
+	width: 40;
+	lines: 12;
+	columns: 1;
+	font: "Iosevka 13";
+	location: 0;
+	padding: 58;
+	sorting-method: "fzf";
+	sidebar-mode: true;
+	color-normal: "#0f1215, #515762, #0f1215, #0f1215, #b6c7d7";
+	color-urgent: "#0f1215, #daab71, #0f1215, #0f1215, #daab71";
+	color-active: "#0f1215, #b48ead, #0f1215, #0f1215, #93e5cc";
+	color-window: "#0f1215, #0f1215, #0f1215";
+	display-drun: "";
+}
