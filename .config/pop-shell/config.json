@@ -9,6 +9,9 @@
     },
     {
       "class": "Pop!_Shell Keyboard Shortcuts"
+    },
+    {
+      "class": "mpv"
     }
   ],
   "log_on_focus": false,
