@@ -5,7 +5,6 @@ font:
   # Normal (roman) font face
   normal:
     family: 'Iosevka Nerd Font Mono'
-    # family: 'BigBlue_TerminalPlus Nerd Font Mono'
     style: Regular
   bold:
     family: 'Iosevka Nerd Font Mono'
@@ -13,7 +12,7 @@ font:
   italic:
     family: 'Iosevka Nerd Font Mono'
     style: italic
-  size: 13.0
+  size: 12.0
 
 schemes:
   one_dark: &one_dark
@@ -92,5 +91,5 @@ schemes:
       cyan: "0x94dae0"
       white: "0xe3e3e3"
 
-colors: *one_dark
+colors: *neon
 background_opacity: 0.95
