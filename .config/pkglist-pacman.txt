@@ -44,6 +44,7 @@ fakeroot
 ffmpegthumbnailer
 file-roller
 firefox
+fish
 flex
 fwupd
 fzf
@@ -172,6 +173,7 @@ ntfs-3g
 nvidia
 nvidia-installer-dkms
 nvidia-settings
+obs-studio
 openconnect
 orca
 os-prober
