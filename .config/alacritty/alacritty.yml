@@ -1,3 +1,14 @@
+window:
+  dimensions:
+    columns: 120
+    lines: 30
+
+  padding:
+    x: 2
+    y: 2
+
+  decorations: full
+
 env:
   WINIT_X11_SCALE_FACTOR: "1"
 
