@@ -3,6 +3,7 @@ caffeine-ng
 gnome-shell-extension-pop-shell-git
 gnome-shell-extension-tray-icons-reloaded-git
 jabref
+neovim-remote
 nerd-fonts-iosevka
 pdf-append
 picom-jonaburg-git
