@@ -2,7 +2,6 @@
 set fish_greeting                      # Supresses fish's intro message
 set TERM "xterm-256color"              # Sets the terminal type
 set -gx EDITOR nvim
-set -gx PATH $PATH /usr/bin/conda
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
