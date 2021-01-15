@@ -18,20 +18,20 @@
     showbranch = always
 
 [push]
-	default = simple
+    default = simple
 
 [merge]
-  tool = vimdiff
+    tool = vimdiff
 [mergetool]
-  keepBackup = false
+    keepBackup = false
 [mergetool "vimdiff"]
-  cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
+    cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
 
 [diff]
-  tool = vimdiff
+    tool = vimdiff
 [difftool "vimdiff"]
-  cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
+    cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
 
-[url "ssh://git@github.com:ricalbr/"]
-	insteadOf = https://github.com/ricalbr/
-	insteadOf = http://github.com/ricalbr/
+; [url "ssh://git@github.com:ricalbr/"]
+; 	insteadOf = https://github.com/ricalbr/
+; 	insteadOf = http://github.com/ricalbr/
