@@ -33,7 +33,7 @@ function fish_right_prompt
         if [ (_is_git_dirty) ]
             set git_info "$red⚫$red$git_branch "
         else
-            set git_info "$green$git_branch"
+            set git_info "$green$git_branch "
         end
     end
 
