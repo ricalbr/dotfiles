@@ -16,6 +16,7 @@ bind
 binutils
 bison
 btrfs-progs
+calcurse
 cheese
 chrome-gnome-shell
 clang
