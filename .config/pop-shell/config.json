@@ -12,6 +12,9 @@
     },
     {
       "class": "mpv"
+    },
+    {
+      "class": "org.jabref.gui.JabRefMain"
     }
   ],
   "log_on_focus": false,
