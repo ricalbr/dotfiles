@@ -1,3 +1,4 @@
+abiword
 accountsservice
 alacritty
 alsa-firmware
@@ -18,8 +19,8 @@ bison
 btrfs-progs
 calcurse
 cheese
-chrome-gnome-shell
 clang
+cmake
 ctags
 dhclient
 dialog
@@ -51,6 +52,7 @@ fwupd
 fzf
 gcc
 gdm
+geany
 geary
 gedit
 gimp
@@ -68,7 +70,6 @@ gnome-control-center
 gnome-disk-utility
 gnome-documents
 gnome-font-viewer
-gnome-getting-started-docs
 gnome-keyring
 gnome-logs
 gnome-maps
@@ -97,6 +98,7 @@ gnu-free-fonts
 gnu-netcat
 gnucash
 gnumeric
+gnuplot
 grilo-plugins
 grub
 grub-tools
@@ -106,6 +108,7 @@ gst-libav
 gst-plugins-bad
 gst-plugins-ugly
 gtop
+guake
 gvfs
 gvfs-afc
 gvfs-goa
@@ -131,6 +134,7 @@ lib32-nvidia-utils
 libdvdcss
 libgsf
 libopenraw
+libreoffice-fresh
 libtool
 libwnck3
 linux
@@ -176,6 +180,7 @@ nvidia-installer-dkms
 nvidia-settings
 obs-studio
 openconnect
+opera
 orca
 os-prober
 pacman-contrib
@@ -264,7 +269,6 @@ xorg-xinput
 xorg-xkill
 xorg-xrandr
 xterm
-yad
 yarn
 yay
 yelp
