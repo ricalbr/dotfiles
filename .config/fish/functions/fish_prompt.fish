@@ -11,14 +11,24 @@ function _file_count
   ls -1 | wc -l | sed 's/\ //g'
 end
 
-function __conda_add_prompt; end
+# function __conda_add_prompt; end
 
 function fish_prompt
+    # echo -n (conda_env)
     set_color $fish_color_cwd
     echo -n ' '(prompt_pwd)
     set_color normal
     echo -n ' $ '
 end
+
+function conda_env
+    if set -q CONDA_DEFAULT_ENV
+        echo -ns (set_color green) " $CONDA_DEFAULT_ENV "
+    else
+        echo -ns (set_color red) " c "
+    end
+end
+
 
 function fish_right_prompt
     set -l last_status $status
