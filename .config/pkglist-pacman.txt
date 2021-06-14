@@ -97,7 +97,6 @@ gnome-weather
 gnu-free-fonts
 gnu-netcat
 gnucash
-gnumeric
 gnuplot
 grilo-plugins
 grub
