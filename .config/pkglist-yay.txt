@@ -6,6 +6,7 @@ gnome-shell-extension-dash-to-dock
 gnome-shell-extension-pop-shell-git
 gnome-shell-extension-tray-icons-reloaded-git
 jabref
+matplotlib-cpp-git
 neovim-remote
 nerd-fonts-iosevka
 pdf-append
