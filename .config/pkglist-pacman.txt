@@ -237,6 +237,7 @@ ttf-caladea
 ttf-carlito
 ttf-croscore
 ttf-dejavu
+ttf-ibm-plex
 ttf-liberation
 ttf-ubuntu-font-family
 upower
