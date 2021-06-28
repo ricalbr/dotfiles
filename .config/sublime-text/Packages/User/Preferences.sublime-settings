@@ -3,10 +3,11 @@
     "auto_complete_commit_on_tab": true,
     "auto_complete_with_fields": true,
     "bold_folder_labels": true,
-    "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+    "color_scheme": "Packages/Visual Studio Code Plus Scheme/Dark+.sublime-color-scheme",
 	"default_encoding": "UTF-8",
     "detect_indentation": true,
     "font_size": 12.0,
+    "font_face": "IBM Plex Mono",
     "folder_exclude_patterns":
         [
             ".git",
