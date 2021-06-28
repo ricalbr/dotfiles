@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Conda",
+		"G-code Syntax Highlighting",
+		"Git",
+		"GitGutter",
+		"IPython Notebook",
+		"Markdown Extended",
+		"MarkdownLivePreview",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Terminus",
+		"WordCount",
+	],
+	"in_process_packages":
+	[
+	],
+}
