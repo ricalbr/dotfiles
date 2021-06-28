@@ -131,6 +131,7 @@ keyserver-rank
 kitty
 lib32-nvidia-utils
 libdvdcss
+libgnome-keyring
 libgsf
 libopenraw
 libreoffice-fresh
@@ -179,7 +180,6 @@ nvidia-installer-dkms
 nvidia-settings
 obs-studio
 openconnect
-opera
 orca
 os-prober
 pacman-contrib
