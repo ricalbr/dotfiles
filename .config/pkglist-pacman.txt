@@ -1,4 +1,3 @@
-abiword
 accountsservice
 alacritty
 alsa-firmware
@@ -202,6 +201,7 @@ reflector-simple
 reiserfsprogs
 ripgrep
 rofi
+root
 rp-pppoe
 rsync
 rygel
@@ -213,6 +213,7 @@ seahorse
 simple-scan
 smartmontools
 solid
+spice-up
 stow
 sudo
 sushi
