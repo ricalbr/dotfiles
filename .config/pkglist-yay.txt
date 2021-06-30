@@ -10,11 +10,13 @@ jabref
 matplotlib-cpp-git
 neovim-remote
 nerd-fonts-iosevka
+onlyoffice-bin
 openvpn-protonvpn
 pdf-append
 picom-jonaburg-git
 skypeforlinux-stable-bin
 slack-desktop
+songrec
 spotify
 sublime-text-4
 teams
