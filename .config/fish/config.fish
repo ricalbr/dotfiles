@@ -58,5 +58,8 @@ alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:al
 alias resetaudio='systemctl --user restart pulseaudio'
 alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
 alias updrive='rclone -P sync ~/Drive/ GoogleDrive:'
+alias onesync='onedrive --synchronize'
+alias dwone='onedrive --synchronize --download-only'
+alias upone='onedrive --synchronize --upload-only'
 alias pipup='/usr/bin/python3 -m pip install --upgrade pip'
 
