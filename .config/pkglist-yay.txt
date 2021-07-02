@@ -10,6 +10,7 @@ jabref
 matplotlib-cpp-git
 neovim-remote
 nerd-fonts-iosevka
+onedrive-abraunegg-git
 onlyoffice-bin
 openvpn-protonvpn
 pdf-append
