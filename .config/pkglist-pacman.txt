@@ -51,7 +51,6 @@ fwupd
 fzf
 gcc
 gdm
-geany
 geary
 gedit
 gimp
@@ -97,6 +96,7 @@ gnu-free-fonts
 gnu-netcat
 gnucash
 gnuplot
+gparted
 grilo-plugins
 grub
 grub-tools
@@ -128,12 +128,12 @@ iwd
 jfsutils
 keyserver-rank
 kitty
+languagetool
 lib32-nvidia-utils
 libdvdcss
 libgnome-keyring
 libgsf
 libopenraw
-libreoffice-fresh
 libtool
 libwnck3
 linux
@@ -213,7 +213,6 @@ seahorse
 simple-scan
 smartmontools
 solid
-spice-up
 stow
 sudo
 sushi
