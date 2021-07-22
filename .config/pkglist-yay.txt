@@ -1,6 +1,7 @@
 brave-bin
 caffeine-ng
 chrome-gnome-shell
+cht.sh-git
 gnome-getting-started-docs
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-pop-shell-git
