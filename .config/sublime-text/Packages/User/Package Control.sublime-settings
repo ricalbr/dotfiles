@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"ActualVim",
 		"AutoFileName",
 		"BracketHighlighter",
 		"Conda",
@@ -10,6 +11,7 @@
 		"G-code Syntax Highlighting",
 		"Git",
 		"GitGutter",
+		"LanguageTool",
 		"Markdown Extended",
 		"MarkdownLivePreview",
 		"Package Control",
