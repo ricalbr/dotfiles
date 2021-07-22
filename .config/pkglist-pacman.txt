@@ -232,11 +232,13 @@ totem
 tracker
 tracker-miners
 tracker3-miners
+tree
 ttf-bitstream-vera
 ttf-caladea
 ttf-carlito
 ttf-croscore
 ttf-dejavu
+ttf-fira-code
 ttf-ibm-plex
 ttf-liberation
 ttf-ubuntu-font-family
@@ -268,7 +270,7 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
-xterm
+xsel
 yarn
 yay
 yelp
