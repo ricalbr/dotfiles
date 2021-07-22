@@ -15,15 +15,18 @@ env:
 font:
   # Normal (roman) font face
   normal:
-    family: 'Iosevka Nerd Font Mono'
-    style: Regular
+    # family: 'Fixedsys Excelsior'
+    family: 'Pragmata Pro Liga'
+    style: Light
   bold:
-    family: 'Iosevka Nerd Font Mono'
-    style: Heavy
+    # family: 'Fixedsys Excelsior'
+    family: 'PragmataPro Liga'
+    style: Bold
   italic:
-    family: 'Iosevka Nerd Font Mono'
-    style: italic
-  size: 12.0
+    # family: 'Fixedsys Excelsior'
+    family: 'PragmataPro Liga'
+    style: Italic
+  size: 11.5
 
 schemes:
   one_dark: &one_dark
