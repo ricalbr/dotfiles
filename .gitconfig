@@ -3,7 +3,7 @@
     email = albr.riccardo@gmail.com
 
 [core]
-    editor = nvim
+    editor = vim
     excludesfile = "~/.gitignore"
 
 [color]
@@ -22,20 +22,20 @@
 
 [merge]
     tool = vimdiff
+
 [mergetool]
+    tool = vimdiff
     keepBackup = false
-[mergetool "vimdiff"]
-    cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
+    conflictstyle = diff3
 
 [diff]
     tool = vimdiff
-[difftool "vimdiff"]
-    cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
 
 ; [url "ssh://git@github.com:ricalbr/"]
-; 	insteadOf = https://github.com/ricalbr/
-; 	insteadOf = http://github.com/ricalbr/
+;   insteadOf = https://github.com/ricalbr/
+;   insteadOf = http://github.com/ricalbr/
 [credential]
-	helper = /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
+    helper = /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
+
 [init]
-	defaultBranch = main
+    defaultBranch = main
