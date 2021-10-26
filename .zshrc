@@ -90,7 +90,7 @@ alias sl="ls"
 alias sz="source ~/.zshrc"
 alias node="nodejs"
 alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
-alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
+# alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
 alias tvim="tmux new-session nvim"
 
 # safe remove
