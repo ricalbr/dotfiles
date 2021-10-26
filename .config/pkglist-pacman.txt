@@ -5,6 +5,7 @@ alsa-plugins
 alsa-utils
 arc-gtk-theme
 arc-x-icons-theme
+ardour
 autoconf
 automake
 b43-fwcutter
@@ -15,7 +16,10 @@ bat
 bind
 binutils
 bison
+blender
+bluez-utils
 btrfs-progs
+cadence
 calcurse
 cheese
 clang
@@ -46,6 +50,8 @@ ffmpegthumbnailer
 file-roller
 firefox
 fish
+flake8
+flatpak
 flex
 fwupd
 fzf
@@ -53,6 +59,7 @@ gcc
 gdm
 geary
 gedit
+geogebra
 gimp
 glances
 gnome-backgrounds
@@ -106,7 +113,6 @@ gst-libav
 gst-plugins-bad
 gst-plugins-ugly
 gtop
-guake
 gvfs
 gvfs-afc
 gvfs-goa
@@ -115,6 +121,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+gvim
 hardinfo
 htop
 hwinfo
@@ -134,6 +141,7 @@ libdvdcss
 libgnome-keyring
 libgsf
 libopenraw
+librecad
 libtool
 libwnck3
 linux
@@ -182,6 +190,7 @@ openconnect
 orca
 os-prober
 pacman-contrib
+pandoc
 papirus-icon-theme
 paprefs
 patch
@@ -193,6 +202,7 @@ poppler-glib
 pptpclient
 pulseaudio
 qbittorrent
+qtile
 r8168
 ranger
 rclone
@@ -213,6 +223,7 @@ seahorse
 simple-scan
 smartmontools
 solid
+songrec
 stow
 sudo
 sushi
@@ -240,13 +251,13 @@ ttf-croscore
 ttf-dejavu
 ttf-fira-code
 ttf-ibm-plex
+ttf-iosevka-nerd
 ttf-liberation
 ttf-ubuntu-font-family
 upower
 usb_modeswitch
 usbutils
 vi
-vim
 vino
 welcome
 wget
