@@ -286,6 +286,7 @@ yarn
 yay
 yelp
 youtube-dl
+z
 zathura
 zathura-djvu
 zathura-pdf-mupdf
