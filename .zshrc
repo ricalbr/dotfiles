@@ -4,10 +4,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.local/bin
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="gallois"
-#gallois,kardan,nicoulaj
+ZSH_THEME="cleanthefish"
 
-# completion
+# Completion
 # CASE_SENSITIVE="true"
 HYPHEN_INSENSITIVE="false"
 
@@ -15,7 +14,7 @@ HYPHEN_INSENSITIVE="false"
 DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -23,25 +22,24 @@ COMPLETION_WAITING_DOTS="true"
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(
+conda-zsh-completion        # git clone https://github.com/esc/conda-zsh-completion ~/.oh-my-zsh/custom/plugins/conda-zsh-completion
 dnf
 fzf
 git
 gitfast
 web-search
 z
-zsh-autosuggestions
-zsh-syntax-highlighting
+zsh-autosuggestions         # git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+zsh-syntax-highlighting     # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 )
 # if we get an error for the last two plugins just install them manually
-# git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+### User configuration
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -54,14 +52,14 @@ export PATH="$PATH:$HOME/miniconda3/bin"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/ricalbr/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$("$HOME/miniconda3/bin/conda" 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/ricalbr/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/ricalbr/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "$HOME/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/ricalbr/miniconda3/bin:$PATH"
+        export PATH="$HOME/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
@@ -70,6 +68,7 @@ unset __conda_setup
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+### ALIASES
 # better formatting
 alias ls='ls --group-directories-first --color=auto'
 alias l='ls -lah'
@@ -85,13 +84,13 @@ alias .5='cd ../../../../..'
 #typo
 alias claer="clear"
 alias sl="ls"
+alias dc="cd"
 
 # useful programs
 alias sz="source ~/.zshrc"
 alias node="nodejs"
 alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
-# alias vim="nvim -u $HOME/.config/nvim/minimal_init.vim"
-alias tvim="tmux new-session nvim"
+alias tvim="tmux new-session vim"
 
 # safe remove
 alias rm="rm -i"
@@ -119,6 +118,9 @@ alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:al
 alias resetaudio='systemctl --user restart pulseaudio'
 alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
 alias updrive='rclone -P sync ~/Drive/ GoogleDrive:'
+alias onesync='onedrive --synchronize'
+alias dwone='onedrive --synchronize --download-only'
+alias upone='onedrive --synchronize --upload-only'
 
 #stow
 sto(){
