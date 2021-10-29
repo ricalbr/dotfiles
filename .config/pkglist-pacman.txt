@@ -16,6 +16,7 @@ bat
 bind
 binutils
 bison
+bitwarden-cli
 blender
 bluez-utils
 btrfs-progs
