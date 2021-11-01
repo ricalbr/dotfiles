@@ -1,6 +1,6 @@
 # PROMPT BASICS
 PROMPT='%{$fg[green]%}%<\s< $(prompt_dir)%(?.%{$fg[white]%}.%{$fg[red]%})%B $%b '
-RPROMPT='%{$fg[green]%}%B$(conda_info)%b$(git_prompt_info)%(?:%{$fg_bold[white]%}:%{$fg_bold[red]%})'
+RPROMPT='%{$fg[magenta]%}%B$(conda_info)%b%B$(git_prompt_info)%b%(?:%{$fg_bold[white]%}:%{$fg_bold[red]%})'
 
 # GIT PROMPT
 function git_prompt_info() {
