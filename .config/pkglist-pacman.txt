@@ -201,6 +201,7 @@ perl
 pkgconf
 poppler-glib
 pptpclient
+protobuf-c
 pulseaudio
 qbittorrent
 qtile
