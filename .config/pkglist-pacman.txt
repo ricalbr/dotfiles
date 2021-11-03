@@ -114,6 +114,7 @@ gst-libav
 gst-plugins-bad
 gst-plugins-ugly
 gtop
+guitarix
 gvfs
 gvfs-afc
 gvfs-goa
@@ -201,7 +202,6 @@ perl
 pkgconf
 poppler-glib
 pptpclient
-protobuf-c
 pulseaudio
 qbittorrent
 qtile
