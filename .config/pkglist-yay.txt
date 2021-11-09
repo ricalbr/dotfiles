@@ -9,6 +9,7 @@ gnome-shell-extension-tray-icons-reloaded-git
 hypnotix-git
 jabref
 matplotlib-cpp-git
+mendeleydesktop-bundled
 neovim-remote
 onedrive-abraunegg-git
 onlyoffice-bin
@@ -26,5 +27,6 @@ ttf-iosevka
 ufetch-git
 vbam-git
 visual-studio-code-bin
+webex-bin
 yaru-plus-git
 zoom
