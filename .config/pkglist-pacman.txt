@@ -26,6 +26,7 @@ cheese
 clang
 cmake
 ctags
+cups
 dhclient
 dialog
 diffutils
