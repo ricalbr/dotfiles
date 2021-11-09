@@ -27,6 +27,7 @@ clang
 cmake
 ctags
 cups
+cups-pdf
 dhclient
 dialog
 diffutils
@@ -116,6 +117,7 @@ gst-plugins-bad
 gst-plugins-ugly
 gtop
 guitarix
+gutenprint
 gvfs
 gvfs-afc
 gvfs-goa
@@ -180,6 +182,7 @@ netctl
 networkmanager
 networkmanager-openvpn
 nitrogen
+nmap
 nnn
 noto-fonts
 noto-fonts-cjk
