@@ -62,7 +62,6 @@ gcc
 gdm
 geary
 gedit
-geogebra
 gimp
 glances
 gnome-backgrounds
@@ -260,6 +259,7 @@ ttf-ibm-plex
 ttf-iosevka-nerd
 ttf-liberation
 ttf-ubuntu-font-family
+unicode-emoji
 upower
 usb_modeswitch
 usbutils
