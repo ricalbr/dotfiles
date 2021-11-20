@@ -22,6 +22,7 @@ alias m="less"
 # Do this: git config --global url.ssh://git@github.com/.insteadOf https://github.com
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ca='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add'
+alias ccm='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit'
 alias cdiff='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME diff'
 alias cp='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push'
 alias cs='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status'
@@ -30,14 +31,13 @@ alias cyay='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit ~/.
 alias cpac='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
 alias ga='git add'
 alias gb='git branch'
-alias gd="git diff"
+alias gc='git commit'
+alias gd='git diff'
 alias gp='git push'
-alias gs="git status 2>/dev/null"
-alias commit='git commit'
+alias gs='git status 2>/dev/null'
 alias pull='git pull --recurse-submodules'
-function gc() { git clone ssh://git@github.com/"$*" }
+function gcl() { git clone ssh://git@github.com/"$*" }
 function gg() { git commit -am "$*" }
-
 
 # navigation
 alias ..='cd ..'
@@ -55,14 +55,17 @@ alias dc="cd"
 alias sz="source ~/.zshrc"
 alias node="nodejs"
 alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
+alias vim="nvim"
 alias ytdl="youtube-dl"
 
-# safe remove
-alias rm="rm -i"
+# confirm before overwriting something
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'
 
 # adding flags
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
+alias df='df -h'        # human-readable sizes
+alias free='free -m'    # show sizes in MB
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
