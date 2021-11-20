@@ -1,0 +1,71 @@
+### ALIASES
+
+# GNU and BSD (macOS) ls flags aren't compatible
+ls --version &>/dev/null
+if [ $? -eq 0 ]; then
+  lsflags="--color --group-directories-first -F"
+else
+  lsflags="-GF"
+  export CLICOLOR=1
+fi
+
+# Aliases
+alias ls="ls ${lsflags}"
+alias ll="ls ${lsflags} -lh"
+alias la="ls ${lsflags} -lah"
+alias h="history"
+alias hg="history -1000 | grep -i"
+alias ,="cd .."
+alias m="less"
+
+# GIT
+# Do this: git config --global url.ssh://git@github.com/.insteadOf https://github.com
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias ga='git add'
+alias gb='git branch'
+alias gd="git diff"
+alias gp='git push'
+alias gs="git status 2>/dev/null"
+alias pull='git pull --recurse-submodules'
+alias status='git status'
+function gc() { git clone ssh://git@github.com/"$*" }
+function gg() { git commit -m "$*" }
+
+
+# navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
+#typo
+alias claer="clear"
+alias sl="ls"
+alias dc="cd"
+
+# useful programs
+alias sz="source ~/.zshrc"
+alias node="nodejs"
+alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
+alias ytdl="youtube-dl"
+
+# safe remove
+alias rm="rm -i"
+
+# adding flags
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
+
+# suckless programs aliases
+alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
+alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
+
+# quick fixes
+alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
+alias resetaudio='systemctl --user restart pulseaudio'
+alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
+alias updrive='rclone -P sync ~/Drive/ GoogleDrive:'
+alias onesync='onedrive --synchronize'
+alias dwone='onedrive --synchronize --download-only'
+alias upone='onedrive --synchronize --upload-only'

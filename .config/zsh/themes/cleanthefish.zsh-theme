@@ -1,19 +1,20 @@
 # PROMPT BASICS
-PROMPT='%{$fg[green]%}%<\s< $(prompt_dir)%(?.%{$fg[white]%}.%{$fg[red]%})%B $%b '
-RPROMPT='%{$fg[magenta]%}%B$(conda_info)%b%B$(git_prompt_info)%b%(?:%{$fg_bold[white]%}:%{$fg_bold[red]%})'
+PROMPT='%F{green}%<\s< $(prompt_dir)%(?.%F{white}.%F{red})%B $%b '
+RPROMPT='%F{magenta}%B$(conda_info)%b%f%B$(parse_git_dirty)%b'
 
 # GIT PROMPT
-function git_prompt_info() {
-  local ref
-  if [[ "$(command git config --get oh-my-zsh.hide-status 2>/dev/null)" != "1" ]]; then
-    ref=$(command git symbolic-ref HEAD 2> /dev/null) || \
-    ref=$(command git rev-parse --short HEAD 2> /dev/null) || return 0
-    echo "$(parse_git_dirty)${ref#refs/heads/}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}"
+
+# checks if working tree is dirty
+parse_git_dirty() {
+  ref=$(git symbolic-ref HEAD 2> /dev/null)
+  if [[ -n $(git status -s --ignore-submodules=dirty 2> /dev/null) ]]; then
+    echo "$ZSH_THEME_GIT_PROMPT_DIRTY${ref#refs/heads/}"
+  else
+    echo "$ZSH_THEME_GIT_PROMPT_CLEAN${ref#refs/heads/}"
   fi
 }
-
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}"
 
 # CONDA
 function conda_info() {
