@@ -139,7 +139,6 @@ iwd
 jfsutils
 keyserver-rank
 kitty
-languagetool
 lib32-nvidia-utils
 libdvdcss
 libgnome-keyring
