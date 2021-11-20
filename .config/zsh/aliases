@@ -21,6 +21,10 @@ alias m="less"
 # GIT
 # Do this: git config --global url.ssh://git@github.com/.insteadOf https://github.com
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias cs='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status'
+alias ca='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add'
+alias cp='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push'
+alias cu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME submodule update'
 alias ga='git add'
 alias gb='git branch'
 alias gd="git diff"
