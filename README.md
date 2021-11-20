@@ -4,11 +4,12 @@ collection of configuration and dotfiles for GNU/Linux. files and direcotries ar
 
 ### install
 ```bash
-git clone --bare https://github.com/john-kurkowski/dotfiles.git $HOME/.dotfiles
-alias dotfiles='GIT_DIR=$HOME/.dotfiles/ GIT_WORK_TREE=$HOME git'
-dotfiles config --local core.worktree $HOME
-dotfiles config --local status.showUntrackedFiles no
-dotfiles checkout
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+echo ".dotfiles" >> .gitignore
+git clone --bare https://github.com/ricalbr/.dotfiles $HOME/.dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+mkdir -p .config-backup && config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+config checkout
 
 # if zsh is not the default shell
 chsh -s zsh
@@ -27,7 +28,7 @@ collection of configuration and dotfiles for various GNU/Linux tools and program
 | text editor | [vim](https://github.com/ricalbr/vim) | 
 | | + list of pacman and yay packages|
 
-many programs are not used on a regular basis but are stored here nonetheless to save the configs and may be used as starting point for future exeperiments.
+many programs are not used on a regular basis but are stored here nonetheless. these config files can be used as starting point for future tweakings.
 
 ### bugs
 open a bug [here](https://github.com/ricalbr/.dotfiles/issues).
