@@ -1,16 +1,186 @@
+/* ROFI basic theme */
+
 configuration {
-	modi: "drun";
-	width: 40;
-	lines: 12;
-	columns: 1;
-	font: "Iosevka 13";
-	location: 0;
-	padding: 58;
-	sorting-method: "fzf";
-	sidebar-mode: true;
-	color-normal: "#0f1215, #515762, #0f1215, #0f1215, #b6c7d7";
-	color-urgent: "#0f1215, #daab71, #0f1215, #0f1215, #daab71";
-	color-active: "#0f1215, #b48ead, #0f1215, #0f1215, #93e5cc";
-	color-window: "#0f1215, #0f1215, #0f1215";
-	display-drun: "";
+    modi: "drun";
+    font: "PragmataPro Mono 13.5";
+    icon-theme: "Papirus";
+    show-icons: true;
+    sorting-method: "fzf";
+    display-drun: "•";
+    auto-select: false;
+eh:1;
+}
+
+* {
+    al: #00000000;
+    bg: #000000FF;
+    se: #CFCFC4FF;
+    fg: #FFFFFFCC;
+    ac: #FDBB6DFF;
+    red: #EC7875FF;
+    green: #61C766FF;
+    yellow: #FDD835FF;
+    blue: #42A5F5FF;
+    purple: #BA68C8FF;
+    cyan: #4DD0E1FF;
+
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window {
+    width: 33%;
+    location: center;
+    anchor:   center;
+    transparency: "screenshot";
+    padding: 10px;
+    border:  0px;
+    border-radius: 10px;
+    color: @magenta;
+    background-color: @bg;
+    spacing: 0;
+    children:  [mainbox];
+    orientation: horizontal;
+}
+
+prompt {
+    enabled: true;
+    padding: 0% 0.5% 0% 0%;
+    spacing: 0;
+    border: 0;
+    text-color: @fg;
+    background-color: @bg;
+}
+
+textbox-prompt-colon {
+    margin: 0px 4px 0px 0px;
+    text-color: inherit;
+}
+
+entry {
+    spacing: 0;
+    text-color: @fg;
+}
+
+case-indicator {
+    spacing: 0;
+    text-color: @fg;
+}
+
+inputbar {
+    spacing: 0px;
+    text-color: @fg;
+    padding: 1px;
+    children: [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+mainbox {
+    border: 0px;
+    border-color: @bg;
+    padding: 25;
+}
+
+listview {
+    fixed-height: false;
+    dynamic: true;
+    lines: 6;
+    scrollbar: false;
+    border: 0;
+    border-color: @se;
+    margin: 0 10px 0 30px;
+    expand: false;
+}
+
+element-icon {
+    size: 25px;
+    background-color: @bg;
+    text-color: inherit;
+}
+
+element-text {
+    background-color: @bg;
+    text-color: inherit;
+}
+
+element {
+    border: 0px;
+    padding: 1px;
+}
+element normal.normal {
+    background-color: @bg;
+    text-color: @fg;
+}
+element normal.urgent {
+    background-color: @bg;
+    text-color: @red;
+}
+element normal.active {
+    background-color: @bg;
+    text-color: @green;
+}
+element selected.normal {
+    background-color: @bg;
+    text-color: @fg;
+}
+element selected.urgent {
+    background-color: @bg;
+    text-color: @red;
+}
+element selected.active {
+    background-color: @bg;
+    text-color: @fg;
+}
+element alternate.normal {
+    background-color: @bg;
+    text-color: @fg;
+}
+element alternate.urgent {
+    background-color: @bg;
+    text-color: @fg;
+}
+element alternate.active {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+sidebar {
+    border: 0px;
+    border-color: @se;
+    border-radius: 20px;
+}
+
+button {
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+    margin: 5px;
+    padding: 5px;
+    text-color: @fg;
+    border: 0px;
+    border-radius: 20px;
+    border-color: @fg;
+}
+
+button selected {
+    text-color: @fg;
+    border: 3px;
+    border-radius: 20px;
+    border-color: @se;
+}
+
+scrollbar {
+    width: 4px;
+    border: 0px;
+    handle-color: @fg;
+    handle-width: 8px;
+    padding: 0;
+}
+
+message {
+    border: 0px;
+    border-color: @se;
+    padding: 1px;
+}
+
+textbox {
+    text-color: @fg;
 }
