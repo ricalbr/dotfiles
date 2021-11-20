@@ -20,11 +20,7 @@ source $HOME/.config/zsh/aliases
 
 # More suitable for .zshenv
 EDITOR=vim
-# PROMPT='%n@%m %3~ %(!.#.$)%(?.. [%?]) '
-# autoload -U promptinit && promptinit
 source ~/.config/zsh/themes/cleanthefish.zsh-theme
-# autoload -U colors && colors
-# export PS1="%F{214}%K{000}%m%F{015}%K{000}:%F{039}%K{000}%~%F{015}%K{000}\$ "
 
 # PLUGINS
 source /home/ricalbr/.config/zsh/plugins/archive_extract
