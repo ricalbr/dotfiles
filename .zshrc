@@ -89,6 +89,7 @@ zstyle ':completion:*:descriptions' format '%U%K{yellow} %F{green}-- %F{red} %BN
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*:*:-command-:*:*' group-order alias builtins functions commands
 
+# navigate completion menu with Vim keys
 zmodload zsh/complist
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
@@ -102,6 +103,7 @@ setopt PROMPT_SUBST
 unsetopt correct_all            # I don't care for 'suggestions' from ZSH
 export BLOCK_SIZE="'1"          # Add commas to file sizes
 
+# map CAPS -> ESC
 setxkbmap -option caps:escape
 
 # BINDKEY
