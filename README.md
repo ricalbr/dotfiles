@@ -1,4 +1,4 @@
-# ![home](https://win98icons.alexmeub.com/icons/png/regedit-0.png) ~/.dotfiles/
+# ![home](https://win98icons.alexmeub.com/icons/png/regedit-0.png) ~/.dotfiles
 
 collection of configuration and dotfiles for unix operating systems. files and direcotries are laid out exactly how they go in the `$HOME` dir.
 
@@ -29,7 +29,7 @@ collection of configuration and dotfiles for various GNU/Linux tools and program
 | terminal emulator | alacritty | 
 | terminal multiplexer | tmux | 
 | text editor | [vim](https://github.com/ricalbr/vim) | 
-| | + list of pacman and yay packages|
+| | + list of pacman and AUR packages|
 
 many programs are not used on a regular basis but are stored here nonetheless. these config files can be used as starting point for future tweakings.
 
