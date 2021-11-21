@@ -23,7 +23,6 @@ source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.z
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # HISTORY SETTINGS
-export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 HISTSIZE=10000
 SAVEHIST=10000
 setopt append_history                   # allow multiple sessions to append to one history

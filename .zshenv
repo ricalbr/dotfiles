@@ -26,7 +26,7 @@ export VISUAL="nvim"
 
 # PROGRAM CONFIG
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh
-export HISTFILE="$XDG_DATA_HOME/zsh/history"
+export HISTFILE="$ZDOTDIR/.zhistory"
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export CONDARC="$XDG_CONFIG_HOME/conda/condarc"
 export MPLAYER_HOME="$XDG_CONFIG_HOME"/mplayer
