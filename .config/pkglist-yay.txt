@@ -22,6 +22,7 @@ slack-desktop
 spotify
 sublime-text-4
 teams
+timeshift
 ttf-fixedsys-excelsior-linux
 ttf-iosevka
 ufetch-git
