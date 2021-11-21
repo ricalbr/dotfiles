@@ -1,6 +1,6 @@
 # ![home](https://win98icons.alexmeub.com/icons/png/regedit-0.png) ~/. dotfiles
 
-collection of configuration and dotfiles for GNU/Linux. files and direcotries are laid out exactly how they go in the `$HOME` dir.
+collection of configuration and dotfiles for unix operating systems. files and direcotries are laid out exactly how they go in the `$HOME` dir.
 
 ### install
 ```bash
@@ -14,6 +14,9 @@ config checkout
 # if zsh is not the default shell
 chsh -s zsh
 ```
+
+### requirements 
+- git
 
 ### what's inside 
 collection of configuration and dotfiles for various GNU/Linux tools and programs.
