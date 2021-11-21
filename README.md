@@ -1,4 +1,4 @@
-# ![home](https://win98icons.alexmeub.com/icons/png/regedit-0.png) ~/. dotfiles
+# ![home](https://win98icons.alexmeub.com/icons/png/regedit-0.png) ~/.dotfiles/
 
 collection of configuration and dotfiles for unix operating systems. files and direcotries are laid out exactly how they go in the `$HOME` dir.
 
