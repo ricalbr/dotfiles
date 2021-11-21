@@ -17,6 +17,7 @@ alias h="history"
 alias hg="history -1000 | grep -i"
 alias ,="cd .."
 alias m="less"
+alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
 
 # GIT
 # Do this: git config --global url.ssh://git@github.com/.insteadOf https://github.com
