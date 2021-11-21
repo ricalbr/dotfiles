@@ -1,0 +1,8 @@
+/home/ricalbr/miniconda3
+/home/ricalbr/miniconda3/envs/minimal
+/home/ricalbr/miniconda3/envs/qiskit
+/home/ricalbr/miniconda3/envs/strawberryfields
+/home/ricalbr/miniconda3/envs/rootEnv
+/home/ricalbr/miniconda3/envs/gcode
+/home/ricalbr/miniconda3/envs/torch
+/home/ricalbr/miniconda3/envs/piMikro
