@@ -24,6 +24,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ca='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add'
 alias ccm='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit'
 alias cdiff='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME diff'
+alias cpull='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME pull'
 alias cpush='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push'
 alias cs='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status'
 alias cu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME submodule update --remote --merge'
@@ -52,7 +53,7 @@ alias sl="ls"
 alias dc="cd"
 
 # useful programs
-alias sz="source ~/.zshrc"
+alias sz="source $ZDOTDIR/.zshrc"
 alias node="nodejs"
 alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
 alias vim="nvim"
