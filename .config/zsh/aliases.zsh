@@ -18,6 +18,7 @@ alias hg="history -1000 | grep -i"
 alias ,="cd .."
 alias m="less"
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
+alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
 # GIT
 # Do this: git config --global url.ssh://git@github.com/.insteadOf https://github.com
