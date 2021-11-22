@@ -28,6 +28,7 @@ export VISUAL="nvim"
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export CONDARC="$XDG_CONFIG_HOME"/conda/condarc
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+export GOPATH="$XDG_DATA_HOME"/go
 export HISTFILE="$ZDOTDIR"/.zhistory
 export IPYTHONDIR="$XDG_CONFIG_HOME"/jupyter
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
