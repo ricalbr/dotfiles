@@ -11,5 +11,5 @@
 	path = .config/zsh/plugins/z
 	url = https://github.com/rupa/z
 [submodule ".vim"]
-	path = .vim
+	path = .config/vim
 	url = https://github.com/ricalbr/vim

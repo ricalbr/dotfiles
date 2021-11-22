@@ -1,9 +1,12 @@
 typeset -U path
 
-# XDG PATHS
-export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
+# XDG DIRECTORIES
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
+export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
+export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
+export XDG_DATA_DIRS=${XDG_DATA_DIRS:="/usr/local/share:/usr/share"}
+export XDG_CONFIG_DIRS=${XDG_CONFIG_DIRS:="/etc/xdg"}
 
 # DISABLE FILES
 export LESSHISTFILE=-
@@ -41,4 +44,5 @@ export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export NVM_DIR="$XDG_DATA_HOME"/nvm
 export WGETRC="$XDG_CONFIG_HOME/"wgetrc
 export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
+export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
 export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
