@@ -105,6 +105,7 @@ gnu-free-fonts
 gnu-netcat
 gnucash
 gnuplot
+go
 gparted
 grilo-plugins
 grub
