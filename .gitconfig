@@ -17,6 +17,17 @@
     decorate = always
     showbranch = always
 
+[pager]
+    diff = delta
+    show = delta
+    log = delta
+    blame = delta
+    grep = delta
+    reflog = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
 [push]
     default = simple
 
