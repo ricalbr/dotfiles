@@ -15,12 +15,13 @@ source $ZDOTDIR/plugins/conda_init.zsh
 source $ZDOTDIR/plugins/conda-zsh-completion/conda-zsh-completion.plugin.zsh
 source $ZDOTDIR/plugins/fzf.plugin.zsh
 source $ZDOTDIR/plugins/gitfast/gitfast.plugin.zsh
+source $ZDOTDIR/plugins/quitcd.zsh
 source $ZDOTDIR/plugins/web-search.plugin.zsh
-source $ZDOTDIR/plugins/z/z.sh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source $ZDOTDIR/plugins/z/z.sh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # HISTORY SETTINGS
 export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
