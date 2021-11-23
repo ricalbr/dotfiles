@@ -9,12 +9,47 @@ else
   export CLICOLOR=1
 fi
 
-# Aliases
-alias ls="ls ${lsflags}"
-alias ll="ls ${lsflags} -lh"
-alias la="ls ${lsflags} -lah"
+# Basic aliases
+# alias ls="ls ${lsflags}"
+# alias ll="ls ${lsflags} -lh"
+# alias la="ls ${lsflags} -lah"
+alias ls='nnn -de'
+alias la='nnn -deH'
+alias nnn='nnn -deH'
 alias h="history"
 alias hg="history -1000 | grep -i"
+
+# navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
+# confirm before overwriting something
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# adding flags
+alias df='df -h'        # human-readable sizes
+alias free='free -m'    # show sizes in MB
+
+# typo
+alias claer='clear'
+alias sl='ls'
+alias al='la'
+alias dc='cd'
+
+# useful programs
+alias sz='source $ZDOTDIR/.zshrc'
+alias node='nodejs'
+alias tmux='tmux -f ~/.config/tmux/.tmux.conf'
+alias vim='nvim'
+alias fvim='vim $(fzf)'
+alias ytdl='youtube-dl'
+alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
+alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
 # GIT
 # Do this: git config --global url.ssh://git@github.com/.insteadOf https://github.com
@@ -36,38 +71,8 @@ alias gp='git push'
 alias gs='git status 2>/dev/null'
 alias pull='git pull --recurse-submodules'
 function gcl() { git clone ssh://git@github.com/"$*" }
+function gsa() { git submodule add ssh://git@github.com/"$*" }
 function gg() { git commit -am "$*" }
-
-# navigation
-alias ..='cd ..'
-alias ...='cd ../..'
-alias .3='cd ../../..'
-alias .4='cd ../../../..'
-alias .5='cd ../../../../..'
-
-#typo
-alias claer="clear"
-alias sl="ls"
-alias al="la"
-alias dc="cd"
-
-# useful programs
-alias sz="source $ZDOTDIR/.zshrc"
-alias node="nodejs"
-alias tmux="tmux -f ~/.config/tmux/.tmux.conf"
-alias vim="nvim"
-alias ytdl="youtube-dl"
-alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
-alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
-
-# confirm before overwriting something
-alias cp="cp -i"
-alias mv='mv -i'
-alias rm='rm -i'
-
-# adding flags
-alias df='df -h'        # human-readable sizes
-alias free='free -m'    # show sizes in MB
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
@@ -76,8 +81,8 @@ alias configinstall='git checkout master && rm -f config.h && make && sudo make 
 # quick fixes
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
 alias resetaudio='systemctl --user restart pulseaudio'
-alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
-alias updrive='rclone -P sync ~/Drive/ GoogleDrive:'
+# alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
+# alias updrive='rclone -P sync ~/Drive/ GoogleDrive:'
 alias onesync='onedrive --synchronize'
 alias dwone='onedrive --synchronize --download-only'
 alias upone='onedrive --synchronize --upload-only'
