@@ -63,6 +63,7 @@ gdm
 geary
 gedit
 gimp
+git-delta
 glances
 gnome-backgrounds
 gnome-books
