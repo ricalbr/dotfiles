@@ -210,7 +210,6 @@ pulseaudio
 qbittorrent
 qtile
 r8168
-ranger
 rclone
 reflector
 reflector-simple
