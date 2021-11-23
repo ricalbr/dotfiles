@@ -3,7 +3,7 @@
 # @ricalbr
 
 # ALIASES
-source $HOME/.config/zsh/aliases.zsh
+source $ZDOTDIR/aliases.zsh
 
 # THEME
 autoload -Uz colors && colors
