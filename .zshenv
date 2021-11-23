@@ -46,3 +46,15 @@ export WGETRC="$XDG_CONFIG_HOME/"wgetrc
 export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
 export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
 export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
+
+# NNN CONFIG
+export NNN_BMS="d:$HOME/Documents;o:$HOME/OneDrive;v:$HOME/.config/vim"
+export NNN_PLUG_PLUGINS='d:fzcd;o:fzopen;j:autojump;u:getplugs;b:renamer;c:rsynccp;'
+export NNN_PLUG_KEYCMD='x:!chmod +x $nnn;e:-!sudo -E vim $nnn*'
+export NNN_FIFO='/tmp/nnn.fifo'
+export NNN_TMPFILE='/tmp/nnn'
+
+# Nord theme
+BLK="0B" CHR="0B" DIR="04" EXE="06" REG="00" HARDLINK="06" SYMLINK="06" MISSING="00" ORPHAN="09" FIFO="06" SOCK="0B" OTHER="06"
+export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
+
