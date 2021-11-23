@@ -2,13 +2,14 @@
 
 configuration {
     modi: "drun";
-    font: "PragmataPro Mono 13.5";
+    font: "Atkinson Hyperlegible 13";
+    /* font: "PragmataPro Mono 13.5"; */
     icon-theme: "Papirus";
     show-icons: true;
     sorting-method: "fzf";
     display-drun: "•";
     auto-select: false;
-eh:1;
+    eh:1;
 }
 
 * {
@@ -87,7 +88,7 @@ listview {
     scrollbar: false;
     border: 0;
     border-color: @se;
-    margin: 0 10px 0 30px;
+    margin: 25px 10px 0 30px;
     expand: false;
 }
 
