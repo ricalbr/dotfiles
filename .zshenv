@@ -49,8 +49,10 @@ export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
 
 # NNN CONFIG
 export NNN_BMS="d:$HOME/Documents;o:$HOME/OneDrive;v:$HOME/.config/vim"
-export NNN_PLUG_PLUGINS='d:fzcd;o:fzopen;j:autojump;u:getplugs;b:renamer;c:rsynccp;'
-export NNN_PLUG_KEYCMD='x:!chmod +x $nnn;e:-!sudo -E vim $nnn*'
+NNN_PLUG_PLUGIN='d:fzcd;o:fzopen;j:autojump;u:getplugs;b:renamer;c:rsynccp'
+NNN_PLUG_KEYCMD='x:!chmod +x $nnn;e:-!sudo -E vim $nnn*'
+NNN_PLUG="$NNN_PLUG_PLUGIN;$NNN_PLUG_KEYCMD"
+export NNN_PLUG
 export NNN_FIFO='/tmp/nnn.fifo'
 export NNN_TMPFILE='/tmp/nnn'
 
