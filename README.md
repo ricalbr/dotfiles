@@ -23,6 +23,7 @@ collection of configuration and dotfiles for various GNU/Linux tools and program
 |   | Program|
 | :-- | :--|
 | application switcher | rofi | 
+| file manager | nnn |
 | media player | mpv | 
 | pdf viever | zathura | 
 | shell | zsh | 
