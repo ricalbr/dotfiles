@@ -15,7 +15,6 @@ fi
 # alias la="ls ${lsflags} -lah"
 alias ls='nnn -de'
 alias la='nnn -deH'
-alias nnn='nnn -deH'
 alias h="history"
 alias hg="history -1000 | grep -i"
 
