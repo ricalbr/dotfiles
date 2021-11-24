@@ -192,6 +192,7 @@ nvidia
 nvidia-installer-dkms
 nvidia-settings
 obs-studio
+octave
 openconnect
 orca
 os-prober
