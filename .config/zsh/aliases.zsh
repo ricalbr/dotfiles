@@ -10,11 +10,10 @@ else
 fi
 
 # Basic aliases
-# alias ls="ls ${lsflags}"
-# alias ll="ls ${lsflags} -lh"
-# alias la="ls ${lsflags} -lah"
-alias ls='nnn -de'
-alias la='nnn -deH'
+alias ls="ls ${lsflags}"
+alias ll="ls ${lsflags} -lh"
+alias la="ls ${lsflags} -lah"
+alias nnn='n'
 alias h="history"
 alias hg="history -1000 | grep -i"
 
@@ -29,6 +28,7 @@ alias .5='cd ../../../../..'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
+fucntion mvf() { mv "$(fzf)" "$*" }
 
 # adding flags
 alias df='df -h'        # human-readable sizes
