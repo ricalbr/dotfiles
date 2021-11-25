@@ -9,20 +9,6 @@ source $ZDOTDIR/aliases.zsh
 autoload -Uz colors && colors
 source $ZDOTDIR/themes/cleanthefish.zsh-theme
 
-# PLUGINS
-source $ZDOTDIR/plugins/archive_extract.zsh
-source $ZDOTDIR/plugins/conda_init.zsh
-source $ZDOTDIR/plugins/conda-zsh-completion/conda-zsh-completion.plugin.zsh
-source $ZDOTDIR/plugins/fzf.plugin.zsh
-source $ZDOTDIR/plugins/gitfast/gitfast.plugin.zsh
-source $ZDOTDIR/plugins/quitcd.zsh
-source $ZDOTDIR/plugins/web-search.plugin.zsh
-source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
-source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-source $ZDOTDIR/plugins/z/z.sh
-
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # HISTORY SETTINGS
 export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 HISTSIZE=10000
@@ -93,3 +79,20 @@ bindkey '\e[3~' delete-char
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey ' '  magic-space
+
+# PLUGINS
+source $ZDOTDIR/plugins/archive_extract.zsh
+source $ZDOTDIR/plugins/conda_init.zsh
+source $ZDOTDIR/plugins/conda-zsh-completion/conda-zsh-completion.plugin.zsh
+source $ZDOTDIR/plugins/fzf.plugin.zsh
+source $ZDOTDIR/plugins/gitfast/gitfast.plugin.zsh
+source $ZDOTDIR/plugins/quitcd.zsh
+source $ZDOTDIR/plugins/web-search.plugin.zsh
+source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source $ZDOTDIR/plugins/z/z.sh
+
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
+
+

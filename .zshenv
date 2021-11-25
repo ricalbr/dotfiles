@@ -47,6 +47,14 @@ export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
 export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
 export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
 
+# FZF CONFIG
+export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
+# export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
+export FZF_DEFAULT_COMMAND="fd --hidden . $HOME"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd -t d . $HOME"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
 # NNN CONFIG
 export NNN_BMS="d:$HOME/Documents;o:$HOME/OneDrive;v:$HOME/.config/vim"
 NNN_PLUG_PLUGIN='d:fzcd;o:fzopen;j:autojump;u:getplugs;b:renamer;c:rsynccp'
@@ -59,4 +67,3 @@ export NNN_TMPFILE='/tmp/nnn'
 # Nord theme
 BLK="0B" CHR="0B" DIR="04" EXE="06" REG="00" HARDLINK="06" SYMLINK="06" MISSING="00" ORPHAN="09" FIFO="06" SOCK="0B" OTHER="06"
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
-
