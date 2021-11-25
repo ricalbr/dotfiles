@@ -27,6 +27,5 @@ ttf-fixedsys-excelsior-linux
 ttf-iosevka
 ufetch-git
 vidir
-vscodium-bin
 yaru-plus-git
 zoom
