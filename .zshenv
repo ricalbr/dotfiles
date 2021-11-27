@@ -19,13 +19,13 @@ export BROWSER="brave"
 export COLORTERM="truecolor"
 export EDITOR="nvim"
 export IMAGE="sxiv"
-export LANG=en_US.UTF-8
 export OPENER="xdg-open"
 export PAGER="less"
 export READER="zathura"
 export TERMINAL="alacritty"
 export VIDEO="mpv"
 export VISUAL="nvim"
+export LANG=en_US.UTF-8
 
 # PROGRAM CONFIG
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
@@ -46,6 +46,7 @@ export WGETRC="$XDG_CONFIG_HOME/"wgetrc
 export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
 export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
 export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
+export _Z_DATA="$XDG_CONFIG_HOME"/z/.z
 
 # FZF CONFIG
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
