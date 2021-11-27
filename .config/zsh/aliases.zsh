@@ -13,7 +13,6 @@ fi
 alias ls="ls ${lsflags}"
 alias ll="ls ${lsflags} -lh"
 alias la="ls ${lsflags} -lah"
-alias nnn='n'
 alias h="history"
 alias hg="history -1000 | grep -i"
 
@@ -25,10 +24,9 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
 # confirm before overwriting something
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -i'
-fucntion mvf() { mv "$(fzf)" "$*" }
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
 
 # adding flags
 alias df='df -h'        # human-readable sizes
@@ -45,7 +43,7 @@ alias sz='source $ZDOTDIR/.zshrc'
 alias node='nodejs'
 alias tmux='tmux -f ~/.config/tmux/.tmux.conf'
 alias vim='nvim'
-alias fvim='vim $(fzf)'
+alias vimf='vim $(fzf)'
 alias ytdl='youtube-dl'
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
 alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
