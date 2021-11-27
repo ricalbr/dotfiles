@@ -224,6 +224,7 @@ rsync
 rygel
 s-nail
 s-tui
+samba
 scribus
 scrot
 seahorse
