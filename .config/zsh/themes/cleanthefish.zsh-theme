@@ -1,6 +1,13 @@
+# load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats '  [ %b ]'
+
 # PROMPT BASICS
 PROMPT='%F{green}%<\s< $(prompt_dir)%(?.%F{white}.%F{red})%B $%b '
-RPROMPT='%F{magenta}%B$(conda_info)%b%f%B$(parse_git_dirty)%b'
+RPROMPT='%F{magenta}%B$(conda_info)%b%f%B$(parse_git_dirty)${vcs_info_msg_0_}%f%b'
 
 # GIT PROMPT
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}"
@@ -8,11 +15,11 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}"
 
 # checks if working tree is dirty
 parse_git_dirty() {
-  ref=$(git symbolic-ref HEAD 2> /dev/null)
+  # ref=$(git symbolic-ref HEAD 2> /dev/null)
   if [[ -n $(git status -s --ignore-submodules=dirty 2> /dev/null) ]]; then
-    echo "$ZSH_THEME_GIT_PROMPT_DIRTY${ref#refs/heads/}"
+    echo "$ZSH_THEME_GIT_PROMPT_DIRTY"
   else
-    echo "$ZSH_THEME_GIT_PROMPT_CLEAN${ref#refs/heads/}"
+    echo "$ZSH_THEME_GIT_PROMPT_CLEAN"
   fi
 }
 
@@ -28,7 +35,7 @@ prompt_dir() {
     if [ -d .git ]; then
         # If the current directory is the top level of a git repo,
         # just add the name of the repo to the prompt and exit.
-        print -Pn "$(basename $(pwd))"
+        print -Pn "  $(basename $(pwd))"
         return 0
     elif $(git rev-parse > /dev/null 2>&1); then
         # If we're in a git repo, get the path from the top of the repo to the
