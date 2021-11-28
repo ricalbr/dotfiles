@@ -88,3 +88,9 @@ alias resetaudio='systemctl --user restart pulseaudio'
 alias onesync='onedrive --synchronize'
 alias dwone='onedrive --synchronize --download-only'
 alias upone='onedrive --synchronize --upload-only'
+
+# functions
+
+mk () {
+  mkdir -p "$@" && cd "$@"
+}
