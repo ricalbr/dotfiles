@@ -110,6 +110,7 @@ go
 gparted
 grilo-plugins
 grub
+grub-customizer
 grub-tools
 grub2-theme-endeavouros
 gsimplecal
