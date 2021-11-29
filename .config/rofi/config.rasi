@@ -24,6 +24,7 @@ configuration {
     blue: #42A5F5FF;
     purple: #BA68C8FF;
     cyan: #4DD0E1FF;
+    grey: #CFCFCF99;
 
     background-color: @bg;
     text-color: @fg;
@@ -105,11 +106,11 @@ element-text {
 
 element {
     border: 0px;
-    padding: 1px;
+    padding: 3px;
 }
 element normal.normal {
     background-color: @bg;
-    text-color: @fg;
+    text-color: @grey;
 }
 element normal.urgent {
     background-color: @bg;
@@ -129,19 +130,19 @@ element selected.urgent {
 }
 element selected.active {
     background-color: @bg;
-    text-color: @fg;
+    text-color: @green;
 }
 element alternate.normal {
     background-color: @bg;
-    text-color: @fg;
+    text-color: @grey;
 }
 element alternate.urgent {
     background-color: @bg;
-    text-color: @fg;
+    text-color: @grey;
 }
 element alternate.active {
     background-color: @bg;
-    text-color: @fg;
+    text-color: @grey;
 }
 
 sidebar {
