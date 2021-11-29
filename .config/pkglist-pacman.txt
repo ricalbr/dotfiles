@@ -234,6 +234,7 @@ smartmontools
 solid
 songrec
 stow
+streamlink
 sudo
 sushi
 sxhkd
