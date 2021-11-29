@@ -24,6 +24,7 @@ spotify
 sublime-text-4
 teams
 timeshift
+tmuxinator
 ttf-fixedsys-excelsior-linux
 ttf-iosevka
 ufetch-git
