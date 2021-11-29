@@ -5,11 +5,11 @@
     "readtime_wpm": 200,
     "char_ignore_whitespace": true,
 
-    "enable_line_word_count": false,
-    "enable_line_char_count": false,
+    "enable_line_word_count": true,
+    "enable_line_char_count": true,
 
-    "enable_count_chars": false,
-    "enable_count_lines": false,
+    "enable_count_chars": true,
+    "enable_count_lines": true,
 
     "enable_count_pages": true,
     "words_per_page": 300,
