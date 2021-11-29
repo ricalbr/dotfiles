@@ -83,7 +83,7 @@ prompt_dir() {
     if [[ $from_root ]]; then
         local shrunken_path="/"$shrunken_path
     elif [[ $git_toplevel ]]; then
-        local shrunken_path="$(basename $git_toplevel)$shrunken_path"
+        local shrunken_path="  $(basename $git_toplevel)$shrunken_path"
     fi
 
     # Draw the prompt
