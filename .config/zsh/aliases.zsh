@@ -67,6 +67,7 @@ function gg() { git commit -am "$*" }
 # git-bare repo (for .dotfiles)
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ca='config add'
+alias ca='config commit --amend'
 alias ccm='config commit'
 alias cdiff='config diff'
 alias cpull='config pull'
