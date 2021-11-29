@@ -53,6 +53,7 @@ alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
 # GIT
 alias ga='git add'
+alias gam='git commit --amend -m'
 alias gb='git branch'
 alias gc='git commit'
 alias gd='git diff'
@@ -65,16 +66,16 @@ function gg() { git commit -am "$*" }
 
 # git-bare repo (for .dotfiles)
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias ca='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME add'
-alias ccm='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit'
-alias cdiff='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME diff'
-alias cpull='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME pull'
-alias cpush='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME push'
-alias cs='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME status'
-alias cu='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME submodule update --remote --merge'
-alias cpac='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
-alias cyay='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
-alias ccv='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit ~/.config/vim -m "Update Vim module"'
+alias ca='config add'
+alias ccm='config commit'
+alias cdiff='config diff'
+alias cpull='config pull'
+alias cpush='config push'
+alias cs='config status'
+alias cu='config submodule update --remote --merge'
+alias cpac='config commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
+alias cyay='config commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
+alias ccv='config commit ~/.config/vim -m "Update Vim module"'
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
