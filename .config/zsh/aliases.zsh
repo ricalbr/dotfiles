@@ -9,8 +9,9 @@ else
   export CLICOLOR=1
 fi
 
-# edit config
-alias ec="$EDITOR $ZDOTDIR/.zshrc $ZDOTDIR/aliases.zsh $HOME/.zshenv"
+# edit config and environment
+alias ec="$EDITOR $ZDOTDIR/.zshrc"
+alias ee="$EDITOR $HOME/.zshenv"
 alias sz="source $ZDOTDIR/.zshrc"
 
 # basic aliases
@@ -51,32 +52,9 @@ alias ytdl='youtube-dl'
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
 alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
-# GIT
-alias ga='git add'
-alias gam='git commit --amend -m'
-alias gb='git branch'
-alias gc='git commit'
-alias gd='git diff'
-alias gp='git push'
-alias gs='git status 2>/dev/null'
-alias pull='git pull --recurse-submodules'
-function gcl() { git clone ssh://git@github.com/"$*" }
-function gsa() { git submodule add ssh://git@github.com/"$*" }
-function gg() { git commit -am "$*" }
-
-# git-bare repo (for .dotfiles)
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias ca='config add'
-alias ca='config commit --amend'
-alias ccm='config commit'
-alias cdiff='config diff'
-alias cpull='config pull'
-alias cpush='config push'
-alias cs='config status'
-alias cu='config submodule update --remote --merge'
-alias cpac='config commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
-alias cyay='config commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
-alias ccv='config commit ~/.config/vim -m "Update Vim module"'
+# git aliases
+source $ZDOTDIR/aliases/git.zsh
+source $ZDOTDIR/aliases/git-bare.zsh
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
@@ -94,7 +72,6 @@ alias extback='dconf dump /org/gnome/shell/extensions/ > ~/.config/extensions_ba
 alias gnomeback='dconf dump /org/gnome/> ~/.config/gnome_backup.txt'
 
 # functions
-
 mk () {
   mkdir -p "$@" && cd "$@"
 }

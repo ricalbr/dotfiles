@@ -2,9 +2,6 @@
 #
 # @ricalbr
 
-# ALIASES
-source $ZDOTDIR/aliases.zsh
-
 # THEME
 autoload -Uz colors && colors
 source $ZDOTDIR/themes/cleanthefish.zsh-theme
@@ -95,4 +92,5 @@ source $ZDOTDIR/plugins/z/z.sh
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
 
-
+# ALIASES
+source $ZDOTDIR/aliases.zsh
