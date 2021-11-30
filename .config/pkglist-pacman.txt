@@ -265,6 +265,7 @@ ttf-iosevka-nerd
 ttf-liberation
 ttf-ubuntu-font-family
 unicode-emoji
+units
 upower
 usb_modeswitch
 usbutils
