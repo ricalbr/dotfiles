@@ -3,7 +3,7 @@ autoload -Uz vcs_info
 precmd() { vcs_info }
 
 # format the vcs_info_msg_0_ variable
-zstyle ':vcs_info:git:*' formats '  [ %b ]'
+zstyle ':vcs_info:git:*' formats ' %b'
 
 # PROMPT BASICS
 PROMPT='%F{green}%<\s< $(prompt_dir)%(?.%F{white}.%F{red})%B $%b '
