@@ -13,3 +13,6 @@
 [submodule ".vim"]
 	path = .config/vim
 	url = https://github.com/ricalbr/vim
+[submodule ".config/zsh/plugins/zsh-vi-mode"]
+	path = .config/zsh/plugins/zsh-vi-mode
+	url = ssh://git@github.com/jeffreytse/zsh-vi-mode
