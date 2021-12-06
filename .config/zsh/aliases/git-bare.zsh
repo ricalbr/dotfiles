@@ -10,6 +10,7 @@ alias cup='config pull --rebase -v'
 alias cpush='config push -v'
 alias cs='config status -s'
 alias csu='config submodule update --remote --merge'
+function csa() { config submodule add ssh://git@github.com/"$*" }
 
 # lazy updates
 alias cpac='config commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
