@@ -56,7 +56,7 @@ alias gcor='git checkout --recurse-submodules'
 alias gcom='git checkout $(git_main_branch)'
 alias gcod='git checkout $(git_develop_branch)'
 
-alias gcl='git clone --recurse-submodules'
+alias gcls='git clone --recurse-submodules'
 
 # diff
 alias gdca='git diff --cached'
