@@ -2,14 +2,16 @@
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ca='config add'
-alias cca='config commit -v --amend'
 alias ccm='config commit -v'
+alias ccm!='config commit -v --amend'
+alias ccma='config commit -v -a'
+alias ccmam='config commit -v -a -m'
 alias cdiff='config diff'
 alias cpull='config pull --recurse-submodules -v'
-alias cup='config pull --rebase -v'
 alias cpush='config push -v'
 alias cs='config status -s'
 alias csu='config submodule update --remote --merge'
+alias cup='config pull --rebase -v'
 function csa() { config submodule add ssh://git@github.com/"$*" }
 
 # lazy updates
