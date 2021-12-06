@@ -23,6 +23,8 @@ alias hg="history -1000 | grep -i"
 alias ping="ping -c 5"                  # ping stops after 5 requests
 alias df='df -h'                        # human-readable sizes
 alias free='free -m'                    # show sizes in MB
+alias treed='tree -A -C -d'             # print only directories
+alias treel='tree -A -C -L'             # use level flag
 
 # navigation
 alias ..='cd ..'
@@ -72,6 +74,4 @@ alias extback='dconf dump /org/gnome/shell/extensions/ > ~/.config/extensions_ba
 alias gnomeback='dconf dump /org/gnome/> ~/.config/gnome_backup.txt'
 
 # functions
-mk () {
-  mkdir -p "$@" && cd "$@"
-}
+function mk () { mkdir -p "$@" && cd "$@" }
