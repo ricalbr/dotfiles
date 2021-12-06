@@ -2,11 +2,12 @@
 #
 # @ricalbr
 
-# THEME
+# THEME {{{
 autoload -Uz colors && colors
 source $ZDOTDIR/themes/cleanthefish.zsh-theme
+# }}}
 
-# HISTORY SETTINGS
+# HISTORY SETTINGS {{{
 export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 HISTSIZE=10000
 SAVEHIST=10000
@@ -21,8 +22,9 @@ setopt hist_reduce_blanks               # Remove extra blanks from each command 
 setopt hist_verify                      # Don't execute immediately upon history expansion
 setopt inc_append_history               # Write to history file immediately, not when shell quits
 setopt share_history                    # Share history among all sessions
+# }}}
 
-# TAB COMPLETION
+# TAB COMPLETION {{{
 autoload -Uz compinit && compinit
 _comp_options+=(globdots)               # Include hidden files.
 setopt complete_in_word                 # cd /ho/sco/tm<TAB> expands to /home/scott/tmp
@@ -59,8 +61,9 @@ bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
+# }}}
 
-# MISC
+# MISC {{{
 setopt extendedglob
 setopt interactive_comments     # allow # comments in shell; good for copy/paste
 setopt PROMPT_SUBST
@@ -69,15 +72,41 @@ export BLOCK_SIZE="'1"          # Add commas to file sizes
 
 # map CAPS -> ESC
 setxkbmap -option caps:escape
+# }}}
 
-# BINDKEY
+# BINDKEY {{{
 bindkey -e
 bindkey '\e[3~' delete-char
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey ' '  magic-space
 
-# PLUGINS
+# move up directory
+function up_widget() {
+    BUFFER="cd .."
+    zle accept-line
+}
+zle -N up_widget
+bindkey "^k" up_widget
+
+# sudo
+function add_sudo() {
+    BUFFER="sudo "$BUFFER
+    zle end-of-line
+}
+zle -N add_sudo
+bindkey "^s" add_sudo
+
+# home - navigates to the current root workspace
+function git_root() {
+    BUFFER="cd $(git rev-parse --show-toplevel || echo ".")"
+    zle accept-line
+}
+zle -N git_root
+bindkey "^h" git_root
+# }}}
+
+# PLUGINS {{{
 source $ZDOTDIR/plugins/archive_extract.zsh
 source $ZDOTDIR/plugins/conda_init.zsh
 source $ZDOTDIR/plugins/conda-zsh-completion/conda-zsh-completion.plugin.zsh
@@ -87,10 +116,13 @@ source $ZDOTDIR/plugins/quitcd.zsh
 source $ZDOTDIR/plugins/web-search.plugin.zsh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source $ZDOTDIR/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source $ZDOTDIR/plugins/z/z.sh
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
+# }}}
 
-# ALIASES
+# ALIASES {{{
 source $ZDOTDIR/aliases.zsh
+# }}}
