@@ -104,7 +104,7 @@ alias gpristine='git reset --hard && git clean -dffx'
 
 # status
 alias gsb='git status -sb'
-alias gsa='git status'
+alias gsl='git status'
 
 # submodule
 alias gsi='git submodule init'
