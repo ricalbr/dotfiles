@@ -25,6 +25,7 @@ calcurse
 cheese
 clang
 cmake
+codeblocks
 ctags
 cups
 cups-pdf
