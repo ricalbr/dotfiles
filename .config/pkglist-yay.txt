@@ -15,7 +15,6 @@ onedrive-abraunegg-git
 onlyoffice-bin
 openvpn-protonvpn
 papirus-folders-git
-pdf-append
 picom-jonaburg-git
 python-rofi-git
 skypeforlinux-stable-bin
