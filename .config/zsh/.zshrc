@@ -96,7 +96,6 @@ source $ZDOTDIR/aliases.zsh
 # }}}
 
 # BINDKEY {{{
-bindkey -e
 bindkey '\e[3~' delete-char
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
@@ -108,15 +107,7 @@ function up_widget() {
     zle accept-line
 }
 zle -N up_widget
-bindkey "^k" up_widget
-
-# sudo
-function add_sudo() {
-    BUFFER="sudo "$BUFFER
-    zle end-of-line
-}
-zle -N add_sudo
-bindkey "^s" add_sudo
+bindkey '^k' up_widget
 
 # home - navigates to the current root workspace
 function git_root() {
@@ -124,6 +115,6 @@ function git_root() {
     zle accept-line
 }
 zle -N git_root
-bindkey "^h" git_root
-# }}}
+bindkey '^h' git_root
+#$(fc -ln -1) }}}
 
