@@ -25,7 +25,6 @@ calcurse
 cheese
 clang
 cmake
-codeblocks
 ctags
 cups
 cups-pdf
@@ -194,7 +193,6 @@ nvidia
 nvidia-installer-dkms
 nvidia-settings
 obs-studio
-octave
 openconnect
 orca
 os-prober
@@ -294,6 +292,7 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
+xournalpp
 xsel
 yarn
 yay
