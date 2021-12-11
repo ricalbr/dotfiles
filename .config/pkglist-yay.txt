@@ -16,6 +16,7 @@ onlyoffice-bin
 openvpn-protonvpn
 papirus-folders-git
 picom-jonaburg-git
+prospect-mail-bin
 python-rofi-git
 skypeforlinux-stable-bin
 slack-desktop
