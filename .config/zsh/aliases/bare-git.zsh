@@ -1,12 +1,13 @@
 # GIT-BARE ALIASES (for .dotfiles)
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias ca=config_Add
+alias ca=config_add
 alias ccm=config_commit
 alias ccm!=config_commit_amend
 alias ccma='config commit -v -a'
 alias ccma!='config commit -v -a --amend'
 alias ccmam='config commit -v -a -m'
+# alias cdiff='config diff -- config_diff'
 alias cdiff=config_diff
 alias cmv='config mv'
 alias cpull='config pull --recurse-submodules -v'
@@ -23,22 +24,38 @@ alias ccv='config commit ~/.config/vim -m "Update Vim module"'
 
 # functions
 function config_add(){
-  config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME add {})'
+  fname=$(ls |\                                 # add files in cwd
+    fzf --multi --no-sort --reverse --cycle|\   # use fzf
+    awk '{print "\047" $0 "\047"}' |\           # add single quotes to each entry
+    paste -sd", ")                              # join all lines
+  if [ -n "$fname" ]
+  then
+    config add -- $fname
+  fi
 }
 
 function config_commit(){
-  config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -v {})'
+  fname=$(config status -s | cut -c12- |\
+    fzf --multi --no-sort --reverse --cycle|\
+    paste -sd" ")
+  if [ -n "$fname" ]
+  then
+    config commit -v -- $fname
+  fi
 }
 
 function config_commit_amend(){
-  config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -v --amend {})'
+  fname=$(config status -s | cut -c12- |\
+    fzf --multi --no-sort --reverse --cycle|\
+    paste -sd" ")
+  config commit -v --amend -- $fname
 }
 
 function config_diff(){
-  config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME diff {})'
+  fname=$(config status -s | cut -c12- |\
+    fzf -0 --no-sort --reverse --cycle)
+  if [ -n "$fname" ]
+  then
+    config diff -- $fname
+  fi
 }
-
