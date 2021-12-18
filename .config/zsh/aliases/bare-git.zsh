@@ -21,23 +21,24 @@ alias cpac='config commit ~/.config/pkglist-pacman.txt -m "Update pacman package
 alias cyay='config commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
 alias ccv='config commit ~/.config/vim -m "Update Vim module"'
 
+# functions
 function config_add(){
   config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME add {})'
+  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME add {})'
 }
 
 function config_commit(){
   config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -v {})'
+  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -v {})'
 }
 
 function config_commit_amend(){
   config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -v --amend {})'
+  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -v --amend {})'
 }
 
 function config_diff(){
   config status -s | cut -c12- |\
-  fzf --multi --no-sort --reverse --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME diff {})'
+  fzf --multi --no-sort --reverse --cycle --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME diff {})'
 }
 
