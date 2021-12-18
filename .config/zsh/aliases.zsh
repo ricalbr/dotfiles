@@ -65,6 +65,8 @@ alias fullclean='git checkout master && make clean && rm -f config.h && git rese
 alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
 
 # quick fixes
+alias pip-update="pip list --outdated --format=freeze 2> /dev/null | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U"
+alias orphans='pacman -Qdtq | sudo pacman -Rnsc --noconfirm - 2> /dev/null || echo "Nothing to delete"'
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
 alias resetaudio='systemctl --user restart pulseaudio'
 # alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
