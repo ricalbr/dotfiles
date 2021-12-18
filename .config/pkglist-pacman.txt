@@ -47,6 +47,7 @@ eos-update-notifier
 epiphany
 ethtool
 evince
+exa
 f2fs-tools
 fakeroot
 ffmpegthumbnailer
