@@ -1,7 +1,7 @@
 # GIT-BARE ALIASES (for .dotfiles)
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias ca='config add'
+alias ca=config_Add
 alias ccm=config_commit
 alias ccm!=config_commit_amend
 alias ccma='config commit -v -a'
@@ -20,6 +20,11 @@ function csa() { config submodule add ssh://git@github.com/"$*" }
 alias cpac='config commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
 alias cyay='config commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
 alias ccv='config commit ~/.config/vim -m "Update Vim module"'
+
+function config_add(){
+  config status -s | cut -c12- |\
+  fzf --multi --no-sort --reverse --bind 'enter:execute(/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME add {})'
+}
 
 function config_commit(){
   config status -s | cut -c12- |\
