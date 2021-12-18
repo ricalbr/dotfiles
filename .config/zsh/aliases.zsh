@@ -30,9 +30,9 @@ alias treel='tree -A -C -L'             # use level flag
 # navigation
 alias ..='cd ..'
 alias ...='cd ../..'
-alias .3='cd ../../..'
-alias .4='cd ../../../..'
-alias .5='cd ../../../../..'
+alias 3d='cd ../../..'
+alias 4d='cd ../../../..'
+alias 5d='cd ../../../../..'
 
 # confirm before overwriting something
 alias cp='cp -iv'
