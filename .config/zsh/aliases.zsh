@@ -3,7 +3,7 @@
 # GNU and BSD (macOS) ls flags aren't compatible
 ls --version &>/dev/null
 if [ $? -eq 0 ]; then
-  lsflags="--color --group-directories-first -F"
+  lsflags="--color --group-directories-first -F -1"
 else
   lsflags="-GF"
   export CLICOLOR=1
@@ -16,8 +16,9 @@ alias sz="source $ZDOTDIR/.zshrc"
 
 # basic aliases
 alias ls="ls ${lsflags}"
-alias ll="ls ${lsflags} -lh"
-alias la="ls ${lsflags} -lah"
+alias la="ls ${lsflags} -A"
+alias ll="ls ${lsflags} -l -h"
+alias lla="ls ${lsflags} -l -A -h"
 alias h="history"
 alias hg="history -1000 | grep -i"
 alias ping="ping -c 5"                  # ping stops after 5 requests
@@ -41,6 +42,7 @@ alias mkdir='mkdir -pv'
 
 # fix typo
 alias claer='clear'
+alias celar='clear'
 alias sl='ls'
 alias al='la'
 alias dc='cd'
