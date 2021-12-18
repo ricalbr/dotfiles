@@ -11,17 +11,17 @@ source $ZDOTDIR/themes/cleanthefish.zsh-theme
 export HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 HISTSIZE=10000
 SAVEHIST=10000
-setopt append_history                   # allow multiple sessions to append to one history
-setopt bang_hist                        # treat ! special during command expansion
-setopt extended_history                 # Write history in :start:elasped;command format
-setopt hist_expire_dups_first           # expire duplicates first when trimming history
-setopt hist_find_no_dups                # When searching history, don't repeat
-setopt hist_ignore_dups                 # ignore duplicate entries of previous events
-setopt hist_ignore_space                # prefix command with a space to skip it's recording
-setopt hist_reduce_blanks               # Remove extra blanks from each command added to history
-setopt hist_verify                      # Don't execute immediately upon history expansion
-setopt inc_append_history               # Write to history file immediately, not when shell quits
-setopt share_history                    # Share history among all sessions
+setopt APPEND_HISTORY                   # allow multiple sessions to append to one history
+setopt BANG_HIST                        # treat ! special during command expansion
+setopt EXTENDED_HISTORY                 # Write history in :start:elasped;command format
+setopt HIST_EXPIRE_DUPS_FIRST           # expire duplicates first when trimming history
+setopt HIST_FIND_NO_DUPS                # When searching history, don't repeat
+setopt HIST_IGNORE_DUPS                 # ignore duplicate entries of previous events
+setopt HIST_IGNORE_SPACE                # prefix command with a space to skip it's recording
+setopt HIST_REDUCE_BLANKS               # Remove extra blanks from each command added to history
+setopt HIST_VERIFY                      # Don't execute immediately upon history expansion
+setopt INC_APPEND_HISTORY               # Write to history file immediately, not when shell quits
+setopt SHARE_HISTORY                    # Share history among all sessions
 # }}}
 
 # TAB COMPLETION {{{
