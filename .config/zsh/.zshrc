@@ -96,6 +96,7 @@ source $ZDOTDIR/aliases.zsh
 # }}}
 
 # BINDKEY {{{
+bindkey -v
 bindkey '\e[3~' delete-char
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
@@ -117,4 +118,3 @@ function git_root() {
 zle -N git_root
 bindkey '^h' git_root
 #$(fc -ln -1) }}}
-
