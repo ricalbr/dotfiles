@@ -64,11 +64,12 @@ bindkey -M menuselect 'l' vi-forward-char
 # }}}
 
 # MISC {{{
-setopt extendedglob
-setopt interactive_comments     # allow # comments in shell; good for copy/paste
+setopt EXTENDEDGLOB
+setopt INTERACTIVE_COMMENTS     # allow # comments in shell; good for copy/paste
 setopt PROMPT_SUBST
-unsetopt correct_all            # I don't care for 'suggestions' from ZSH
+unsetopt CORRECT_ALL            # I don't care for 'suggestions' from ZSH
 export BLOCK_SIZE="'1"          # Add commas to file sizes
+zmodload zsh/zprof              # Enable zsh built-in profile log
 
 # map CAPS -> ESC
 setxkbmap -option caps:escape

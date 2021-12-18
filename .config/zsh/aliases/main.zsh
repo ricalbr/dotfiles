@@ -4,6 +4,7 @@
 alias ec="$EDITOR $ZDOTDIR/.zshrc"
 alias ee="$EDITOR $HOME/.zshenv"
 alias sz="source $ZDOTDIR/.zshrc"
+alias zprof="zprof >> $HOME/zsh-profile.log"
 
 # basic aliases
 # GNU and BSD (macOS) ls flags aren't compatible
