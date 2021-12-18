@@ -1,5 +1,11 @@
 ### ALIASES
 
+# edit config and environment
+alias ec="$EDITOR $ZDOTDIR/.zshrc"
+alias ee="$EDITOR $HOME/.zshenv"
+alias sz="source $ZDOTDIR/.zshrc"
+
+# basic aliases
 # GNU and BSD (macOS) ls flags aren't compatible
 ls --version &>/dev/null
 if [ $? -eq 0 ]; then
@@ -9,16 +15,14 @@ else
   export CLICOLOR=1
 fi
 
-# edit config and environment
-alias ec="$EDITOR $ZDOTDIR/.zshrc"
-alias ee="$EDITOR $HOME/.zshenv"
-alias sz="source $ZDOTDIR/.zshrc"
-
-# basic aliases
-alias ls="ls ${lsflags}"
-alias la="ls ${lsflags} -A"
-alias ll="ls ${lsflags} -l -h"
-alias lla="ls ${lsflags} -l -A -h"
+# alias ls="ls ${lsflags}"
+# alias la="ls ${lsflags} -A"
+# alias ll="ls ${lsflags} -l -h"
+# alias lla="ls ${lsflags} -l -A -h"
+alias ls="exa --git-ignore --group-directories-first"
+alias la="ls -a"
+alias ll="ls -l -h"
+alias lla="ls -l -a -h"
 alias h="history"
 alias hg="history -1000 | grep -i"
 alias ping="ping -c 5"                  # ping stops after 5 requests
@@ -58,7 +62,7 @@ alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
 # git aliases
 source $ZDOTDIR/aliases/git.zsh
-source $ZDOTDIR/aliases/git-bare.zsh
+source $ZDOTDIR/aliases/bare-git.zsh
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
