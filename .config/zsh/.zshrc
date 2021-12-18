@@ -92,7 +92,7 @@ zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
 # }}}
 
 # ALIASES {{{
-source $ZDOTDIR/aliases.zsh
+source $ZDOTDIR/aliases/main.zsh
 # }}}
 
 # BINDKEY {{{
