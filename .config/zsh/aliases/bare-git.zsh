@@ -7,7 +7,6 @@ alias ccm!=config_commit_amend
 alias ccma='config commit -v -a'
 alias ccma!='config commit -v -a --amend'
 alias ccmam='config commit -v -a -m'
-# alias cdiff='config diff -- config_diff'
 alias cdiff=config_diff
 alias cmv='config mv'
 alias cpull='config pull --recurse-submodules -v'
@@ -24,38 +23,45 @@ alias ccv='config commit ~/.config/vim -m "Update Vim module"'
 
 # functions
 function config_add(){
-  fname=$(ls |\                                 # add files in cwd
-    fzf --multi --no-sort --reverse --cycle|\   # use fzf
-    awk '{print "\047" $0 "\047"}' |\           # add single quotes to each entry
-    paste -sd", ")                              # join all lines
+  fname=$(ls | fzf --multi --no-sort --reverse --cycle)
+
   if [ -n "$fname" ]
   then
-    config add -- $fname
+    while IFS= read -r file; do
+        config add $file
+    done <<< "$fname"
   fi
 }
 
 function config_commit(){
-  fname=$(config status -s | cut -c12- |\
-    fzf --multi --no-sort --reverse --cycle|\
-    paste -sd" ")
+  fname=$(ls | fzf --multi --no-sort --reverse --cycle)
+
   if [ -n "$fname" ]
   then
-    config commit -v -- $fname
+    while IFS= read -r file; do
+        config commit -v $file
+    done <<< "$fname"
   fi
 }
 
 function config_commit_amend(){
-  fname=$(config status -s | cut -c12- |\
-    fzf --multi --no-sort --reverse --cycle|\
-    paste -sd" ")
-  config commit -v --amend -- $fname
+  fname=$(ls | fzf --multi --no-sort --reverse --cycle)
+
+  if [ -n "$fname" ]
+  then
+    while IFS= read -r file; do
+        config commit -v --amend $file
+    done <<< "$fname"
+  fi
 }
 
 function config_diff(){
-  fname=$(config status -s | cut -c12- |\
-    fzf -0 --no-sort --reverse --cycle)
+  fname=$(ls | fzf --multi --no-sort --reverse --cycle)
+
   if [ -n "$fname" ]
   then
-    config diff -- $fname
+    while IFS= read -r file; do
+        config diff $file
+    done <<< "$fname"
   fi
 }
