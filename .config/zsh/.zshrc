@@ -103,13 +103,7 @@ bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey ' '  magic-space
 
-# move up directory
-function up_widget() {
-    BUFFER="cd .."
-    zle accept-line
-}
-zle -N up_widget
-bindkey '^k' up_widget
+# $(fc -ln -1)
 
 # home - navigates to the current root workspace
 function git_root() {
@@ -118,4 +112,4 @@ function git_root() {
 }
 zle -N git_root
 bindkey '^h' git_root
-#$(fc -ln -1) }}}
+#}}}
