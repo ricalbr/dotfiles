@@ -198,6 +198,7 @@ openconnect
 orca
 os-prober
 pacman-contrib
+pacutils
 pandoc
 papirus-icon-theme
 paprefs
