@@ -23,6 +23,7 @@ btrfs-progs
 cadence
 calcurse
 cheese
+clamav
 clang
 cmake
 ctags
