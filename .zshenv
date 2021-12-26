@@ -44,11 +44,12 @@ export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export NVM_DIR="$XDG_DATA_HOME"/nvm
 export OCTAVE_HISTFILE="$XDG_CACHE_HOME/octave-hsts"
 export OCTAVE_SITE_INITFILE="$XDG_CONFIG_HOME/octave/octaverc"
-export WGETRC="$XDG_CONFIG_HOME/"wgetrc
-export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
+export SSB_HOME="$XDG_DATA_HOME"/zoom
 export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
-export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
+export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
+export WGETRC="$XDG_CONFIG_HOME/"wgetrc
 export _Z_DATA="$XDG_CONFIG_HOME"/z/.z
+export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
 
 # FZF CONFIG
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
