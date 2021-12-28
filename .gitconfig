@@ -3,7 +3,7 @@
     email = albr.riccardo@gmail.com
 
 [core]
-    editor = vim
+    editor = nvim
     excludesfile = "~/.gitignore"
 
 [color]
