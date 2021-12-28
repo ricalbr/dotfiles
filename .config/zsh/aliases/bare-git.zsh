@@ -34,7 +34,7 @@ function config_add(){
 }
 
 function config_commit(){
-  fname=$(ls | fzf --multi --no-sort --reverse --cycle)
+  fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
   if [ -n "$fname" ]
   then
@@ -45,7 +45,7 @@ function config_commit(){
 }
 
 function config_commit_amend(){
-  fname=$(ls | fzf --multi --no-sort --reverse --cycle)
+  fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
   if [ -n "$fname" ]
   then
@@ -56,7 +56,7 @@ function config_commit_amend(){
 }
 
 function config_diff(){
-  fname=$(ls | fzf --multi --no-sort --reverse --cycle)
+  fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
   if [ -n "$fname" ]
   then
