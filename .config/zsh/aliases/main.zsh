@@ -59,12 +59,16 @@ alias tmux='tmux -f ~/.config/tmux/.tmux.conf'
 alias vim='nvim'
 alias vimf='vim $(fzf)'
 alias ytdl='youtube-dl'
+alias ytlist='youtube-dl -f best -a'
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
 alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
 # git aliases
 source $ZDOTDIR/aliases/git.zsh
 source $ZDOTDIR/aliases/bare-git.zsh
+
+# pacman aliases
+source $ZDOTDIR/aliases/pacman.zsh
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
