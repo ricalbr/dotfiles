@@ -30,37 +30,40 @@ font:
 
 schemes:
   one_dark: &one_dark
-      # Default colors
-      primary:
-        background: '0x1e2127'
-        foreground: '0xabb2bf'
+    # Default colors
+    primary:
+      background: '0X1E2127'
+      foreground: '0XABB2BF'
 
-      # Normal colors
-      normal:
-        black:   '0x1e2127'
-        red:     '0xe06c75'
-        green:   '0x98c379'
-        yellow:  '0xd19a66'
-        blue:    '0x61afef'
-        magenta: '0xc678dd'
-        cyan:    '0x56b6c2'
-        white:   '0xabb2bf'
+    # Normal colors
+    normal:
+      black:   '0x1E2127'
+      red:     '0xE06C75'
+      green:   '0x98C379'
+      yellow:  '0xD19A66'
+      blue:    '0x61AFEF'
+      magenta: '0xC678DD'
+      cyan:    '0x56B6C2'
+      white:   '0xABB2BF'
 
-      # Bright colors
-      bright:
-        black:   '0x5c6370'
-        red:     '0xe06c75'
-        green:   '0x98c379'
-        yellow:  '0xd19a66'
-        blue:    '0x61afef'
-        magenta: '0xc678dd'
-        cyan:    '0x56b6c2'
-        white:   '0xffffff'
+    # Bright colors
+    bright:
+      black:   '0x5C6370'
+      red:     '0xE06C75'
+      green:   '0x98C379'
+      yellow:  '0xD19A66'
+      blue:    '0x61AFEF'
+      magenta: '0xC678DD'
+      cyan:    '0x56B6C2'
+      white:   '0xFFFFFF'
 
   ayu_dark: &ayu_dark
+    # Default colors
     primary:
       background: '0x0A0E14'
       foreground: '0xB3B1AD'
+
+    # Normal colors
     normal:
       black:   '0x01060E'
       red:     '0xEA6C73'
@@ -70,6 +73,8 @@ schemes:
       magenta: '0xFAE994'
       cyan:    '0x90E1C6'
       white:   '0xC7C7C7'
+
+    # Bright colors
     bright:
       black:   '0x686868'
       red:     '0xF07178'
@@ -81,29 +86,32 @@ schemes:
       white:   '0xFFFFFF'
 
   neon: &neon
+    # Default colors
     primary:
-      background: "0x0F1212"
-      foreground: "0xE9E9E9"
+      background: '0x0F1212'
+      foreground: '0xE9E9E9'
 
+    # Normal colors
     normal:
-      black: "0x131717"
-      red: "0xf07f7f"
-      green: "0x7ff088"
-      yellow: "0xeef07f"
-      blue: "0x7facf0"
-      magenta: "0xd67ff0"
-      cyan: "0x7fe7f0"
-      white: "0xe9e9e9"
+      black:   '0x131717'
+      red:     '0xF07F7F'
+      green:   '0x7FF088'
+      yellow:  '0xEEF07F'
+      blue:    '0x7FACF0'
+      magenta: '0xD67FF0'
+      cyan:    '0x7FE7F0'
+      white:   '0xE9E9E9'
 
+    # Bright colors
     bright:
-      black: "0x928374"
-      red: "0xed9a9a"
-      green: "0x9ef0a5"
-      yellow: "0xe7e897"
-      blue: "0x98b9eb"
-      magenta: "0xd196e3"
-      cyan: "0x94dae0"
-      white: "0xe3e3e3"
+      black:   '0x928374'
+      red:     '0xED9A9A'
+      green:   '0x9EF0A5'
+      yellow:  '0xE7E897'
+      blue:    '0x98B9EB'
+      magenta: '0xD196E3'
+      cyan:    '0x94DAE0'
+      white:   '0xE3E3E3'
 
 colors: *neon
 background_opacity: 0.95
