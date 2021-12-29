@@ -221,7 +221,6 @@ reiserfsprogs
 ripgrep
 rofi
 rofi-calc
-root
 rp-pppoe
 rsync
 rygel
