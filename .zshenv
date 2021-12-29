@@ -30,6 +30,7 @@ export LANG=en_US.UTF-8
 # PROGRAM CONFIG
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export CONDARC="$XDG_CONFIG_HOME"/conda/condarc
+export CONDA_ROOT="$XDG_CONFIG_HOME"/conda
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export GOPATH="$XDG_DATA_HOME"/go
 export HISTFILE="$ZDOTDIR"/.zhistory
