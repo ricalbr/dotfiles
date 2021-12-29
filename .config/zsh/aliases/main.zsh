@@ -44,11 +44,13 @@ alias 5d='cd ../../../../..'
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -iv'
+alias rmrf='rm -iv -rf'
 alias mkdir='mkdir -pv'
 
 # fix typo
 alias claer='clear'
 alias celar='clear'
+alias pacmna='pacman'
 alias sl='ls'
 alias al='la'
 alias dc='cd'
