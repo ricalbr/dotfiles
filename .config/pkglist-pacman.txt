@@ -177,6 +177,7 @@ mtools
 mutter
 nano
 nautilus
+nautilus-image-converter
 ndisc6
 neofetch
 neovim
