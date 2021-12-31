@@ -90,25 +90,25 @@ fi #}}}
 # }}}
 
 # yay helper {{{
-alias yayin='yay -S'
-alias yayyy="yay -Sy"
-alias yayyy='yay -Syy'
-alias yayupg='yay -Syu'
+alias ys='yay -S'
+alias ysy="yay -Sy"
+alias ysyy='yay -Syy'
+alias ysyu='yay -Syu'
+alias ysunc='yay -Syu --noconfirm'
+alias yss='yay -Ss'
+alias ysi='yay -Si'
+alias ysc='yay -Sc'
+alias yscc='yay -Scc'
 alias upgrade='yay -Syu'
-alias yaysu='yay -Syu --noconfirm'
-alias yayss='yay -Ss'
-alias yaysi='yay -Si'
-alias yaysc='yay -Sc'
-alias yaycl='yay -Scc'
 
-alias yayloc='yay -U'
-alias yayconf='yay -Pg'
-alias yayr='yay -R'
-alias yayrs='yay -Rs'
-alias yayrns='yay -Rns'
+alias yloc='yay -U'
+alias yconf='yay -Pg'
+alias yr='yay -R'
+alias yrs='yay -Rs'
+alias yrns='yay -Rns'
 
-alias yayq='yay -Qi'
-alias yayqs='yay -Qs'
-alias yaqe='yay -Qe'
-alias yayorph='yay -Qtd'
+alias yq='yay -Qi'
+alias yqs='yay -Qs'
+alias qe='yay -Qe'
+alias yorph='yay -Qtd'
 # }}}
