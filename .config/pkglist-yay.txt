@@ -1,3 +1,4 @@
+alass-git
 brave-bin
 caffeine-ng
 chrome-gnome-shell
