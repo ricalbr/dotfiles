@@ -99,7 +99,7 @@ alias yss='yay -Ss'
 alias ysi='yay -Si'
 alias ysc='yay -Sc'
 alias yscc='yay -Scc'
-alias upgrade='yay -Syu'
+alias upgrade='yay -Syu --noconfirm'
 
 alias yloc='yay -U'
 alias yconf='yay -Pg'
