@@ -213,6 +213,7 @@ poppler-glib
 pptpclient
 pulseaudio
 qbittorrent
+qjackctl
 qtile
 r8168
 rclone
