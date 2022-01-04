@@ -1,0 +1,893 @@
+[Characters]
+recent-characters=['μ', '•', 'λ', 'Δ']
+
+[Geary]
+ask-open-attachment=true
+autoselect=false
+compose-as-html=true
+composer-window-size=[680, 600]
+display-preview=false
+folder-list-pane-position-horizontal=151
+formatting-toolbar-visible=false
+messages-pane-position=402
+migrated-config=true
+optional-plugins=['email-templates']
+single-key-shortcuts=false
+startup-notifications=true
+window-height=1048
+window-maximize=true
+window-width=960
+
+[Music]
+did-initial-state=true
+window-maximized=false
+window-position=[122, 368]
+window-size=[1440, 742]
+
+[Sudoku]
+window-height=630
+window-is-maximized=false
+window-width=730
+
+[Totem]
+active-plugins=['apple-trailers', 'skipto', 'movie-properties', 'save-file', 'autoload-subtitles', 'media-player-keys', 'opensubtitles', 'variable-rate', 'open-directory', 'vimeo', 'rotation', 'screensaver', 'pythonconsole', 'screenshot', 'recent']
+subtitle-encoding='UTF-8'
+
+[Weather]
+automatic-location=false
+locations=[<(uint32 2, <('Milan', 'LIML', true, [(0.79296125100499293, 0.16202472640904275)], [(0.79354303905785273, 0.16057029118347829)])>)>, <(uint32 2, <('Recoaro Terme', '', false, [(0.79770571739169993, 0.19591206883636195)], @a(dd) [])>)>]
+
+[baobab/ui]
+window-size=(960, 589)
+window-state=87168
+
+[books]
+window-maximized=true
+
+[boxes]
+first-run=false
+view='icon-view'
+window-maximized=false
+window-position=[346, 178]
+window-size=[960, 786]
+
+[calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='advanced'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(1031, 240)
+word-size=64
+
+[calendar]
+active-view='week'
+weather-settings=(true, false, 'Milan, Italy', @mv <(uint32 2, <('Milan', 'LIML', true, [(0.79296125100499293, 0.16202472640904275)], [(0.79354303905785273, 0.16057029118347829)])>)>)
+window-maximized=true
+window-position=(0, 0)
+window-size=(1920, 1048)
+
+[clocks]
+timers=[{'duration': <900>, 'name': <''>}]
+
+[clocks/state/window]
+panel-id='world'
+size=(896, 658)
+state=87168
+
+[control-center]
+last-panel='background'
+
+[desktop/a11y]
+always-show-universal-access-status=false
+
+[desktop/a11y/applications]
+screen-keyboard-enabled=false
+screen-magnifier-enabled=false
+
+[desktop/app-folders]
+folder-children=['6f8756f6-4e83-4f53-b079-72ed2fcc80c8', 'b049ab11-da91-4d8b-a122-307878655905', '2d8b2a9a-3a81-4ef4-83c7-947c37938b56', 'd9646a99-cde1-44a7-95bf-c820f7648e38', '38ab12a6-7d33-4773-9531-3a578af05e47', '7a686482-0c24-4404-8f46-d8224b0a6708', '3609e3be-b14a-4c6b-9093-40087370632f']
+
+[desktop/app-folders/folders/2d8b2a9a-3a81-4ef4-83c7-947c37938b56]
+apps=['org.inkscape.Inkscape.desktop', 'gimp.desktop', 'scribus.desktop', 'librecad.desktop', 'masterpdfeditor4.desktop', 'com.github.xournalpp.xournalpp.desktop']
+name='Graphics/Editing'
+translate=false
+
+[desktop/app-folders/folders/3609e3be-b14a-4c6b-9093-40087370632f]
+apps=['cadence.desktop', 'catarina.desktop', 'catia.desktop', 'electron.desktop']
+name='Audio Utilities'
+translate=false
+
+[desktop/app-folders/folders/38ab12a6-7d33-4773-9531-3a578af05e47]
+apps=['libreoffice-startcenter.desktop', 'libreoffice-base.desktop', 'libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-writer.desktop', 'com.github.philip-scott.spice-up.desktop']
+name='Office'
+
+[desktop/app-folders/folders/6f8756f6-4e83-4f53-b079-72ed2fcc80c8]
+apps=['org.gnome.FileRoller.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Books.desktop', 'org.gnome.DiskUtility.desktop', 'yelp.desktop', 'org.gnome.font-viewer.desktop', 'bvnc.desktop', 'avahi-discover.desktop', 'bssh.desktop', 'org.gnome.Cheese.desktop', 'org.gnome.baobab.desktop', 'simple-scan.desktop', 'lstopo.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Documents.desktop', 'gnome-nettool.desktop', 'org.gnome.eog.desktop', 'yad-icon-browser.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Music.desktop', 'pavucontrol.desktop', 'paprefs.desktop', 'htop.desktop', 'nvim.desktop', 'org.gnome.Logs.desktop', 'org.gnome.MultiWriter.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.gedit.desktop', 'org.gnome.Evince.desktop', 'org.pwmt.zathura.desktop', 'org.gnome.Usage.desktop', 'gnome-control-center.desktop', 'vim.desktop', 'Alacritty.desktop', 'mpv.desktop', 'jshell-java-openjdk.desktop', 'jconsole-java-openjdk.desktop', 'xdvi.desktop', 'picom.desktop', 'compton.desktop', 'gnome-system-monitor.desktop', 'nitrogen.desktop', 'nnn.desktop', 'kitty.desktop', 'fish.desktop', 'cmake-gui.desktop', 'guake-prefs.desktop', 'guake.desktop', 'root.desktop', 'gparted.desktop', 'slack.desktop', 'gvim.desktop', 'cups.desktop', 'org.pwmt.zathura-pdf-mupdf.desktop']
+name='Utility'
+translate=false
+
+[desktop/app-folders/folders/7a686482-0c24-4404-8f46-d8224b0a6708]
+apps=['hypnotix.desktop']
+name='Sound & Video'
+
+[desktop/app-folders/folders/b049ab11-da91-4d8b-a122-307878655905]
+apps=['caffeine.desktop', 'org.gnome.seahorse.Application.desktop', 'nvidia-settings.desktop', 'electron9.desktop', 'org.gnome.Terminal.desktop', 'xterm.desktop', 'ranger.desktop', 'welcome.desktop', 'UpdateInTerminal.desktop', 'reflector-simple.desktop', 'eos-log-tool.desktop', 'caffeine-preferences.desktop', 'uxterm.desktop', 'stoken-gui.desktop', 'stoken-gui-small.desktop', 'qvidcap.desktop', 'qv4l2.desktop', 'eos-update-notifier-configure.desktop', 'nm-connection-editor.desktop', 'yad-settings.desktop', 'jshell-jdk15-adoptopenjdk.desktop', 'jconsole-jdk15-adoptopenjdk.desktop', 'hardinfo.desktop', 'grub-customizer.desktop']
+name='System'
+translate=false
+
+[desktop/app-folders/folders/d9646a99-cde1-44a7-95bf-c820f7648e38]
+apps=['skypeforlinux.desktop', 'Zoom.desktop', 'teams.desktop', 'webex.desktop']
+name='Cloud Meeting'
+translate=false
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/ricalbr/.local/share/backgrounds/2020-12-21-22-16-52-wallpaper.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/calendar]
+show-weekdate=false
+
+[desktop/input-sources]
+per-window=false
+sources=[('xkb', 'it+winkeys')]
+xkb-options=['lv3:ralt_switch']
+
+[desktop/interface]
+clock-show-seconds=false
+clock-show-weekday=true
+cursor-theme='Yaru++'
+document-font-name='Atkinson Hyperlegible 11'
+enable-animations=true
+enable-hot-corners=false
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Atkinson Hyperlegible 11'
+gtk-enable-primary-paste=true
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Adwaita-dark'
+icon-theme='Papirus-Dark'
+monospace-font-name='PragmataPro Liga 11'
+show-battery-percentage=false
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[desktop/notifications]
+application-children=['gnome-power-panel', 'firefox', 'discord', 'telegramdesktop', 'gnucash', 'org-gnome-nautilus', 'teams', 'org-gnome-evince', 'brave-browser', 'org-qbittorrent-qbittorrent', 'spotify', 'gnome-network-panel', 'scribus', 'bluemail', 'org-gnome-geary', 'jabref', 'org-gnome-boxes', 'org-gnome-clocks', 'org-pwmt-zathura', 'kitty', 'com-obsproject-studio', 'org-gnome-extensions-desktop', 'org-gnome-chromegnomeshell', 'zoom', 'skypeforlinux', 'abiword', 'org-gnome-shell-portalhelper', 'libreoffice-calc', 'libreoffice-impress', 'gnome-control-center', 'guake', 'org-gnome-baobab', 'freetuxtv', 'com-github-marinm-songrec', 'org-octave-octave', 'org-gnome-shell-extensions', 'org-gnome-evolution', 'alacritty', 'org-gnome-eog', 'info-febvre-komikku', 'org-gnome-evolution-alarm-notify', 'appimagekit-joplin', 'masterpdfeditor4', 'location-file-run-media-ricalbr-verbatim-20hd', 'mpv', 'org-gnome-calculator', 'grub-customizer', 'foxitreader', 'prospect-mail', 'alacarte', 'brave-faolnafnngnfdaknnbpnkhgohbobgegn-default', 'brave-jgeocpdicgmkeemopbanhokmhcgcflmi-default', 'org-inkscape-inkscape', 'xdg-desktop-portal-gtk', 'org-gnome-totem', 'cadence']
+show-banners=false
+
+[desktop/notifications/application/abiword]
+application-id='abiword.desktop'
+
+[desktop/notifications/application/alacarte]
+application-id='alacarte.desktop'
+
+[desktop/notifications/application/alacritty]
+application-id='Alacritty.desktop'
+
+[desktop/notifications/application/appimagekit-joplin]
+application-id='appimagekit-joplin.desktop'
+
+[desktop/notifications/application/bluemail]
+application-id='bluemail.desktop'
+
+[desktop/notifications/application/brave-browser]
+application-id='brave-browser.desktop'
+
+[desktop/notifications/application/brave-faolnafnngnfdaknnbpnkhgohbobgegn-default]
+application-id='brave-faolnafnngnfdaknnbpnkhgohbobgegn-Default.desktop'
+details-in-lock-screen=true
+
+[desktop/notifications/application/brave-jgeocpdicgmkeemopbanhokmhcgcflmi-default]
+application-id='brave-jgeocpdicgmkeemopbanhokmhcgcflmi-Default.desktop'
+
+[desktop/notifications/application/cadence]
+application-id='cadence.desktop'
+
+[desktop/notifications/application/caffeine-preferences]
+enable=true
+
+[desktop/notifications/application/caffeine]
+enable=true
+
+[desktop/notifications/application/com-github-marinm-songrec]
+application-id='com.github.marinm.songrec.desktop'
+enable=false
+
+[desktop/notifications/application/com-obsproject-studio]
+application-id='com.obsproject.Studio.desktop'
+
+[desktop/notifications/application/discord]
+application-id='discord.desktop'
+
+[desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[desktop/notifications/application/foxitreader]
+application-id='foxitreader.desktop'
+
+[desktop/notifications/application/freetuxtv]
+application-id='freetuxtv.desktop'
+
+[desktop/notifications/application/gnome-control-center]
+application-id='gnome-control-center.desktop'
+
+[desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[desktop/notifications/application/gnucash]
+application-id='gnucash.desktop'
+
+[desktop/notifications/application/grub-customizer]
+application-id='grub-customizer.desktop'
+
+[desktop/notifications/application/guake]
+application-id='guake.desktop'
+
+[desktop/notifications/application/info-febvre-komikku]
+application-id='info.febvre.Komikku.desktop'
+
+[desktop/notifications/application/jabref]
+application-id='jabref.desktop'
+
+[desktop/notifications/application/kitty]
+application-id='kitty.desktop'
+
+[desktop/notifications/application/libreoffice-calc]
+application-id='libreoffice-calc.desktop'
+
+[desktop/notifications/application/libreoffice-impress]
+application-id='libreoffice-impress.desktop'
+
+[desktop/notifications/application/location-file-run-media-ricalbr-verbatim-20hd]
+application-id='location:file:///run/media/ricalbr/VERBATIM%20HD.desktop'
+
+[desktop/notifications/application/masterpdfeditor4]
+application-id='masterpdfeditor4.desktop'
+
+[desktop/notifications/application/mpv]
+application-id='mpv.desktop'
+
+[desktop/notifications/application/org-gnome-baobab]
+application-id='org.gnome.baobab.desktop'
+
+[desktop/notifications/application/org-gnome-boxes]
+application-id='org.gnome.Boxes.desktop'
+
+[desktop/notifications/application/org-gnome-calculator]
+application-id='org.gnome.Calculator.desktop'
+
+[desktop/notifications/application/org-gnome-chromegnomeshell]
+application-id='org.gnome.ChromeGnomeShell.desktop'
+
+[desktop/notifications/application/org-gnome-clocks]
+application-id='org.gnome.clocks.desktop'
+
+[desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
+[desktop/notifications/application/org-gnome-evince]
+application-id='org.gnome.Evince.desktop'
+
+[desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[desktop/notifications/application/org-gnome-evolution]
+application-id='org.gnome.Evolution.desktop'
+
+[desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[desktop/notifications/application/org-gnome-geary]
+application-id='org.gnome.Geary.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-gnome-shell-extensions]
+application-id='org.gnome.Shell.Extensions.desktop'
+
+[desktop/notifications/application/org-gnome-shell-portalhelper]
+application-id='org.gnome.Shell.PortalHelper.desktop'
+
+[desktop/notifications/application/org-gnome-totem]
+application-id='org.gnome.Totem.desktop'
+
+[desktop/notifications/application/org-inkscape-inkscape]
+application-id='org.inkscape.Inkscape.desktop'
+
+[desktop/notifications/application/org-octave-octave]
+application-id='org.octave.Octave.desktop'
+
+[desktop/notifications/application/org-pwmt-zathura]
+application-id='org.pwmt.zathura.desktop'
+enable=false
+
+[desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[desktop/notifications/application/prospect-mail]
+application-id='prospect-mail.desktop'
+
+[desktop/notifications/application/scribus]
+application-id='scribus.desktop'
+
+[desktop/notifications/application/skypeforlinux]
+application-id='skypeforlinux.desktop'
+
+[desktop/notifications/application/spotify]
+application-id='spotify.desktop'
+enable=false
+enable-sound-alerts=false
+show-in-lock-screen=false
+
+[desktop/notifications/application/teams]
+application-id='teams.desktop'
+
+[desktop/notifications/application/telegramdesktop]
+application-id='telegramdesktop.desktop'
+
+[desktop/notifications/application/xdg-desktop-portal-gtk]
+application-id='xdg-desktop-portal-gtk.desktop'
+
+[desktop/notifications/application/zoom]
+application-id='Zoom.desktop'
+
+[desktop/peripherals/keyboard]
+numlock-state=true
+
+[desktop/peripherals/mouse]
+accel-profile='adaptive'
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+disable-microphone=false
+
+[desktop/screensaver]
+color-shading-type='solid'
+lock-delay=uint32 0
+picture-options='zoom'
+picture-uri='file:///home/ricalbr/.local/share/backgrounds/2020-12-21-22-16-52-wallpaper.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 300
+
+[desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
+[desktop/wm/keybindings]
+close=['<Super>q']
+switch-input-source=@as []
+switch-input-source-backward=@as []
+
+[desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+titlebar-font='Atkinson Hyperlegible Bold 11'
+
+[eog/plugins]
+active-plugins=['fullscreen']
+
+[eog/ui]
+sidebar=false
+
+[eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[epiphany]
+ask-for-default=false
+
+[epiphany/state]
+is-maximized=false
+window-position=(-1, -1)
+window-size=(1024, 768)
+
+[evince]
+document-directory=@ms 'file:///home/ricalbr/OneDrive/PhD/Esperimenti/202109%20-%20S-Trench/Articoli'
+
+[evince/default]
+window-ratio=(2.1932773109243699, 1.2446555819477434)
+
+[evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[evolution-data-server/calendar]
+notify-window-height=160
+notify-window-paned-position=73
+notify-window-width=517
+notify-window-x=26
+notify-window-y=32
+reminders-past=['82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20220104T064500\n1641274980\n1641275100\n1641276000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20220103T064500\n1641188580\n1641188700\n1641189600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20220102T064500\n1641102180\n1641102300\n1641103200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20220101T064500\n1641015780\n1641015900\n1641016800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '6bab3eb69f53dc4790b275688469a5d811073eff\ne5a26be00564a02d8b54392e38419ce3238f05dd\t20220101\n1640995080\n1640995200\n1641081600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20220101\r\nDTEND;VALUE=DATE:20220102\r\nRRULE:FREQ=MONTHLY;UNTIL=20230902;INTERVAL=3;BYMONTHDAY=1\r\nDTSTAMP:20211112T121938Z\r\nUID:0u41bu0thiq0t3bdma0slpid22@google.com\r\nCREATED:20211112T121856Z\r\nDESCRIPTION:IBAN: IT55H0503401659000000000985\\n\\nCAUSALE: Affitto e \r\n acconto spese di energia elettrica e gas dal 01.xx.2021 al 3x.xx.2021 \r\n locazione ALBIERO RICCARDO\r\nLAST-MODIFIED:20211231T001458Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:AFFITTO Beato Angelico\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63772402778\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:e5a26be00564a02d8b54392e38419ce3238f05dd\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:4fe551f0bbbb356fdc734513648b8eb7ab1c1be7\r\nACTION:EMAIL\r\nSUMMARY:Alarm notification\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-P1D\r\nATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=FALSE:mailto:\r\n albr.riccardo@gmail.com\r\nACKNOWLEDGED:20211231T001458Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211231T064500\n1640929380\n1640929500\n1640930400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211230T064500\n1640842980\n1640843100\n1640844000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211229T064500\n1640756580\n1640756700\n1640757600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211228T064500\n1640670180\n1640670300\n1640671200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211227T064500\n1640583780\n1640583900\n1640584800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211226T064500\n1640497380\n1640497500\n1640498400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211225T064500\n1640410980\n1640411100\n1640412000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211224T130000\n1640347080\n1640347200\n1640350800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nde7ae1a2bbba94b2add7740830362ca532593537\t20211224T082800\n1640330760\n1640330880\n1640335380\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211224T082800\r\nDTEND;TZID=Europe/Rome:20211224T094300\r\nDTSTAMP:20211212T112030Z\r\nUID:287afpunj4iqs40il9tnqmhp76@google.com\r\nCREATED:20211212T112030Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211212T112030Z\r\nLOCATION:Ospedale di Valdagno\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Analisi Sangue\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63774991230\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:de7ae1a2bbba94b2add7740830362ca532593537\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211224T064500\n1640324580\n1640324700\n1640325600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211223T130000\n1640260680\n1640260800\n1640264400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211223T064500\n1640238180\n1640238300\n1640239200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211222T130000\n1640174280\n1640174400\n1640178000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211222T064500\n1640151780\n1640151900\n1640152800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211221T130000\n1640087880\n1640088000\n1640091600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211221T064500\n1640065380\n1640065500\n1640066400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211220T130000\n1640001480\n1640001600\n1640005200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211220T064500\n1639978980\n1639979100\n1639980000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nbd69d7aca6cafffba6a9aacd52f14ffc57aef197\t20211219T140000\n1639918680\n1639918800\n1639926000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211219T140000\r\nDTEND;TZID=Europe/Rome:20211219T160000\r\nDTSTAMP:20211219T003757Z\r\nUID:7lr7aqoqjr4jbuahh1detceure@google.com\r\nCREATED:20211218T114250Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211219T003757Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anime\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63775557477\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:bd69d7aca6cafffba6a9aacd52f14ffc57aef197\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211219T064500\n1639892580\n1639892700\n1639893600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n51c98e0a6f715eaf5cc573033354872aeeac95ca\t20211218T160000\n1639839480\n1639839600\n1639846800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211218T160000\r\nDTEND;TZID=Europe/Rome:20211218T180000\r\nDTSTAMP:20211218T114258Z\r\nUID:58f984h0ppcph4u8qhkmap0bjp@google.com\r\nCREATED:20211218T114258Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211218T114258Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Esercizi Erica\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63775510978\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:51c98e0a6f715eaf5cc573033354872aeeac95ca\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\na335ac76b64f077d7dce00bf22ecdcb75279467a\t20211218T140000\n1639832280\n1639832400\n1639839600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211218T140000\r\nDTEND;TZID=Europe/Rome:20211218T160000\r\nDTSTAMP:20211218T114250Z\r\nUID:7lr7aqoqjr4jbuahh1detceure@google.com\r\nCREATED:20211218T114250Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211218T114250Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anime\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63775510970\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:a335ac76b64f077d7dce00bf22ecdcb75279467a\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211218T064500\n1639806180\n1639806300\n1639807200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211217T130000\n1639742280\n1639742400\n1639746000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211217T064500\n1639719780\n1639719900\n1639720800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n5e08fbdb7f40182f8c331f9603fc942a5b349c2d\t20211216T210000\n1639684680\n1639684800\n1639692000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211216T210000\r\nDTEND;TZID=Europe/Rome:20211216T230000\r\nDTSTAMP:20211216T133342Z\r\nUID:75fkgp82mi19nlou8m3fat7inn@google.com\r\nCREATED:20211216T133342Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211216T133342Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anime\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63775344822\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:5e08fbdb7f40182f8c331f9603fc942a5b349c2d\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n1f85c8267af2cd75ed28c72abbba789a3f986060\t20211216T183000\n1639675680\n1639675800\n1639681200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211216T183000\r\nDTEND;TZID=Europe/Rome:20211216T200000\r\nDTSTAMP:20211216T133216Z\r\nUID:1to1c7bpnet00r15rvqbnuorcf@google.com\r\nCREATED:20211216T133216Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211216T133216Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Dr. Why OSA CHAPTER\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63775344736\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:1f85c8267af2cd75ed28c72abbba789a3f986060\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211216T130000\n1639655880\n1639656000\n1639659600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211216T064500\n1639633380\n1639633500\n1639634400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211215T130000\n1639569480\n1639569600\n1639573200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211215T064500\n1639546980\n1639547100\n1639548000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211214T130000\n1639483080\n1639483200\n1639486800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211214T064500\n1639460580\n1639460700\n1639461600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211213T130000\n1639396680\n1639396800\n1639400400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211213T064500\n1639374180\n1639374300\n1639375200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n464ffc2d793864ef4b527fa397e214f6c7f92875\t20211212T203000\n1639337280\n1639337400\n1639341000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211212T203000\r\nDTEND;TZID=Europe/Rome:20211212T213000\r\nDTSTAMP:20211211T185217Z\r\nORGANIZER;CN=Unknown Organizer:mailto:\r\n unknownorganizer@calendar.google.com\r\nUID:7kukuqrfedlm2f9thbkuggkoc50ebu8uvpmepb8d6bhevcenmullvoknsnhi2cs9012g\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=albr.riccardo@gmail.com;X-NUM-GUESTS=0:mailto:albr.riccardo@gmail.com\r\nCLASS:PRIVATE\r\nCREATED:20211211T185217Z\r\nDESCRIPTION:To see detailed information for automatically created events \r\n like this one\\, use the official Google Calendar app. https:\r\n //g.co/calendar\\n\\nThis event was created from an email you received in \r\n Gmail. https:\r\n //mail.google.com/mail?extsrc=cal&plid=ACUX6DM11qro-PVeWIUg3Kydd7Ym30fOfB8\r\n _EzM\\n\r\nLAST-MODIFIED:20211211T185217Z\r\nLOCATION:cap10100\\, Corso Moncalieri\\, 18\\, 10133 Torino TO\\, Italy\\, \r\n Torino\\, Piemonte\\, Italy\\, 10133\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Miyazaki\\, Le Colonne Sonore Dal Vivo\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63774931937\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:464ffc2d793864ef4b527fa397e214f6c7f92875\r\nEND:VALARM\r\nEND:VEVENT\r\n', "82130c00d66c783554786fe564e8efe5ac1273c5\n8486b22f590c8e975fe84760ae9fae8457f9e65a\t20211212T203000\n1639335600\n1639337400\n1639346400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211212T203000\r\nDTEND;TZID=Europe/Rome:20211212T230000\r\nDTSTAMP:20211010T125749Z\r\nUID:\r\n ckr6ae1j70rm2bb6cosj6b9kcor3cbb169j3ibb56hh38pb468p3ae3574@google.com\r\nCREATED:20211010T125749Z\r\nDESCRIPTION:Event: https:\r\n //facebook.com/events/s/the-jesus-and-mary-chain-milan/731397121135641/\\n\\\r\n nATTENZIONE \\nL'evento inizialmente annullato è stato posticipato al \r\n 23/02/2021. I biglietti acquistati per la data originaria rimangono \r\n validi per il nuovo appuntamento.\\n\\nTHE JESUS AND MARY CHAIN\\nPLAY \r\n DARKLANDS\\nSupport: Rev Magnetic\\n\\nPoche band al mondo hanno avuto un \r\n così grande impatto sulla cultura musicale come The Jesus & Mary Chain. \r\n La loro attitudine solitaria\\, i loro vestiti neri\\, il loro essere \r\n incazzati con il mondo suonando brevi set carichi di feedback gli ha  \r\n consentito di fatto di prendere il posto dei Sex Pistols nella scena \r\n londinese.\\n\\nIl loro seminale debutto PSYCOCANDY da lì a poco avrebbe \r\n cambiato il corso della musica pop\\, incanalando l'angoscia e la \r\n distorsione del rumore dei loro spettacoli dal vivo\\, in melodie dolci\\, \r\n ipnotiche\\, stratificate\\, con testi oscuri che avrebbero sconvolto il \r\n pubblico.\\nApprezzati in tutto il mondo\\, I Mary chain divennero ben \r\n presto i preferiti della stampa britannica\\, alla perenne ricerca di \r\n qualcuno da incoronare come re della scena post-punk di metà anni '80. \r\n Con forti influenze dei Velvet Underground\\, e un indisponente ma \r\n melodico muro di rumore\\, divennero fonte di ispirazione per band \r\n acclamate dalla critica come i My Bloody Valentine negli anni '90.\\n\\nLa \r\n band\\, formatasi nel 1983 a East Kilbride\\, una landa desolata fuori \r\n Glasgow - Scozia\\, si è sempre mossa attorno alla co-scrittura dei \r\n fratelli Reid\\, William e Jim.\\nUna voltai trasferitisi a Londra\\, la \r\n loro attitudine e il loro originalissimo suono di chitarra\\, fu portato \r\n all'attenzione di Alan Mcgee e della Creation records\\, da Bobby \r\n Gillespie\\, vocalist di un'altra band scozzese\\, i Primal Scream. Il \r\n primo singolo “Upside Down” vide Gillespie unirsi alla band come \r\n batterista. Gillespie portò il suono “cassa e rullante” tipico dei \r\n Velvet Underground a divenire prevalente nella registrazione di \r\n Psychocandy. \\n\\nSeguono poi album fondamentali per gli scaffali di ogni \r\n appassionato di musica come DARKLANDS e AUTOMATIC (1989)\\n\\nNel 1994\\, \r\n con il disco acustico STONED AND DETHRONED\\, che vede anche la \r\n partecipazione di Shane MacGowan dei Pogues\\, scalano le classifiche \r\n statunitensi grazie al singolo “Sometimes always”in cui canta Hope \r\n Sandoval dei Mazzy Star . Nel 1998 firmano per la Sub Pop e pubblicano \r\n MUNKI. Ma dopo poco tempo William Reid lascia la band\\, che si scioglie \r\n conseguentemente l’anno successivo.\\nNel 2006 la band si ripresenta \r\n all'attenzione del pubblico con una curiosa operazione che comprende \r\n cinque ripubblicazioni: ad accompagnare ogni singola uscita viene incluso \r\n un DVD contenente tre videoclip.\\nIl 2007 è l'anno della reunion del \r\n gruppo\\, che suonerà per alcuni appuntamenti live annunciando un futuro \r\n album. \\nNel marzo dell'anno successivo esce una nuova versione del brano \r\n “All Things Must Pass\"\\, canzone già inserita nella colonna sonora del \r\n telefilm “Heroes”. \\n\\nPer il trentesimo anniversario di \r\n PSYCHOCANDY\\, il gruppo mette in piedi un tour durante il quale \r\n eseguiranno per intero il loro album d'esordio che terminerà nel 2015 \r\n dopo aver preso parte ai maggiori festival europei.\\nEsce finalmente nel \r\n 2017\\, a distanza di 19 anni da Munki\\, il loro ultimo lavoro DAMAGE AND \r\n JOY prodotto da Martin Glover.\\n\\n\\nTHE JESUS & MARY CHAIN PLAY \r\n DARKLANDS\\n\\nDarklands è il secondo episodio targato The Jesus & Mary \r\n Chain\\, seguito di quella pietra miliare che è tutt'oggi \r\n l'acclamatissimo Psycocandy.\\n\\nDieci brani spalmati in 35 minuti che \r\n trasudano un'oscura bellezza.\\nE' il 1987 quando i fratelli Reid danno \r\n alle stampe questo gioiello decadente\\, carico come sempre di riverberi\\, \r\n ma che segna un solco evidente con il loro disco d'esordio.\\nLa dipartita \r\n di Gillespie\\, impegnato coi suoi Primal Scream\\,  produce un cambiamento \r\n notevole nel suono della band scozzese\\, che per la prima volta fa uso di \r\n una drum machine.\\nIl risultato è un disco in cui le chitarre sferzanti \r\n e il furore degli esordi si stemperano lasciando spazio a brani più \r\n pop\\, morbide ballate malinconiche e atmosfere trasognate\\, senza però \r\n perdere quel senso di inquietudine che pervadeva Psychocandy.\\nIl disco \r\n raggiunge il quinto posto delle charts inglesi\\, punto più alto mai \r\n raggiunto dai Mary Chain\\, e viene successivamente inserito nel compendio \r\n “1001 dischi da ascoltare prima di morire”.\\n\\nDal vivo la band \r\n suonerà per intero Darklands per la prima volta in assoluto.\\nUn evento \r\n unico che celebra un disco immortale ed irripetibile\\, da ascoltare e \r\n riascoltare.\\n\\nBiglietti in vendita su https:\r\n //www.mailticket.it/manifestazione/UM29/THE_JESUS_AND_MARY_CHAIN_PLAY_DARK\r\n \r\nLAST-MODIFIED:20211010T125749Z\r\nLOCATION:Alcatraz - Milano\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:The Jesus And Mary Chain - Milano - Alcatraz\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63769553869\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:8486b22f590c8e975fe84760ae9fae8457f9e65a\r\nEND:VALARM\r\nEND:VEVENT\r\n", '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211212T064500\n1639287780\n1639287900\n1639288800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', "82130c00d66c783554786fe564e8efe5ac1273c5\n956c9066cbe3c594d21975c41030e851791207cd\t20211211T210000\n1639251000\n1639252800\n1639260000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211211T210000\r\nDTEND;TZID=Europe/Rome:20211211T230000\r\nDTSTAMP:20211024T111030Z\r\nUID:\r\n ccpj8cr6c8ojgb9pccojab9k75hj4b9pccsjabb26csjcphm6krj0d1h6g@google.com\r\nCREATED:20211010T125748Z\r\nDESCRIPTION:Event: https:\r\n //facebook.com/events/s/miyazaki-le-colonne-sonore-dal/823896924947289/\\n\\\r\n nCostello's\\nin coll.ne con Circolo Arci BIKO Milano\\, RADAR concerti e \r\n Claire de Lune\\npresenta\\nMiyazaki / le colonne sonore dal vivo • \r\n Milano\\n\\n11 DICEMBRE 2021\\nCircolo Arci BIKO - Milano\\nVia via Ettore \r\n Ponti\\, 40 (Milano)\\nApertura porte ore 21:00\\nBiglietto 15€ + DDP + \r\n tess. ARCI (obbligatoria) >> link.dice.fm/u20j3wBcd9\\nATTENZIONE: i \r\n biglietti già acquistati per la precedente data rimangono validi\\nTo \r\n enter the event is needed the ARCI membership card. More info at \r\n info@bikoclub.net | What is ARCI? www.arci.it\\n📝 The new ARCI \r\n membership card is valid from October\\, 1st 2020 until September\\, 30th \r\n 2021\\n⌨ We ask you to carry out the pre-registration here >> https:\r\n //portale.arci.it/preadesione/biko/\\n\\n◆ LIVE ◆\\nMiyazaki / le \r\n colonne sonore dal vivo\\nUn appuntamento unico per rivivere le colonne \r\n sonore degli indimenticabili film di Hayao Miyazaki\\, vincitore di un \r\n Oscar al miglior film d’animazione e di un Oscar onorario\\, oltre che \r\n fondatore dello Studio Ghibli.\\nDa Nausicaa a Porco Rosso\\, dal Castello \r\n Errante di Howl a Kiki\\, fino a Totoro e alla Principessa Mononoke\\, \r\n tutti i suoi più grandi successi che l’hanno reso l’esponente più \r\n celebre dell’animazione giapponese saranno i protagonisti dei concerti \r\n che faranno sognare i fan.\r\nLAST-MODIFIED:20211024T111030Z\r\nLOCATION:BIKO Milano\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Miyazaki / le colonne sonore dal vivo • Milano\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63770757030\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:956c9066cbe3c594d21975c41030e851791207cd\r\nEND:VALARM\r\nEND:VEVENT\r\n", '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211211T064500\n1639201380\n1639201500\n1639202400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211210T130000\n1639137480\n1639137600\n1639141200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211210T064500\n1639114980\n1639115100\n1639116000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211209T130000\n1639051080\n1639051200\n1639054800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211209T064500\n1639028580\n1639028700\n1639029600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211208T130000\n1638964680\n1638964800\n1638968400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211208T064500\n1638942180\n1638942300\n1638943200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211207T130000\n1638878280\n1638878400\n1638882000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211207T064500\n1638855780\n1638855900\n1638856800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211206T130000\n1638791880\n1638792000\n1638795600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211206T064500\n1638769380\n1638769500\n1638770400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211205T064500\n1638682980\n1638683100\n1638684000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211204T064500\n1638596580\n1638596700\n1638597600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211203T130000\n1638532680\n1638532800\n1638536400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211203T064500\n1638510180\n1638510300\n1638511200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', "82130c00d66c783554786fe564e8efe5ac1273c5\n828ed30eb38f6084b843d51fd5c68ad5ed2c6412\t20211202T200000\n1638471480\n1638471600\n1638486000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211202T200000\r\nDTEND;TZID=Europe/Rome:20211203T000000\r\nDTSTAMP:20211127T205325Z\r\nUID:4e3u8avpicpfdqqdik4plifkjq@google.com\r\nCREATED:20211127T205325Z\r\nDESCRIPTION:We're looking forward to seeing you there.\\n\\nBring your \r\n green pass (or alternative valid proofs of Covid-19 negative results)\\, \r\n your mask and come early to allow everybody in in complete \r\n safety.\\n\\nHere's a reminder to the event details:\\n\\nSPRINT21 \r\n SCREENING\\n2 dicembre 2021 20:00\\nCinema Beltrade\\, Milano\\, Via Nino \r\n Oxilia\\, 10\\, 20127 Milano MI\\, Italy\r\nLAST-MODIFIED:20211127T205325Z\r\nLOCATION:Via Nino Oxilia\\, 10\\, 20127 Milano MI\\, Italy\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:SPRINT21 SCREENING\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773729605\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:828ed30eb38f6084b843d51fd5c68ad5ed2c6412\r\nEND:VALARM\r\nEND:VEVENT\r\n", '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211202T130000\n1638446280\n1638446400\n1638450000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211202T064500\n1638423780\n1638423900\n1638424800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '6bab3eb69f53dc4790b275688469a5d811073eff\ne5cc121aefeff3f5eec625e49ce63677b0f486cb\t20211202\n1638403080\n1638403200\n1638489600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20211202\r\nDTEND;VALUE=DATE:20211203\r\nDTSTAMP:20211201T080130Z\r\nUID:6k5kkcna4a0bl5nc8vnbreqdr0@google.com\r\nCREATED:20211124T111001Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211201T080130Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Scadenza Application Tutorati\r\nTRANSP:TRANSPARENT\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63774028890\r\nBEGIN:VALARM\r\nACTION:EMAIL\r\nDESCRIPTION:This is an event reminder\r\nSUMMARY:Alarm notification\r\nATTENDEE:mailto:albr.riccardo@gmail.com\r\nTRIGGER:-P1D\r\nX-EVOLUTION-ALARM-UID:dcd1f938266a7186dce5fefb71d6f8b4e3e21200\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:e5cc121aefeff3f5eec625e49ce63677b0f486cb\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n251ffbd3aa169b4fb87cd7279132d888249c8a7f\t20211201T210000\n1638388680\n1638388800\n1638399600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211201T210000\r\nDTEND;TZID=Europe/Rome:20211202T000000\r\nDTSTAMP:20211127T105437Z\r\nUID:3au81n174gu7s40smnsejfs3r5@google.com\r\nCREATED:20211127T105437Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211127T105437Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Jojo da Barbara\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773693677\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:251ffbd3aa169b4fb87cd7279132d888249c8a7f\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n05080d6a614a4d066cf98126bcc24aa48a3da3c7\t20211201T210000\n1638387000\n1638388800\n1638399600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211201T210000\r\nDTEND;TZID=Europe/Rome:20211202T000000\r\nDTSTAMP:20211010T125749Z\r\nUID:\r\n clgjcob270s30bb36oq3cb9kcor64b9o64oj4b9jccp64d1h6kpj0opm6o@google.com\r\nCREATED:20211010T125748Z\r\nDESCRIPTION:Event: https:\r\n //facebook.com/events/s/viagra-boys-milano-011221/1021630021685683/\\n\\nBPM\r\n  Concerti e Magazzini Generali\\nDomenica 28 Novembre\\nViagra Boys live ai \r\n Magazzini Generali di Milano\\nOpening Act: Automatic Band\\n\\nGli eroi \r\n post punk di Stoccolma\\, Viagra Boys hanno annunciato l’uscita del \r\n nuovo album Welfare Jazz e il nuovissimo tour che farà tappa anche in \r\n Italia per tre date nel 2021. La band sarà il 28 novembre al Freak Out \r\n di Bologna\\, il 30 novembre al Teatro Centrale di Roma e l’1 dicembre \r\n ai Magazzini Generali di Milano. \\n\\nWelfare Jazz\\, in uscita l’8 \r\n gennaio\\, è stato prodotto da Matt Sweeney (Bonnie “Prince” Billy\\, \r\n Run The Jewels)\\, Justin e  Jeremiah Raisen (Yves Tumor\\, Kim Gordon\\, \r\n Sky Ferreira) e dai precedenti collaboratori Pelle Gunnerfeldt e Daniel \r\n Fagerström (The Hives\\, The Knife). Sebbene tutto sia intriso di \r\n satira\\, la band torna con il suo marchio post punk pieno del suo \r\n scottante rifiuto della normalità\\, di una società maschilista\\, \r\n misogina e razzista. Anche il titolo dell’album ha una sfumatura \r\n satirica\\, è la traslitterazione dallo svedese del termine usato per \r\n indicare il sostegno finanziario che il governo svedese elargisce ai \r\n musicisti jazz\\, facendone sempre una questione di classe e dando \r\n priorità alle istituzioni. \\nNel nuovo video Ain’t Nice\\, Murphy\\, il \r\n cantante\\, semina il caos: ruba scooter\\, giacche\\, interrompe picnic\\, \r\n non lascia indifferente nessuno spettatore innocente. Poi viaggia nel \r\n tempo fino al XVIII secolo\\, circondato dalla sua servitù. Il video \r\n deride timidamente il dramma del rapporto maschilista del post punk \r\n classico\\, attraverso un ringhio a gola piena\\, linee di basso durissime \r\n e sintetizzatori spigolosi\\n\r\nLAST-MODIFIED:20211010T125749Z\r\nLOCATION:MAGAZZINI GENERALI\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Viagra Boys - Milano - 01.12.21\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63769553869\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:05080d6a614a4d066cf98126bcc24aa48a3da3c7\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211201T130000\n1638359880\n1638360000\n1638363600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211201T064500\n1638337380\n1638337500\n1638338400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211130T130000\n1638273480\n1638273600\n1638277200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211130T064500\n1638250980\n1638251100\n1638252000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211129T130000\n1638187080\n1638187200\n1638190800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211129T064500\n1638164580\n1638164700\n1638165600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\neeff92f4f06777a1271c607029ac0e9f68476483\t20211128T152800Z\n1638113160\n1638113280\n1638133200\nBEGIN:VEVENT\r\nDTSTART:20211128T152800Z\r\nDTEND:20211128T210000Z\r\nDTSTAMP:20211127T090929Z\r\nUID:e413434553776248@facebook.com\r\nURL:https://www.facebook.com/events/413434553776248/\r\nCLASS:PUBLIC\r\nCREATED:20211123T142907Z\r\nDESCRIPTION:Domenica 28 Novembre il sole tramonterà alle 4:43 PM\\, lo \r\n celebreremo insieme immersi in un ambiente insolito e speciale\\, uno \r\n skate park coperto\\, in un crescendo sonoro che ci traghetterà dalla \r\n luce al buio più profondo.\\n\\n\\nLINEUP:\\n\\nStefano \r\n Trezzi\\nsoundcloud.com/user-746849781-448050630\\n\\nPlasman \r\n 51\\nsoundcloud.com/plasman-51beats\\n\\nFabio Tallo \r\n \\nsoundcloud.com/fabio-tallo\\n\\nGiuseppe \r\n Chito\\nsoundcloud.com/jooze-giuseppechito\\n\\n\\nOfferta consigliata 5 \r\n euro\\n// CAPIENZA LIMITATA A 60 PERSONE//\\n\\n-------\\n\\nPer goderci \r\n l’esperienza al meglio e in sicurezza\\, nel rispetto delle norme \r\n anti-covid\\, l’ingresso sarà contingentato e subordinato al possesso \r\n di green pass\\, fino ad esaurimento posti.\\n\\nhttps:\r\n //www.facebook.com/events/413434553776248/\r\nLAST-MODIFIED:20211127T090929Z\r\nLOCATION:Via Giuseppe Giacosa\\, 35\\, 20127 Milano MI\\, Italia\r\nSEQUENCE:7807\r\nSTATUS:CONFIRMED\r\nSUMMARY:Tramonto Volume 4.43 PM\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773687369\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:eeff92f4f06777a1271c607029ac0e9f68476483\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211128T064500\n1638078180\n1638078300\n1638079200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211127T064500\n1637991780\n1637991900\n1637992800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211126T130000\n1637927880\n1637928000\n1637931600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211126T064500\n1637905380\n1637905500\n1637906400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', "82130c00d66c783554786fe564e8efe5ac1273c5\n20385141e427c829bcaf793e48611d2293392bc6\t20211126T030000\n1637890200\n1637892000\n1638129600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211126T030000\r\nDTEND;TZID=Europe/Rome:20211128T210000\r\nDTSTAMP:20211010T125506Z\r\nUID:\r\n 6gqj2p1i6os64b9i69i6ab9kckpm8bb26hh6cbb565j32p9j74r38p9l74@google.com\r\nCREATED:20211010T125506Z\r\nDESCRIPTION:Event: https:\r\n //facebook.com/events/s/sprint-independent-publishers-/193374532870897/\\n\\\r\n nSPRINT21 — 9° edition is coming!\\n\\n\\n26 NOV  |  Opening \r\n Exhibitions\\n3 pm – 21 pm\\n\\n\\n27–28 NOV  |  Art Book Fair & Public \r\n Program\\n11 am – 21 pm\\n\\n\\n⤷ Spazio Maiocchi – Artifact\\nVia \r\n Maiocchi 5/7\\, MI | Free Access with Green Pass\\n\\n\\nS👀N  S👀N  \r\n S👀N  S👀N  S👀N  S👀N  S👀N  S👀N\\nSOON \\nPUBLISHERS LIST \r\n #SMABF21\\nOPEN CALL & PROGRAM DETAILS \\nSOON \\nS👀N  S👀N  S👀N  \r\n S👀N  S👀N  S👀N  S👀N  S👀N\\n\\n\\nIn Partnership with Spazio \r\n Maiocchi  – Istituto Svizzero\\n\\n\\n_\\\\|/_ \\nSPRINT—Independent \r\n Publishers and Artists’ Books Salon is a non-profit artist-led platform \r\n devoted to investigate – in a sustainable environment and inclusive \r\n gaze – the multiple ways in which contents\\, supports and languages \r\n emerge in publishing. We welcome small projects with attitude and complex \r\n productions that approach experimentation\\, researching and archives. The \r\n three-days festival program includes an Art Book Fair\\, Talks\\, \r\n Exhibitions\\, Performances\\, Screening\\, and a Risograph Printing \r\n Workshop that takes place in the previously. The fair tables are \r\n cost-free for all selected exhibitors as a sign of tangible support to \r\n the community\\, as access for the public. The first edition took place in \r\n Milano in 2013. We promote also the itinerant Warm-Up format to develop \r\n projects focused on unique titles and specific publishing adventures ⤷ \r\n sprintmilano.org\\n\\n\\n— An idea by O' non profit association ⤷ \r\n on-o.org\\n— Curated and designed by Dafne Boggeri ⤷ \r\n www.lianelineaalien.xyz\\n— Assistant Claudia Agusto\\n— Risograph \r\n Workshop Coordination Elena Radice\\n— Talk Coordination Giorgia \r\n Donnan\\n— Volunteer Coordination Petra Rocca\\n\\n\\n— Official Type: \r\n Apfel font designed by Luigi Gorlero for @collletttivo\\, an expanding \r\n group of designers working on type-based projects and occasionally \r\n releasing Open Source typefaces through the platform. Apfel is available \r\n in Regular\\, Brukt and Fett cuts. Apfel Brukt is a Collletttivo bespoke \r\n project made for SPRINT19\\, a low-carbon-footprint version of Apfel \r\n Regular\\, which allows to save your printer up to 18% of ink ⤷ \r\n collletttivo.it\\n\\n\\n— Past Edition ⤷ \r\n sprintmilano.org/editions\\n\\n\\nHELP \r\n _\\\\||||||||||||||||/////\\\\\\\\\\\\\\\\\\\\/_______________________ TO GROW\r\nLAST-MODIFIED:20211010T125506Z\r\nLOCATION:Spazio Maiocchi\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:SPRINT-Independent Publishers and Artists' Books Salon Milano | \r\n 9° edition\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63769553706\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:20385141e427c829bcaf793e48611d2293392bc6\r\nEND:VALARM\r\nEND:VEVENT\r\n", '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211125T130000\n1637841480\n1637841600\n1637845200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211125T064500\n1637818980\n1637819100\n1637820000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211124T130000\n1637755080\n1637755200\n1637758800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211124T064500\n1637732580\n1637732700\n1637733600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211123T130000\n1637668680\n1637668800\n1637672400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211123T064500\n1637646180\n1637646300\n1637647200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n1db3d38b300bbd75896dd4cd4f6b73f07e4e64e0\t20211122T210000\n1637611080\n1637611200\n1637618400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T210000\r\nDTEND;TZID=Europe/Rome:20211122T230000\r\nDTSTAMP:20211122T150707Z\r\nUID:7or0mgcursqijogcof2d0jov8o@google.com\r\nCREATED:20211122T150707Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211122T150707Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Film - Cowboy Bebop\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773276827\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:1db3d38b300bbd75896dd4cd4f6b73f07e4e64e0\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n9e45cd964ff45be30906e1d8fe2c7c796acc7478\t20211122T130000\n1637582280\n1637582400\n1637586000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211122T130000\r\nDTEND;TZID=Europe/Rome:20211122T140000\r\nRRULE:FREQ=WEEKLY;UNTIL=20211224T225959Z;BYDAY=MO,TU,WE,TH,FR\r\nDTSTAMP:20211121T235152Z\r\nUID:1a6urfg2os4ukque5fpl8e9uhk@google.com\r\nCREATED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211121T235152Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63773221912\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:9e45cd964ff45be30906e1d8fe2c7c796acc7478\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211122T064500\n1637559780\n1637559900\n1637560800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n0844d585d46121cd4f2f44bcc60f37e8b9b297a9\t20211121T103000\n1637486880\n1637487000\n1637493300\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211121T103000\r\nDTEND;TZID=Europe/Rome:20211121T121500\r\nDTSTAMP:20211115T003023Z\r\nUID:0nngp54evvtipf8383v9h46ss0@google.com\r\nCREATED:20211115T003023Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T003023Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Aperitivo dalla Nonna\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619423\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:0844d585d46121cd4f2f44bcc60f37e8b9b297a9\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nd31c581bf138e0f24ef2381be568a71da479cdf3\t20211121T083000\n1637479680\n1637479800\n1637487000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211121T083000\r\nDTEND;TZID=Europe/Rome:20211121T103000\r\nDTSTAMP:20211115T003904Z\r\nUID:04frgl95ohr4im1tmgfcjuatc1@google.com\r\nCREATED:20211115T003904Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T003904Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Giro a Santagiuliana\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619944\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:d31c581bf138e0f24ef2381be568a71da479cdf3\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211121T064500\n1637473380\n1637473500\n1637474400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nbf229cf6a04d8046286bd4c3e0fe9c82ee3d8e6a\t20211120T073000\n1637389680\n1637389800\n1637402400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211120T073000\r\nDTEND;TZID=Europe/Rome:20211120T110000\r\nDTSTAMP:20211115T003637Z\r\nUID:41fs6h870mqk2m9bp9s9ipohua@google.com\r\nCREATED:20211115T003052Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T003637Z\r\nLOCATION:Refuge Gingerino Monte Falcone\\, via montefalcone\\, 36076 \r\n Recoaro Terme VI\\, Italy\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Camminata\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619797\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:bf229cf6a04d8046286bd4c3e0fe9c82ee3d8e6a\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nf6b0c4c87a1b4e8e7e930079b87b7f179d112e30\t20211120T064500\n1637386980\n1637387100\n1637388000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211119T085714Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211119T085714Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772995434\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:f6b0c4c87a1b4e8e7e930079b87b7f179d112e30\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\na7074946583f069aa0e5defa84a7ff7bcb52827a\t20211119T153500Z\n1637335980\n1637336100\n1637342100\nBEGIN:VEVENT\r\nDTSTART:20211119T153500Z\r\nDTEND:20211119T171500Z\r\nDTSTAMP:20211117T232526Z\r\nUID:BEZ7NNMC_VIC\r\nCREATED:20211117T232453Z\r\nDESCRIPTION:Codice Biglietto: BEZ7NN\\;\\n\\nTreno: 8991\\;\\nDa/A: Milano \r\n Centrale - Vicenza\\;\\nRICCARDO ALBIERO\\, Carrozza: 6\\, Posto: 25\\n\r\nLAST-MODIFIED:20211117T232526Z\r\nLOCATION:Milano Centrale\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Biglietto Italo BEZ7NN - Treno 8991 - da Milano Centrale a \r\n Vicenza\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772874726\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:a7074946583f069aa0e5defa84a7ff7bcb52827a\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\nc1dc9f54f3d00d458813c548c824d0acafb7ba05\t20211119T153000\n1637332080\n1637332200\n1637335800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211119T153000\r\nDTEND;TZID=Europe/Rome:20211119T163000\r\nDTSTAMP:20211117T232629Z\r\nUID:582pee8gv7u16sv5hastvatfdl@google.com\r\nCREATED:20211117T232629Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211117T232629Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Viaggio stazione centrale\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772874789\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:c1dc9f54f3d00d458813c548c824d0acafb7ba05\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\ne6cbf93629bcfdee6b9a3f2afd7b2150c03bb85e\t20211119T130000\n1637323080\n1637323200\n1637326800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211119T130000\r\nDTEND;TZID=Europe/Rome:20211119T140000\r\nDTSTAMP:20211115T002852Z\r\nUID:43t0qi78gkvmoq59jpm5mvp6g9@google.com\r\nCREATED:20211115T002852Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T002852Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619332\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:e6cbf93629bcfdee6b9a3f2afd7b2150c03bb85e\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n0243d2f32a4636d0ac2a6a74080821a97dc7c464\t20211119T064500\n1637300580\n1637300700\n1637301600\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211115T003629Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T003629Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619789\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:0243d2f32a4636d0ac2a6a74080821a97dc7c464\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n8a56752ab5497d1ae0c1c7140634894db39df4f4\t20211117T210000\n1637179080\n1637179200\n1637190000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211117T210000\r\nDTEND;TZID=Europe/Rome:20211118T000000\r\nDTSTAMP:20211114T115234Z\r\nUID:3rjs43ub9qc2v41dlj1odg5feb@google.com\r\nCREATED:20211114T115234Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211114T115234Z\r\nLOCATION:Via Pannonia\\, 14\\, 20133 Milano MI\\, Italy\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Prove @Agostino\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772573954\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:8a56752ab5497d1ae0c1c7140634894db39df4f4\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n927d2dda78b69c0f99fbe4981cfa334230c7a85a\t20211117T130000\n1637150280\n1637150400\n1637154000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211117T130000\r\nDTEND;TZID=Europe/Rome:20211117T140000\r\nDTSTAMP:20211115T002837Z\r\nUID:5sgn7av8lhcbvtcu93mri62hdc@google.com\r\nCREATED:20211115T002825Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T002837Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619317\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:927d2dda78b69c0f99fbe4981cfa334230c7a85a\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n0243d2f32a4636d0ac2a6a74080821a97dc7c464\t20211117T064500\n1637127780\n1637127900\n1637128800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211115T003629Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T003629Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619789\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:0243d2f32a4636d0ac2a6a74080821a97dc7c464\r\nEND:VALARM\r\nEND:VEVENT\r\n', "82130c00d66c783554786fe564e8efe5ac1273c5\n683c6ebcbab79da6d89cf9c5566c8e1a72923d97\t20211116T210000\n1637091000\n1637092800\n1637103540\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211116T210000\r\nDTEND;TZID=Europe/Rome:20211116T235900\r\nDTSTAMP:20211024T111725Z\r\nUID:\r\n 6gom6opjccq3ebb5c8s66b9k70r3cbb264sm2bb56kr30e9l6ksjgoj26o@google.com\r\nCREATED:20211024T111725Z\r\nDESCRIPTION:Event: https:\r\n //facebook.com/events/s/grandbrothers-in-concerto-a-mi/840610060219031/\\n\\\r\n nCostello's\\nin coll.ne con Circolo Arci BIKO Milano e RADAR \r\n concerti\\npresenta\\n\\nGrandbrothers in concerto\\n\\n16 NOVEMBRE \r\n 2021\\n\\nCircolo Arci BIKO - Milano\\nVia via Ettore Ponti\\, 40 \r\n (Milano)\\nApertura porte ore 21:00\\n\\nPrevendite + tess. ARCI \r\n (obbligatoria) >> https://link.dice.fm/EfLtgO0pJgb\\n\\nTo enter the event \r\n is needed the ARCI membership card. More info at info@bikoclub.net | What \r\n is ARCI? www.arci.it\\n\\n📝 The new ARCI membership card is valid from \r\n October\\, 1st 2021 until September\\, 30th 2022\\n⌨ We ask you to carry \r\n out the pre-registration here >> https:\r\n //portale.arci.it/preadesione/biko/\\n\\n◆ LIVE \r\n ◆\\nGRANDBROTHERS\\n\\nUn’imperdibile data italiana per presentare \r\n l’ultimo album ALL THE UNKNOWN.\\n\\nDopo anni di sold out nei locali e \r\n nelle sale filarmoniche di tutta Europa\\, il duo di Düsseldorf torna in \r\n Italia per un’unica data che si terrà al Biko di Milano il 16 \r\n novembre\\, per presentare il suo nuovo album ALL THE UNKNOWN\\, uscito il \r\n 15 gennaio 2021 per City Slang. \\n\\nIl sound dei Grandbrothers è una \r\n sintesi tra le sue due metà: da una parte la musica classica e jazz del \r\n pianista Erol Sarp\\, dall'altra l’elettronica sperimentale e il sound \r\n design dell'ingegnere elettronico Lukas Vogel. Dall'esordio nel 2015 con \r\n il debut album DILATION\\, seguito nel 2017 dal disco OPEN\\, il gruppo ha \r\n portato in tutta Europa la sua musica incontaminata ed elegante\\, che \r\n fonde senza sforzo pianoforte ed elettronica. Il terzo album ALL THE \r\n UNKNOWN rappresenta un ulteriore perfezionamento del loro sound già \r\n distintivo. Il disco nasce dalla giustapposizione tra il vecchio e il \r\n nuovo\\, con accenni di hip hop old school\\, interventi melodici di \r\n pianoforte e techno da club. Il rilustato è un viaggio strumentale a \r\n tratti ipnotico e rilassante\\, esaltato dalla title track\\, definita da \r\n Clash Music \"an intriguing\\, immersive piece replete with evocative seams \r\n of minimalism.\"\\n\\nIl 16 novembre al Biko di Milano è la data \r\n imperdibile per vedere dal vivo i Grandbrothers\\, che porteranno sul \r\n palco una musica capace di sollevare gli animi e calmare le menti con \r\n elaborazioni musicali di livello assoluto. \r\n \\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\\n\\n📍 Circolo \r\n Arci BIKO: via Ettore Ponti 40\\, Milano\\n☎ Info call dalle ore 14 alle \r\n ore 19 > 331 80 50 663\\n📧 \r\n costebooking@gmail.com\\n\\n┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅\r\n ┅┅\\n\\nBIKO Milano\\nhttp://www.bikoclub.net\\n\\nCOSTELLO'S\\nhttp:\r\n //costellos.it\\n\\nRADAR CONCERTI\\nhttp://www.radarconcerti.com\r\nLAST-MODIFIED:20211024T111725Z\r\nLOCATION:BIKO Milano\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Grandbrothers in concerto a Milano\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63770757445\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:683c6ebcbab79da6d89cf9c5566c8e1a72923d97\r\nEND:VALARM\r\nEND:VEVENT\r\n", '8199fa9154742682dce5c4d36482227b3b3dd863\ndc0ddf4eaa4079ed881bb292821f512adb867bb7\t20211116T160000\n1637074680\n1637074800\n1637080200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211116T160000\r\nDTEND;TZID=Europe/Rome:20211116T173000\r\nDTSTAMP:20211115T222626Z\r\nUID:7m0fu18lvdnq6atdogpu27ur8q@google.com\r\nCREATED:20211112T181539Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T222626Z\r\nLOCATION:Department of Physics\\, Politecnico di Milano\\, Edificio 8\\, \r\n Piazza Leonardo da Vinci\\, 32\\, 20133 Milano MI\\, Italy\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Riunione con Roberto\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772698386\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:dc0ddf4eaa4079ed881bb292821f512adb867bb7\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n867fced88c006acd22c06658701cd471465072b2\t20211116T123000\n1637062080\n1637062200\n1637068500\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211116T123000\r\nDTEND;TZID=Europe/Rome:20211116T141500\r\nDTSTAMP:20211109T124843Z\r\nUID:7jkh6rheo1aostob7n40unssr1@google.com\r\nCREATED:20211109T124843Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211109T124843Z\r\nLOCATION:Via Plinio\\, 72\\, 20129 Milano MI\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:PHOTONIC Sushi\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772145323\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:867fced88c006acd22c06658701cd471465072b2\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n0243d2f32a4636d0ac2a6a74080821a97dc7c464\t20211116T064500\n1637041380\n1637041500\n1637042400\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211115T003629Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T003629Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619789\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:0243d2f32a4636d0ac2a6a74080821a97dc7c464\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\neb854ea8e7f3a0be00350e9291156c1d7a18b554\t20211115T130000\n1636977480\n1636977600\n1636981200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T130000\r\nDTEND;TZID=Europe/Rome:20211115T140000\r\nDTSTAMP:20211115T002832Z\r\nUID:30ask6m2ih094beh56vu4ocvr0@google.com\r\nCREATED:20211115T002832Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T002832Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pranzo\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619312\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:eb854ea8e7f3a0be00350e9291156c1d7a18b554\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n0243d2f32a4636d0ac2a6a74080821a97dc7c464\t20211115T064500\n1636954980\n1636955100\n1636956000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211115T064500\r\nDTEND;TZID=Europe/Rome:20211115T070000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20211115T003629Z\r\nUID:3t3k6r78tua4j3eqmfnb7vr5g5@google.com\r\nCREATED:20211115T003616Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211115T003629Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Sveglia\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772619789\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:0243d2f32a4636d0ac2a6a74080821a97dc7c464\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n171391909dda8e5981ea454470ef5ed88ba0c938\t20211113T200000\n1636828200\n1636830000\n1636840800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211113T200000\r\nDTEND;TZID=Europe/Rome:20211113T230000\r\nDTSTAMP:20211029T143617Z\r\nUID:\r\n cdim8p3260om4bb565j30b9kc5i34b9o64s6abb574r36cppcdijcdhi6c@google.com\r\nCREATED:20211029T143617Z\r\nDESCRIPTION:Event: https:\r\n //facebook.com/events/s/scemo-soviet-order-zero-lacerh/294139192329053/\\n\\\r\n nLive @ Casabrankaleone\\n\\nDalle 20:\\n\\nScemo\\nSoviet order \r\n Zero\\nLacerhate\\nEgocide\\nProdotti Locali\\n\\nNo Sbirri No Fash No Machi \r\n No Macao\\n\\nCibo Vegan & Birrette\r\nLAST-MODIFIED:20211029T143617Z\r\nLOCATION:Via Ernesto Breda\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Scemo\\, Soviet Order Zero\\, Lacerhate\\, Egocide\\, Prodotti locali \r\n Live at CASA BRANKALEONE\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63771201377\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:171391909dda8e5981ea454470ef5ed88ba0c938\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n6dbfe0c21870ffc509a3551b5f92814a437d1be0\t20211113T163000\n1636815600\n1636817400\n1636822800\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211113T163000\r\nDTEND;TZID=Europe/Rome:20211113T180000\r\nDTSTAMP:20211108T232316Z\r\nUID:7hdm9vdavnpd49jp9n5lhe6vkf@google.com\r\nCREATED:20211108T232237Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20211108T232316Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Mostra Cattelan\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772096996\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:6dbfe0c21870ffc509a3551b5f92814a437d1be0\r\nEND:VALARM\r\nEND:VEVENT\r\n', '6bab3eb69f53dc4790b275688469a5d811073eff\n7ae504ba2a86d4f74951ad81a2c7f93e4be961ce\t20211113\n1636761480\n1636761600\n1636848000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20211113\r\nDTEND;VALUE=DATE:20211114\r\nDTSTAMP:20211112T182745Z\r\nUID:51lsj1v3f6h3af6bnhk1nnunr3@google.com\r\nCREATED:20211110T074107Z\r\nDESCRIPTION:Aggiungi Research Skill da corsi SdD\r\nLAST-MODIFIED:20211112T182745Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:4\r\nSTATUS:CONFIRMED\r\nSUMMARY:Submit Piano degli Studi\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772424865\r\nBEGIN:VALARM\r\nACTION:EMAIL\r\nDESCRIPTION:This is an event reminder\r\nSUMMARY:Alarm notification\r\nATTENDEE:mailto:albr.riccardo@gmail.com\r\nTRIGGER:-P1D\r\nX-EVOLUTION-ALARM-UID:f5774b8075c00c2fc385ede6a2e2836f4d9cee70\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:7ae504ba2a86d4f74951ad81a2c7f93e4be961ce\r\nEND:VALARM\r\nEND:VEVENT\r\n', '82130c00d66c783554786fe564e8efe5ac1273c5\n4a0da0d324a545244cdf19f8ea7a8641702dc5be\t20211113T133000\n1636804800\n1636806600\n1636811100\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211113T133000\r\nDTEND;TZID=Europe/Rome:20211113T144500\r\nDTSTAMP:20211108T233942Z\r\nUID:6f1e7mfobfc89lacdssiluobmt@google.com\r\nCREATED:20211108T233656Z\r\nDESCRIPTION:PARASYTE\r\nLAST-MODIFIED:20211108T233942Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anime\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63772097982\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:4a0da0d324a545244cdf19f8ea7a8641702dc5be\r\nEND:VALARM\r\nEND:VEVENT\r\n', '6bab3eb69f53dc4790b275688469a5d811073eff\n4dab3061200b195237d5fdfc077b3e7e9d65aad9\t20211112T090000\n1636703880\n1636704000\n1636704000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Rome:20211112T090000\r\nDTSTAMP:20211111T080357Z\r\nUID:51lsj1v3f6h3af6bnhk1nnunr3@google.com\r\nCREATED:20211110T074107Z\r\nDESCRIPTION:Aggiungi Research Skill da corsi SdD\r\nLAST-MODIFIED:20211111T080357Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Submit Piano degli Studi\r\nTRANSP:OPAQUE\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nX-EVOLUTION-CALDAV-ETAG:63772301037\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT2M\r\nX-EVOLUTION-ALARM-UID:4dab3061200b195237d5fdfc077b3e7e9d65aad9\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:EMAIL\r\nDESCRIPTION:This is an event reminder\r\nSUMMARY:Alarm notification\r\nATTENDEE:mailto:albr.riccardo@gmail.com\r\nTRIGGER:-P1D\r\nX-EVOLUTION-ALARM-UID:64e3540c937354e633c49ddf01a7b9fcb42d0d36\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[evolution]
+default-calendar='82130c00d66c783554786fe564e8efe5ac1273c5'
+default-task-list='dfbf59fe6986bd978047b74c9656d72d2ee3adee'
+version='3.40.2'
+
+[evolution/calendar]
+allow-direct-summary-edit=false
+confirm-purge=true
+prefer-new-item=''
+primary-memos='system-memo-list'
+primary-tasks='system-task-list'
+recur-events-italic=false
+tag-vpane-position=0.0011614401858304202
+time-divisions=30
+use-24hour-format=true
+week-start-day-name='monday'
+work-day-friday=true
+work-day-monday=true
+work-day-saturday=false
+work-day-sunday=false
+work-day-thursday=true
+work-day-tuesday=true
+work-day-wednesday=true
+
+[evolution/mail]
+browser-close-on-reply-policy='ask'
+forward-style-name='attached'
+hpaned-size=1500000
+image-loading-policy='never'
+junk-check-incoming=true
+layout=1
+paned-size=1484320
+reply-style-name='quoted'
+search-gravatar-for-photo=false
+show-to-do-bar=false
+to-do-bar-width=1159286
+
+[evolution/plugin/prefer-plain]
+mode='normal'
+show-suppressed=true
+
+[evolution/shell]
+attachment-view=0
+buttons-style='icons'
+buttons-visible=true
+default-component-id='tasks'
+folder-bar-width=245
+menubar-visible=true
+sidebar-visible=true
+statusbar-visible=true
+toolbar-visible=true
+
+[evolution/shell/window]
+height=480
+maximized=true
+width=640
+x=48
+y=32
+
+[file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[file-roller/listing]
+list-mode='as-folder'
+name-column-width=411
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[file-roller/ui]
+sidebar-width=200
+window-height=545
+window-width=960
+
+[gedit/plugins]
+active-plugins=['sort', 'externaltools', 'spell', 'filebrowser', 'pythonconsole', 'docinfo', 'modelines']
+
+[gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/ricalbr/Desktop'
+
+[gedit/preferences/editor]
+background-pattern='none'
+display-right-margin=false
+scheme='solarized-light'
+wrap-last-split-mode='word'
+
+[gedit/preferences/ui]
+bottom-panel-visible=false
+show-tabs-mode='auto'
+side-panel-visible=true
+
+[gedit/state/window]
+bottom-panel-active-page='GeditExternalToolsShellOutput'
+bottom-panel-size=139
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(948, 467)
+state=87168
+
+[gnumeric/plugins]
+active=['GOffice_plot_pie', 'GOffice_plot_radar', 'GOffice_reg_logfit', 'GOffice_lasem', 'GOffice_plot_barcol', 'GOffice_reg_linear', 'GOffice_smoothing', 'GOffice_plot_xy', 'GOffice_plot_surface', 'GOffice_plot_distrib', 'GOffice_gnumeric', 'Gnumeric_sylk', 'Gnumeric_fndate', 'Gnumeric_fnlookup', 'Gnumeric_mps', 'Gnumeric_Excel', 'Gnumeric_nlsolve', 'Gnumeric_fnlogical', 'Gnumeric_numtheory', 'Gnumeric_derivatives', 'Gnumeric_sc', 'Gnumeric_lotus', 'Gnumeric_fninfo', 'Gnumeric_fndatabase', 'Gnumeric_OpenCalc', 'Gnumeric_lpsolve', 'Gnumeric_psiconv', 'Gnumeric_fnchristiandate', 'Gnumeric_fnmath', 'Gnumeric_dif', 'Gnumeric_QPro', 'Gnumeric_plan_perfect', 'Gnumeric_fnhebdate', 'Gnumeric_fneng', 'Gnumeric_fnfinancial', 'Gnumeric_fnrandom', 'Gnumeric_applix', 'Gnumeric_xbase', 'Gnumeric_oleo', 'Gnumeric_fnerlang', 'Gnumeric_fncomplex', 'Gnumeric_html', 'Gnumeric_fnstring', 'Gnumeric_excelplugins', 'Gnumeric_r', 'Gnumeric_glpk', 'Gnumeric_fnstat']
+file-states=['GOffice_gnumeric|2056:1972164:6705:1605202492|/usr/lib/goffice/0.10/plugins/gnumeric', 'GOffice_lasem|2056:1055313:6259:1599299267|/usr/lib/goffice/0.10.48/plugins/lasem', 'GOffice_plot_barcol|2056:1195342:27864:1599299267|/usr/lib/goffice/0.10.48/plugins/plot_barcol', 'GOffice_plot_distrib|2056:1195346:15237:1599299267|/usr/lib/goffice/0.10.48/plugins/plot_distrib', 'GOffice_plot_pie|2056:1195350:15038:1599299267|/usr/lib/goffice/0.10.48/plugins/plot_pie', 'GOffice_plot_radar|2056:1195353:20179:1599299267|/usr/lib/goffice/0.10.48/plugins/plot_radar', 'GOffice_plot_surface|2056:1195357:26794:1599299267|/usr/lib/goffice/0.10.48/plugins/plot_surface', 'GOffice_plot_xy|2056:1195361:24139:1599299267|/usr/lib/goffice/0.10.48/plugins/plot_xy', 'GOffice_reg_linear|2056:1195365:19983:1599299267|/usr/lib/goffice/0.10.48/plugins/reg_linear', 'GOffice_reg_logfit|2056:1195369:8955:1599299267|/usr/lib/goffice/0.10.48/plugins/reg_logfit', 'GOffice_smoothing|2056:1195372:11360:1599299267|/usr/lib/goffice/0.10.48/plugins/smoothing', 'Gnumeric_Excel|2056:1455855:33480:1605202492|/usr/lib/gnumeric/1.12.48/plugins/excel', 'Gnumeric_GnomeGlossary|2056:1723984:12590:1605202492|/usr/lib/gnumeric/1.12.48/plugins/gnome-glossary', 'Gnumeric_OpenCalc|2056:1845347:12258:1605202492|/usr/lib/gnumeric/1.12.48/plugins/openoffice', 'Gnumeric_PerlFunc|2056:1845350:9919:1605202492|/usr/lib/gnumeric/1.12.48/plugins/perl-func', 'Gnumeric_PerlLoader|2056:1845353:7232:1605202492|/usr/lib/gnumeric/1.12.48/plugins/perl-loader', 'Gnumeric_PyFunc|2056:1845361:11434:1605202492|/usr/lib/gnumeric/1.12.48/plugins/py-func', 'Gnumeric_PythonLoader|2056:1845364:10672:1605202492|/usr/lib/gnumeric/1.12.48/plugins/python-loader', 'Gnumeric_QPro|2056:1845368:10107:1605202492|/usr/lib/gnumeric/1.12.48/plugins/qpro', 'Gnumeric_UIHello|2056:1972156:6628:1605202492|/usr/lib/gnumeric/1.12.48/plugins/uihello', 'Gnumeric_applix|2056:1455849:10631:1605202492|/usr/lib/gnumeric/1.12.48/plugins/applix', 'Gnumeric_derivatives|2056:1455874:11767:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-derivatives', 'Gnumeric_dif|2056:1455852:20278:1605202492|/usr/lib/gnumeric/1.12.48/plugins/dif', 'Gnumeric_excelplugins|2056:1455858:7811:1605202492|/usr/lib/gnumeric/1.12.48/plugins/excelplugins', 'Gnumeric_fnTimeSeriesAnalysis|2056:1723977:7477:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-tsa', 'Gnumeric_fnchristiandate|2056:1455862:8678:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-christian-date', 'Gnumeric_fncomplex|2056:1455865:12599:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-complex', 'Gnumeric_fndatabase|2056:1455868:11662:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-database', 'Gnumeric_fndate|2056:1455871:12037:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-date', 'Gnumeric_fneng|2056:1586543:11873:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-eng', 'Gnumeric_fnerlang|2056:1586546:8702:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-erlang', 'Gnumeric_fnfinancial|2056:1586549:10743:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-financial', 'Gnumeric_fnhebdate|2056:1586552:8180:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-hebrew-date', 'Gnumeric_fninfo|2056:1586555:11734:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-info', 'Gnumeric_fnlogical|2056:1586558:9625:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-logical', 'Gnumeric_fnlookup|2056:1586561:10406:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-lookup', 'Gnumeric_fnmath|2056:1586564:12276:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-math', 'Gnumeric_fnrandom|2056:1723968:12353:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-random', 'Gnumeric_fnstat|2056:1723971:13501:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-stat', 'Gnumeric_fnstring|2056:1723974:11252:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-string', 'Gnumeric_glpk|2056:1723980:8347:1605202492|/usr/lib/gnumeric/1.12.48/plugins/glpk', 'Gnumeric_html|2056:1723987:41543:1605202492|/usr/lib/gnumeric/1.12.48/plugins/html', 'Gnumeric_lotus|2056:1723990:10324:1605202492|/usr/lib/gnumeric/1.12.48/plugins/lotus', 'Gnumeric_lpsolve|2056:1723993:8782:1605202492|/usr/lib/gnumeric/1.12.48/plugins/lpsolve', 'Gnumeric_mps|2056:1723996:14758:1605202492|/usr/lib/gnumeric/1.12.48/plugins/mps', 'Gnumeric_nlsolve|2056:1845341:5815:1605202492|/usr/lib/gnumeric/1.12.48/plugins/nlsolve', 'Gnumeric_numtheory|2056:1586567:16494:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-numtheory', 'Gnumeric_oleo|2056:1845344:10349:1605202492|/usr/lib/gnumeric/1.12.48/plugins/oleo', 'Gnumeric_plan_perfect|2056:1845356:11509:1605202492|/usr/lib/gnumeric/1.12.48/plugins/plan_perfect', 'Gnumeric_psiconv|2056:1845358:10178:1605202492|/usr/lib/gnumeric/1.12.48/plugins/psiconv', 'Gnumeric_r|2056:1586569:12059:1605202492|/usr/lib/gnumeric/1.12.48/plugins/fn-r', 'Gnumeric_sample_datasource|2056:1972145:8914:1605202492|/usr/lib/gnumeric/1.12.48/plugins/sample_datasource', 'Gnumeric_sc|2056:1972148:9417:1605202492|/usr/lib/gnumeric/1.12.48/plugins/sc', 'Gnumeric_sylk|2056:1972151:12696:1605202492|/usr/lib/gnumeric/1.12.48/plugins/sylk', 'Gnumeric_xbase|2056:1972158:10388:1605202492|/usr/lib/gnumeric/1.12.48/plugins/xbase']
+
+[maps]
+last-viewed-location=[45.472410530687597, 9.2085170745849609]
+map-type='MapsStreetSource'
+night-mode=false
+transportation-type='pedestrian'
+window-maximized=true
+zoom-level=13
+
+[mutter]
+dynamic-workspaces=true
+edge-tiling=false
+
+[nautilus/compression]
+default-compression-format='zip'
+
+[nautilus/icon-view]
+captions=['none', 'none', 'none']
+
+[nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency', 'starred', 'detailed_type']
+default-visible-columns=['name', 'size', 'date_modified', 'starred']
+default-zoom-level='small'
+use-tree-view=true
+
+[nautilus/preferences]
+default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+show-create-link=true
+show-delete-permanently=false
+
+[nautilus/window-state]
+initial-size=(948, 1032)
+maximized=true
+sidebar-width=167
+
+[nm-applet/eap/1505585f-b441-45b0-8d69-5adb87eaf7df]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/707af935-789c-42aa-b01c-94ce75702ab9]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/c2e56ed0-d83f-4a94-9f23-5c368c3759aa]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/e3225644-14ba-4104-9e49-0fd8a15f5a64]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(43.129901439884812, 12.1097)
+
+[settings-daemon/plugins/media-keys]
+area-screenshot=['Print']
+calculator=['<Super>c']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+email=['<Super>e']
+screenshot=['<Shift>Print']
+volume-down=['F11']
+volume-mute=['F10']
+volume-up=['F12']
+www=['<Super>w']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>t'
+command='alacritty'
+name='Launch Terminal'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>f'
+command='nautilus'
+name='Launch file manager'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>space'
+command='rofi -show drun'
+name='Application switcher (Rofi)'
+
+[shell]
+app-picker-layout=[{'org.gnome.Boxes.desktop': <{'position': <0>}>, 'org.gnome.Calculator.desktop': <{'position': <1>}>, 'org.gnome.Calendar.desktop': <{'position': <2>}>, 'org.gnome.Contacts.desktop': <{'position': <3>}>, 'd9646a99-cde1-44a7-95bf-c820f7648e38': <{'position': <4>}>, 'org.gnome.Extensions.desktop': <{'position': <5>}>, 'org.gnome.Nautilus.desktop': <{'position': <6>}>, 'firefox.desktop': <{'position': <7>}>, 'gnucash.desktop': <{'position': <8>}>, '2d8b2a9a-3a81-4ef4-83c7-947c37938b56': <{'position': <9>}>, 'guitarix.desktop': <{'position': <10>}>, 'org.gnome.Geary.desktop': <{'position': <11>}>, 'onlyoffice-desktopeditors.desktop': <{'position': <12>}>, 'mendeley-reference-manager.desktop': <{'position': <13>}>, 'org.gnome.Maps.desktop': <{'position': <14>}>, 'com.obsproject.Studio.desktop': <{'position': <15>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <16>}>, 'org.gnome.Weather.desktop': <{'position': <17>}>, 'org.gnome.Todo.desktop': <{'position': <18>}>, 'blender.desktop': <{'position': <19>}>, 'sublime_text.desktop': <{'position': <20>}>, 'timeshift-gtk.desktop': <{'position': <21>}>, '6f8756f6-4e83-4f53-b079-72ed2fcc80c8': <{'position': <22>}>, 'b049ab11-da91-4d8b-a122-307878655905': <{'position': <23>}>}, {'ardour6.desktop': <{'position': <0>}>, '3609e3be-b14a-4c6b-9093-40087370632f': <{'position': <1>}>, 'mendeleydesktop.desktop': <{'position': <2>}>, 'com.github.marinm.songrec.desktop': <{'position': <3>}>}]
+command-history=['nm-connection-editor', 'restart', 'rest', 'r']
+disable-user-extensions=false
+disabled-extensions=['tray-icons@zhangkaizhao.com', 'horizontal-workspaces@gnome-shell-extensions.gcampax.github.com', 'transparenttopbar@peclu.net', 'animation-tweaks@Selenium-H', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'transparent-shell@siroj42.github.io', 'x11gestures@joseexposito.github.io', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'pop-shell@system76.com', 'task-widget@juozasmiskinis.gitlab.io']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'caffeine@patapon.info', 'refresh-wifi@kgshank.net', 'transparent-top-bar@zhanghai.me', 'fully-transparent-top-bar@aunetx', 'transparent-gnome-panel@ttomovcik.com', 'dynamic-panel-transparency@rockon999.github.io', 'impatience@gfxmonk.net', 'ding@rastersoft.com', 'trayIconsReloaded@selfmade.pl', 'dash-to-dock@micxgx.gmail.com', 'status-area-horizontal-spacing@mathematical.coffee.gmail.com', 'no-overview@fthx', 'tiling-assistant@leleat-on-github', 'gsconnect@andyholmes.github.io', 'drive-menu@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['teams.desktop', 'discord.desktop', 'brave-jgeocpdicgmkeemopbanhokmhcgcflmi-Default.desktop', 'appimagekit-joplin.desktop', 'brave-browser.desktop', 'spotify.desktop', 'telegramdesktop.desktop', 'brave-faolnafnngnfdaknnbpnkhgohbobgegn-Default.desktop']
+had-bluetooth-devices-setup=true
+welcome-dialog-last-shown-version='40.1'
+
+[shell/extensions/animation-tweaks]
+application-list=@as []
+name-list=@as []
+notificationbanner-pos='center'
+
+[shell/extensions/auto-move-windows]
+application-list=['spotify.desktop:1']
+
+[shell/extensions/caffeine]
+restore-state=true
+user-enabled=true
+
+[shell/extensions/dash-to-dock]
+apply-custom-theme=false
+background-color='rgb(41,41,41)'
+background-opacity=0.0
+click-action='focus-minimize-or-previews'
+custom-background-color=false
+custom-theme-shrink=true
+customize-alphas=true
+dash-max-icon-size=40
+dock-fixed=false
+dock-position='LEFT'
+extend-height=false
+force-straight-corner=false
+height-fraction=1.0
+hot-keys=false
+icon-size-fixed=false
+isolate-locations=true
+isolate-monitors=true
+isolate-workspaces=true
+max-alpha=0.46000000000000002
+min-alpha=0.0
+multi-monitor=true
+preferred-monitor=0
+running-indicator-style='DEFAULT'
+scroll-action='switch-workspace'
+scroll-to-focused-application=false
+show-mounts=true
+show-show-apps-button=false
+show-trash=false
+transparency-mode='DEFAULT'
+
+[shell/extensions/dash-to-panel]
+animate-appicon-hover=true
+animate-appicon-hover-animation-convexity={'RIPPLE': 2.0, 'PLANK': 1.0, 'SIMPLE': 0.0}
+animate-appicon-hover-animation-duration={'SIMPLE': uint32 160, 'RIPPLE': 130, 'PLANK': 100}
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+animate-appicon-hover-animation-travel={'SIMPLE': 0.0, 'RIPPLE': 0.40000000000000002, 'PLANK': 0.0}
+animate-appicon-hover-animation-type='SIMPLE'
+appicon-margin=8
+appicon-padding=4
+available-monitors=[0]
+dot-color-1='#5294e2'
+dot-color-2='#5294e2'
+dot-color-3='#5294e2'
+dot-color-4='#5294e2'
+dot-color-dominant=false
+dot-color-override=false
+dot-color-unfocused-1='#5294e2'
+dot-color-unfocused-2='#5294e2'
+dot-color-unfocused-3='#5294e2'
+dot-color-unfocused-4='#5294e2'
+dot-color-unfocused-different=false
+dot-position='BOTTOM'
+dot-size=3
+dot-style-focused='DOTS'
+dot-style-unfocused='DOTS'
+focus-highlight=true
+focus-highlight-color='#EEEEEE'
+focus-highlight-dominant=false
+focus-highlight-opacity=25
+group-apps=true
+group-apps-use-launchers=false
+hide-overview-on-startup=true
+hotkeys-overlay-combo='TEMPORARILY'
+intellihide=false
+isolate-monitors=true
+isolate-workspaces=true
+leftbox-padding=-1
+leftbox-size=0
+overview-click-to-exit=false
+panel-anchors='{"0":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":false,"position":"stackedBR"},{"element":"dateMenu","visible":false,"position":"stackedBR"},{"element":"systemMenu","visible":false,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{"0":100}'
+panel-positions='{"0":"LEFT"}'
+panel-sizes='{"0":48}'
+show-appmenu=false
+show-apps-icon-file=''
+show-apps-icon-side-padding=8
+status-icon-padding=-1
+stockgs-keep-dash=false
+stockgs-keep-top-panel=true
+stockgs-panelbtn-click-only=false
+trans-bg-color='#323232'
+trans-dynamic-anim-target=1.0
+trans-dynamic-distance=25
+trans-panel-opacity=0.0
+trans-use-custom-bg=true
+trans-use-custom-gradient=false
+trans-use-custom-opacity=true
+trans-use-dynamic-opacity=true
+tray-padding=-1
+tray-size=0
+window-preview-title-position='TOP'
+
+[shell/extensions/ding]
+add-volumes-opposite=true
+show-drop-place=false
+show-home=false
+show-network-volumes=false
+show-trash=false
+show-volumes=true
+start-corner='top-left'
+
+[shell/extensions/dynamic-panel-transparency]
+enable-background-color=false
+enable-opacity=false
+icon-shadow-position=(0, 2, 5)
+maximized-opacity=0
+text-shadow=false
+text-shadow-position=(0, 3, 5)
+transition-speed=175
+transition-windows-touch=true
+transition-with-overview=true
+
+[shell/extensions/gsconnect]
+id='44aa633c-54f0-4f87-9ee5-4b34761a2145'
+name='arch'
+
+[shell/extensions/gsconnect/preferences]
+window-maximized=false
+window-size=(640, 440)
+
+[shell/extensions/just-perfection]
+accessibility-menu=true
+activities-button=false
+aggregate-menu=true
+app-menu=true
+app-menu-icon=true
+clock-menu=true
+dash=true
+dash-icon-size=32
+keyboard-layout=true
+osd=true
+panel=true
+search=true
+show-apps-button=true
+theme=true
+top-panel-position=0
+
+[shell/extensions/net/gfxmonk/impatience]
+speed-factor=0.59999999999999998
+
+[shell/extensions/pop-shell]
+active-hint=false
+hint-color-rgba='rgb(0,0,0)'
+show-title=true
+smart-gaps=true
+snap-to-grid=true
+tile-by-default=false
+
+[shell/extensions/status-area-horizontal-spacing]
+hpadding=0
+
+[shell/extensions/task-widget]
+disabled-task-lists=@as []
+hide-completed-tasks=1
+hide-empty-completed-task-lists=true
+hide-header-for-singular-task-lists=true
+last-active='merge'
+merge-task-lists=true
+selected-task-categories=['past', 'today', 'tomorrow']
+show-only-selected-categories=true
+
+[shell/extensions/tiling-assistant]
+activate-layout0=@as []
+activate-layout1=@as []
+activate-layout2=@as []
+activate-layout3=@as []
+auto-tile=@as []
+change-favorite-layout=@as []
+changelog-version=27
+debugging-free-rects=@as []
+debugging-show-tiled-rects=@as []
+default-move-mode='Edge Tiling'
+dynamic-keybinding-behaviour='Disabled'
+favorite-layouts=['-1']
+import-layout-examples=false
+maximize-with-gap=true
+move-favorite-layout-mod='Alt'
+screen-gap=8
+search-popup-layout=@as []
+tile-bottom-half=['<Super>KP_2']
+tile-bottomleft-quarter=['<Super>KP_1']
+tile-bottomright-quarter=['<Super>KP_3']
+tile-edit-mode=@as []
+tile-left-half=['<Super>KP_4']
+tile-maximize=['<Super>KP_5']
+tile-right-half=['<Super>KP_6']
+tile-top-half=['<Super>KP_8']
+tile-topleft-quarter=['<Super>KP_7']
+tile-topright-quarter=['<Super>KP_9']
+toggle-tiling-popup=@as []
+window-gap=8
+
+[shell/extensions/transparent-shell]
+dash=false
+search=false
+top-panel=true
+
+[shell/extensions/user-theme]
+name=''
+
+[shell/extensions/window-list]
+display-all-workspaces=false
+grouping-mode='never'
+
+[shell/overrides]
+edge-tiling=false
+
+[shell/weather]
+automatic-location=false
+locations=[<(uint32 2, <('Milan', 'LIML', true, [(0.79296125100499293, 0.16202472640904275)], [(0.79354303905785273, 0.16057029118347829)])>)>, <(uint32 2, <('Recoaro Terme', '', false, [(0.79770571739169993, 0.19591206883636195)], @a(dd) [])>)>]
+
+[shell/world-clocks]
+locations=@av []
+
+[solitaire/window-state]
+fullscreen=false
+height=621
+maximized=false
+width=832
+
+[system/location]
+enabled=false
+
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+font='Writer 11'
+palette=['rgb(0,0,0)', 'rgb(205,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(0,0,238)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(127,127,127)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(92,92,255)', 'rgb(255,0,255)', 'rgb(0,255,255)', 'rgb(255,255,255)']
+use-system-font=false
+
+[todo]
+default-provider='google@account_1608591477_0'
+sidebar-revealed=true
+view='grid'
+window-maximized=true
+window-position=[0, 8]
+window-size=(852, 652)
+
+[tweaks]
+show-extensions-notice=false
+
+[video-arcade]
+all-columns=['favorite', 'description', 'year', 'manufacturer', 'lastplayed', 'bios', 'driver_status', 'input_players', 'name', 'sourcefile', 'sampleset']
+auto-save=true
+columns=['favorite', 'description', 'name', 'sampleset']
+full-screen=false
+properties-height=400
+properties-maximized=false
+properties-page=1
+properties-width=500
+search='pokemon'
+selected-game='a2600p'
+selected-match=('', '')
+selected-view=0
+sort-column=('description', false)
+version='0.8.8'
+window-height=421
+window-maximized=false
+window-width=528
+window-x=640
+window-y=490
