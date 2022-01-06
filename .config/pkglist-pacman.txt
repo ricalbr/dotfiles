@@ -149,7 +149,7 @@ libdvdcss
 libgnome-keyring
 libgsf
 libopenraw
-librecad
+libreoffice-fresh
 libtool
 libwnck3
 linux
@@ -212,11 +212,14 @@ pkgconf
 poppler-glib
 pptpclient
 pulseaudio
+pulseaudio-jack
 qbittorrent
+qcad
 qjackctl
 qtile
 r8168
 rclone
+realtime-privileges
 reflector
 reflector-simple
 reiserfsprogs
@@ -225,6 +228,7 @@ rofi
 rofi-calc
 rp-pppoe
 rsync
+rtirq
 rygel
 s-nail
 s-tui
@@ -296,7 +300,6 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
-xournalpp
 xsel
 yarn
 yay
