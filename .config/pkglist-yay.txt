@@ -8,6 +8,7 @@ gnome-getting-started-docs
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-pop-shell-git
 gnome-shell-extension-tray-icons-reloaded-git
+komikku
 lf-git
 masterpdfeditor-free
 matplotlib-cpp-git
@@ -16,6 +17,7 @@ neovim-remote
 onedrive-abraunegg-git
 onlyoffice-bin
 openvpn-protonvpn
+pandoc-bin
 papirus-folders-git
 picom-jonaburg-git
 python-rofi-git
