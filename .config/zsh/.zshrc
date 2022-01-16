@@ -71,8 +71,8 @@ unsetopt CORRECT_ALL            # I don't care for 'suggestions' from ZSH
 export BLOCK_SIZE="'1"          # Add commas to file sizes
 zmodload zsh/zprof              # Enable zsh built-in profile log
 
-# map CAPS -> ESC
-setxkbmap -option caps:escape
+# # map CAPS -> ESC
+# setxkbmap -option caps:escape
 # }}}
 
 # PLUGINS {{{
