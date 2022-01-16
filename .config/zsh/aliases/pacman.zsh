@@ -29,6 +29,7 @@ alias pacrns='sudo pacman -Rns'     # remove package not leaving orphans nor con
 alias pacfiles='pacman -F'          # file informations
 alias pacfileupg='sudo pacman -Fy'  # download fresh package databases from the server
 
+alias fixgpgme='sudo rm -R /var/lib/pacman/sync'
 # functions {{{
 function paclist() {
   # Based on https://bbs.archlinux.org/viewtopic.php?id=93683
