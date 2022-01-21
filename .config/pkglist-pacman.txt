@@ -222,6 +222,7 @@ realtime-privileges
 reflector
 reflector-simple
 reiserfsprogs
+remmina
 ripgrep
 rofi
 rofi-calc
