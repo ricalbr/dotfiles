@@ -117,6 +117,7 @@ alias gupav='git pull --rebase --autostash -v'
 alias glum='git pull upstream $(git_main_branch)'
 alias ggpur='ggu'
 alias ggpull='git pull origin "$(git_current_branch)"'
+alias gstoptrack='git update-index --skip-worktree' # stop tracking changes in file on github
 
 # FUNCTIONS
 
