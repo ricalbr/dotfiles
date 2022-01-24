@@ -197,6 +197,7 @@ nvidia-installer-dkms
 nvidia-settings
 obs-studio
 openconnect
+opera
 orca
 os-prober
 pacman-contrib
