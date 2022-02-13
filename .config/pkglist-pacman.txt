@@ -131,7 +131,6 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 gvim
-hardinfo
 htop
 hwinfo
 inetutils
