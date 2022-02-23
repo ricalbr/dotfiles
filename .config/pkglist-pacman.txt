@@ -35,6 +35,7 @@ diffutils
 discord
 dmenu
 dnsmasq
+doxygen
 dunst
 efibootmgr
 endeavouros-keyring
