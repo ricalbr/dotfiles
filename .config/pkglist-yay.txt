@@ -4,6 +4,7 @@ caffeine-ng
 chrome-gnome-shell
 cht.sh-git
 clamav-unofficial-sigs
+gnome-documents
 gnome-getting-started-docs
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-pop-shell-git
@@ -15,11 +16,13 @@ masterpdfeditor-free
 matplotlib-cpp-git
 mendeley-reference-manager
 neovim-remote
+olive-git
 onedrive-abraunegg-git
 onlyoffice-bin
 openvpn-protonvpn
 pandoc-bin
 papirus-folders-git
+pcurses
 picom-jonaburg-git
 python-rofi-git
 skypeforlinux-stable-bin
