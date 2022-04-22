@@ -79,7 +79,6 @@ gnome-color-manager
 gnome-contacts
 gnome-control-center
 gnome-disk-utility
-gnome-documents
 gnome-font-viewer
 gnome-keyring
 gnome-logs
@@ -206,7 +205,6 @@ papirus-icon-theme
 paprefs
 patch
 pavucontrol
-pcurses
 perl
 pkgconf
 poppler-glib
@@ -214,7 +212,6 @@ pptpclient
 pulseaudio
 pulseaudio-jack
 qbittorrent
-qcad
 qjackctl
 qtile
 r8168
