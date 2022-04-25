@@ -170,7 +170,6 @@ mkinitcpio-openswap
 mlocate
 modemmanager
 mousetweaks
-mplayer
 mpv
 mtools
 mutter
@@ -213,6 +212,7 @@ pulseaudio
 pulseaudio-jack
 qbittorrent
 qjackctl
+qmmp
 qtile
 r8168
 rclone
