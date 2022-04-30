@@ -29,6 +29,7 @@ cmake
 ctags
 cups
 cups-pdf
+dconf-editor
 dhclient
 dialog
 diffutils
@@ -212,7 +213,6 @@ pulseaudio
 pulseaudio-jack
 qbittorrent
 qjackctl
-qmmp
 qtile
 r8168
 rclone
