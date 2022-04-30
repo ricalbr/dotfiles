@@ -1,4 +1,5 @@
 alass-git
+amberol
 brave-bin
 caffeine-ng
 chrome-gnome-shell
