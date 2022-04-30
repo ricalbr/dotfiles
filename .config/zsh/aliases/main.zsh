@@ -72,6 +72,9 @@ source $ZDOTDIR/aliases/bare-git.zsh
 # pacman aliases
 source $ZDOTDIR/aliases/pacman.zsh
 
+# conda aliases
+source $ZDOTDIR/aliases/conda.zsh
+
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
 alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
