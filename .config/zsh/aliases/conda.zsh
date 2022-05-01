@@ -6,4 +6,7 @@ alias cdl='conda envs list'         # list all environments
 alias ccenv='conda create -n'       # conda create new environment
 
 # conda install from conda-forge
-cdinstall() { conda install -c conda-forge "$@" ;}
+cdi() { conda install -c conda-forge "$@" ;}
+
+# remove environment
+crenv() { conda remove --name "$@" --all;}
