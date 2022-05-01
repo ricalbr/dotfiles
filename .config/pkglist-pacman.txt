@@ -163,6 +163,7 @@ m4
 make
 man-db
 man-pages
+mayavi
 mdadm
 mkinitcpio
 mkinitcpio-busybox
@@ -276,6 +277,7 @@ usb_modeswitch
 usbutils
 vi
 vino
+vtk
 welcome
 wget
 which
