@@ -8,5 +8,9 @@ alias ccenv='conda create -n'       # conda create new environment
 # conda install from conda-forge
 cdi() { conda install -c conda-forge "$@" ;}
 
+# conda update
+cdup() { conda update --name "$@" --all;}
+
 # remove environment
 crenv() { conda remove --name "$@" --all;}
+
