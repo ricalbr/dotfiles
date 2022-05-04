@@ -7,6 +7,7 @@ alias ccm!=config_commit_amend
 alias ccma='config commit -v -a'
 alias ccma!='config commit -v -a --amend'
 alias ccmam='config commit -v -a -m'
+alias clogs="config log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat --max-count=15"
 alias cdiff=config_diff
 alias cmv='config mv'
 alias cpull='config pull --recurse-submodules -v'
