@@ -17,7 +17,6 @@ masterpdfeditor-free
 matplotlib-cpp-git
 mendeley-reference-manager
 neovim-remote
-olive-git
 onedrive-abraunegg-git
 onlyoffice-bin
 openvpn-protonvpn
