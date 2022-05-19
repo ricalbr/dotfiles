@@ -6,7 +6,7 @@
     "color_scheme": "Packages/Visual Studio Code Plus Scheme/Dark+.sublime-color-scheme",
 	"default_encoding": "UTF-8",
     "detect_indentation": true,
-    "font_size": 11,
+    "font_size": 10,
     "font_face": "Writer",
     "folder_exclude_patterns":
         [
