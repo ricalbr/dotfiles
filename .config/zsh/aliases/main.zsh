@@ -32,6 +32,7 @@ alias df='df -h'                        # human-readable sizes
 alias free='free -m'                    # show sizes in MB
 alias treed='tree -A -C -d'             # print only directories
 alias treel='tree -A -C -L'             # use level flag
+alias clc='clear'
 
 # navigation
 alias ..='cd ..'
