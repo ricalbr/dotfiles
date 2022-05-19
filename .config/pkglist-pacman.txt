@@ -212,6 +212,7 @@ poppler-glib
 pptpclient
 pulseaudio
 pulseaudio-jack
+python-sphinx
 qbittorrent
 qjackctl
 qtile
