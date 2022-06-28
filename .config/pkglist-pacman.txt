@@ -212,6 +212,7 @@ poppler-glib
 pptpclient
 pulseaudio
 pulseaudio-jack
+pycharm-community-edition
 python-sphinx
 qbittorrent
 qjackctl
@@ -233,6 +234,7 @@ rygel
 s-nail
 s-tui
 samba
+screen
 scribus
 scrot
 seahorse
