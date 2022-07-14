@@ -206,6 +206,7 @@ papirus-icon-theme
 paprefs
 patch
 pavucontrol
+pd
 perl
 pkgconf
 poppler-glib
