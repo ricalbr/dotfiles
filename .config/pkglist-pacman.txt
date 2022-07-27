@@ -36,8 +36,6 @@ diffutils
 discord
 dmenu
 dnsmasq
-docbook-xml
-docbook-xsl
 doxygen
 dunst
 efibootmgr
@@ -71,7 +69,6 @@ gedit
 gimp
 git-delta
 glances
-glib2-docs
 gnome-backgrounds
 gnome-books
 gnome-boxes
@@ -123,7 +120,6 @@ gsimplecal
 gst-libav
 gst-plugins-bad
 gst-plugins-ugly
-gtk-doc
 gtop
 guitarix
 gutenprint
@@ -218,7 +214,6 @@ pptpclient
 pulseaudio
 pulseaudio-jack
 pycharm-community-edition
-python-anytree
 python-sphinx
 qbittorrent
 qjackctl
@@ -279,13 +274,11 @@ ttf-ibm-plex
 ttf-iosevka-nerd
 ttf-liberation
 ttf-ubuntu-font-family
-typescript
 unicode-emoji
 units
 upower
 usb_modeswitch
 usbutils
-vala
 vi
 vino
 vtk
