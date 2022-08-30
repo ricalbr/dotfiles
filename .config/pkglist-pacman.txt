@@ -36,6 +36,7 @@ diffutils
 discord
 dmenu
 dnsmasq
+downgrade
 doxygen
 dunst
 efibootmgr
