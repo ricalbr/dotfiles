@@ -28,6 +28,7 @@ picom-jonaburg-git
 python-rofi-git
 skypeforlinux-stable-bin
 slack-desktop
+snapd
 spotify
 sublime-text-4
 teams
