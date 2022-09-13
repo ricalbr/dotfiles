@@ -65,7 +65,6 @@ fwupd
 fzf
 gcc
 gdm
-geary
 gedit
 gimp
 git-delta
@@ -214,7 +213,6 @@ poppler-glib
 pptpclient
 pulseaudio
 pulseaudio-jack
-pycharm-community-edition
 python-sphinx
 qbittorrent
 qjackctl
@@ -258,6 +256,7 @@ texlive-core
 texlive-fontsextra
 texlive-latexextra
 texlive-science
+thunderbird
 tlp
 tmux
 totem
