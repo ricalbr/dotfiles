@@ -26,7 +26,6 @@ papirus-folders-git
 pcurses
 picom-jonaburg-git
 python-rofi-git
-ruby-xdg5
 skypeforlinux-stable-bin
 slack-desktop
 snapd
