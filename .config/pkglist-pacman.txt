@@ -138,8 +138,6 @@ inetutils
 inkscape
 intel-ucode
 inxi
-ipw2100-fw
-ipw2200-fw
 iwd
 jfsutils
 keyserver-rank
