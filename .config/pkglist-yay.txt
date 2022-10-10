@@ -12,6 +12,8 @@ gnome-shell-extension-pop-shell-git
 gnome-shell-extension-tray-icons-reloaded-git
 google-chrome
 hardinfo
+ipw2100-fw
+ipw2200-fw
 komikku
 lf-git
 masterpdfeditor-free
@@ -38,5 +40,7 @@ ttf-fixedsys-excelsior-linux
 ttf-iosevka
 ufetch-git
 vidir
+visual-studio-code-bin
+whatsapp-for-linux
 yaru-plus-git
 zoom
