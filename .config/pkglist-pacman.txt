@@ -130,7 +130,6 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-gvim
 htop
 hwinfo
 inetutils
