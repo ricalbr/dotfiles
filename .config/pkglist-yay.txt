@@ -21,6 +21,7 @@ masterpdfeditor-free
 matplotlib-cpp-git
 mendeley-reference-manager
 neovim-remote
+nvim-packer-git
 onedrive-abraunegg-git
 onlyoffice-bin
 openvpn-protonvpn
