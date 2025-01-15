@@ -7,7 +7,7 @@ zstyle ':vcs_info:git:*' formats ' %b'
 
 # PROMPT BASICS
 PROMPT='%F{green}%<\s< $(prompt_dir)%(?.%F{white}.%F{red})%B $%b '
-RPROMPT='%F{magenta}%B$(conda_info)%b%f%B$(parse_git_dirty)${vcs_info_msg_0_}%f%b'
+RPROMPT='%F{magenta}%B$(python_env_info)%b%f%B$(parse_git_dirty)${vcs_info_msg_0_}%f%b'
 
 # GIT PROMPT
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}"
@@ -23,10 +23,13 @@ parse_git_dirty() {
   fi
 }
 
-# CONDA
-function conda_info() {
-    if [[ -n "$CONDA_DEFAULT_ENV" ]]; then
-        echo " (${CONDA_DEFAULT_ENV}) "
+# Python virtual environment info
+export VIRTUAL_ENV_DISABLE_PROMPT=1 # do not add anything to the prompt
+function python_env_info() {
+    if [[ -n "$VIRTUAL_ENV" ]]; then
+        # Extract the environment name from the path
+        local env_name=$(basename "$VIRTUAL_ENV")
+        echo " (${env_name}) "
     fi
 }
 
