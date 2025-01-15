@@ -29,13 +29,10 @@ export LANG=en_US.UTF-8
 
 # PROGRAM CONFIG
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
-export CONDA_ROOT="$XDG_CONFIG_HOME"/conda
-export CONDARC="$XDG_CONFIG_HOME"/conda/condarc
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export GOPATH="$XDG_DATA_HOME"/go
 export HISTFILE="$ZDOTDIR"/.zhistory
 export IPYTHONDIR="$XDG_CONFIG_HOME"/jupyter
-export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export JUPYTER_CONFIG_DIR="$XDG_CONFIG_HOME"/jupyter
 export LEIN_HOME="$XDG_DATA_HOME"/lein
 export MPLAYER_HOME="$XDG_CONFIG_HOME"/mplayer
@@ -46,15 +43,16 @@ export NVM_DIR="$XDG_DATA_HOME"/nvm
 export OCTAVE_HISTFILE="$XDG_CACHE_HOME/octave-hsts"
 export OCTAVE_SITE_INITFILE="$XDG_CONFIG_HOME/octave/octaverc"
 export SSB_HOME="$XDG_DATA_HOME"/zoom
+export TASKDATA=$HOME/vault/task/
+export TASKRC=$HOME/.config/task/.taskrc
 # export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc"
 # export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim"
 export VIMINIT="set nocp | source ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.lua"
-export TASKRC=$HOME/.config/task/.taskrc
-export TASKDATA=$HOME/vault/task/
 export VSCODE_PORTABLE="$XDG_DATA_HOME"/vscode
 export WGETRC="$XDG_CONFIG_HOME/"wgetrc
-export _Z_DATA="$XDG_CONFIG_HOME"/z/.z
 export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
+export _Z_DATA="$XDG_CONFIG_HOME"/z/.z
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 
 # FZF CONFIG
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
