@@ -59,11 +59,12 @@ alias dc='cd'
 # useful programs
 alias node='nodejs'
 alias tmux='tmux -f ~/.config/tmux/.tmux.conf'
-alias vim='nvim'
+alias vim='nvim -u NORC'
 alias vimf='vim $(fzf)'
 alias ytdl='youtube-dl'
 alias ytlist='youtube-dl -f best -a'
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
+alias tt='taskwarrior-tui'
 alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
 # git aliases
