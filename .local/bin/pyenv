@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# Directory where Python environments are stored
+VENV_DIR="$HOME/.venv"
+
+# Function to display usage information
+usage() {
+    echo "Usage: source pyvenv [--list|-l] | [--help|-h] | <environment_name>"
+    echo "Commands:"
+    echo "  --list, -l         - List available environments in $VENV_DIR"
+    echo "  --help, -h         - Show this help message"
+    echo "  <environment_name> - Activate the specified environment"
+    return 1
+}
+
+# Command: List available environments
+list_envs() {
+    if [ -d "$VENV_DIR" ]; then
+        echo "Available environments in $VENV_DIR:"
+        ls -1 "$VENV_DIR"
+    else
+        echo "Error: Directory $VENV_DIR does not exist."
+        return 1
+    fi
+}
+
+# Function to activate the specified environment
+activate_env() {
+    local env_name=$1
+    local env_path="$VENV_DIR/$env_name"
+    if [ -z "$env_name" ]; then
+        echo "Error: No environment name provided."
+        usage
+        return 1
+    elif [ ! -d "$env_path" ]; then
+        echo "Error: Environment $env_name does not exist in $VENV_DIR."
+        return 1
+    elif [ ! -f "$env_path/bin/activate" ]; then
+        echo "Error: Environment $env_name does not have a valid activation script."
+        return 1
+    fi
+    # Directly activate the environment
+    source "$env_path/bin/activate"
+}
+
+# Command handling
+if [[ $# -eq 0 ]]; then
+    usage
+elif [[ $1 == "--list" || $1 == "-l" ]]; then
+    list_envs
+elif [[ $1 == "--help" || $1 == "-h" ]]; then
+    usage
+else
+    activate_env "$1"
+fi
+
