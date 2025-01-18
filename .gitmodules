@@ -11,5 +11,5 @@
 	path = .config/zsh/plugins/zsh-vi-mode
 	url = ssh://git@github.com/jeffreytse/zsh-vi-mode
 [submodule "nvim"]
-	path = nvim
+	path = .config/nvim
 	url = ssh://git@github.com/ricalbr/nvim
