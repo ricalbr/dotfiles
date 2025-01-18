@@ -18,7 +18,7 @@ alias cup='config pull --rebase -v'
 function csa() { config submodule add ssh://git@github.com/"$*" }
 
 # quick updates
-alias cvim='config commit ~/.config/vim -m "Update Vim module"'
+alias cnvim='config commit ~/.config/nvim -m "Update Neovim module"'
 alias cgnome='config commit ~/.config/gnome_backup.txt -m "Update GNOME setting"'
 alias cpac='config commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
 alias cyay='config commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
