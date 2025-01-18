@@ -27,43 +27,33 @@ alias cyay='config commit ~/.config/pkglist-yay.txt -m "Update yay package list"
 function config_add(){
   fname=$(ls | fzf --multi --no-sort --reverse --cycle)
 
-  if [ -n "$fname" ]
-  then
-    while IFS= read -r file; do
-        config add $file
-    done <<< "$fname"
+  if [ -n "$fname" ]; then
+    config add $(echo "$fname" | tr '\n' ' ')
   fi
 }
 
-function config_commit(){
+function config_commit() {
+  # Usa fzf per selezionare più file e salva l'elenco
   fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
-  if [ -n "$fname" ]
-  then
-    while IFS= read -r file; do
-        config commit -v $file
-    done <<< "$fname"
+  if [ -n "$fname" ]; then
+    config commit -v $(echo "$fname" | tr '\n' ' ')
   fi
 }
+
 
 function config_commit_amend(){
   fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
-  if [ -n "$fname" ]
-  then
-    while IFS= read -r file; do
-        config commit -v --amend $file
-    done <<< "$fname"
+  if [ -n "$fname" ]; then
+    config commit -v --amend $(echo "$fname" | tr '\n' ' ')
   fi
 }
 
 function config_diff(){
   fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
-  if [ -n "$fname" ]
-  then
-    while IFS= read -r file; do
-        config diff $file
-    done <<< "$fname"
+  if [ -n "$fname" ]; then
+    config diff $(echo "$fname" | tr '\n' ' ')
   fi
 }
