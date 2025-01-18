@@ -10,6 +10,6 @@
 [submodule ".config/zsh/plugins/zsh-vi-mode"]
 	path = .config/zsh/plugins/zsh-vi-mode
 	url = ssh://git@github.com/jeffreytse/zsh-vi-mode
-[submodule "nvim"]
+[submodule ".config/nvim"]
 	path = .config/nvim
 	url = ssh://git@github.com/ricalbr/nvim
