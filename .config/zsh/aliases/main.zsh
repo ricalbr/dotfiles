@@ -64,7 +64,7 @@ alias vimf='vim $(fzf)'
 alias ytdl='youtube-dl'
 alias ytlist='youtube-dl -f best -a'
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
-alias tt='taskwarrior-tui'
+# alias tt='taskwarrior-tui'
 alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
 
 # git aliases
@@ -73,6 +73,9 @@ source $ZDOTDIR/aliases/bare-git.zsh
 
 # pacman aliases
 source $ZDOTDIR/aliases/pacman.zsh
+
+# taskwarrior aliases
+source $ZDOTDIR/aliases/taskwarrior.zsh
 
 # suckless programs aliases
 alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
@@ -91,6 +94,7 @@ alias dwone='onedrive --synchronize --download-only'
 alias upone='onedrive --synchronize --upload-only'
 alias extback='dconf dump /org/gnome/shell/extensions/ > ~/.config/extensions_backup.txt'
 alias gbackup='dconf dump /org/gnome/> ~/.config/gnome_backup.txt'
+alias pyenv='source pyenv'
 
 # functions
 function mk () { mkdir -p "$@" && cd "$@" }
