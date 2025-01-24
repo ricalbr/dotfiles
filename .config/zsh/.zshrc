@@ -86,8 +86,6 @@ bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey ' '  magic-space
 
-# $(fc -ln -1)
-
 # home - navigates to the current root workspace
 function git_root() {
     BUFFER="cd $(git rev-parse --show-toplevel || echo ".")"
@@ -95,6 +93,14 @@ function git_root() {
 }
 zle -N git_root
 bindkey '^h' git_root
+
+function f_enter() {
+  BUFFER="__open-files.sh"
+  zle accept-line
+}
+
+zle -N f_enter
+bindkey '^[f' f_enter # Alt+f for file search
 #}}}
 
 # PLUGINS {{{
