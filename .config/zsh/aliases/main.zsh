@@ -66,7 +66,7 @@ alias ytlist='youtube-dl -f best -a'
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/yarnrc"'
 # alias tt='taskwarrior-tui'
 alias vscodium='vscodium --extensions-dir "$XDG_DATA_HOME"/vscode/extensions'
-alias fd='findfd'
+alias fd='fdfind'
 alias bat='batcat'
 
 # git aliases
