@@ -54,6 +54,7 @@ evince
 exa
 f2fs-tools
 fakeroot
+fd
 ffmpegthumbnailer
 file-roller
 firefox
