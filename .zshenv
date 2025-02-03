@@ -57,10 +57,11 @@ export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 # FZF CONFIG
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
 # export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
-export FZF_DEFAULT_COMMAND="fd --hidden . $HOME"
+# export FZF_DEFAULT_COMMAND='fd --hidden --exclude ".git/*" .'
+export FZF_DEFAULT_COMMAND='fdfind --hidden --exclude ".git/*" .'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd --hidden -t d . $HOME"
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+# export FZF_ALT_C_COMMAND="fd --hidden -t d . $HOME"
+export FZF_ALT_C_COMMAND="fdfind --hidden -t d . $HOME"
 
 # NNN CONFIG
 export NNN_BMS="d:$HOME/Documents;o:$HOME/OneDrive;v:$HOME/.config/vim"
