@@ -50,6 +50,15 @@ alias gcs='git commit -S'
 alias gcss='git commit -S -s'
 alias gcssm='git commit -S -s -m'
 
+alias gcm=git_commit
+function git_commit() {
+  fname=$(git status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
+
+  if [ -n "$fname" ]; then
+    git commit -v $(echo "$fname" | tr '\n' ' ')
+  fi
+}
+
 # checkout
 alias gcob='git checkout -b'
 alias gcor='git checkout --recurse-submodules'
