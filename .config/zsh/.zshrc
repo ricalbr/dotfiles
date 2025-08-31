@@ -1,10 +1,9 @@
 # .zshrc
-#
 # @ricalbr
 
 # THEME {{{
 autoload -Uz colors && colors
-source $ZDOTDIR/themes/cleanthefish.zsh-theme
+source $ZDOTDIR/themes/thm.zsh
 # }}}
 
 # HISTORY SETTINGS {{{
@@ -104,17 +103,12 @@ bindkey '^[f' f_enter # Alt+f for file search
 #}}}
 
 # PLUGINS {{{
-source $ZDOTDIR/plugins/archive_extract.zsh
 source $ZDOTDIR/plugins/fzf.plugin.zsh
-source $ZDOTDIR/plugins/gitfast/gitfast.plugin.zsh
-source $ZDOTDIR/plugins/quitcd.zsh
-source $ZDOTDIR/plugins/web-search.plugin.zsh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-source $ZDOTDIR/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-source $ZDOTDIR/plugins/zsh-z/zsh-z.plugin.zsh
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
+eval "$(zoxide init zsh)"
 # }}}
 
