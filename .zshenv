@@ -73,7 +73,7 @@ export NNN_FIFO='/tmp/nnn.fifo'
 export NNN_TMPFILE='/tmp/nnn'
 
 # Colors
-source $ZDOTDIR/themes/colors.zsh
+# source $ZDOTDIR/themes/colors.zsh
 
 # if tmux is executable and not inside a tmux session, then try to attach. if attachment fails, start a new session
 # [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ] && { tmux attach || tmux; } >/dev/null 2>&1
