@@ -42,11 +42,9 @@
 [diff]
     tool = vimdiff
 
-; [url "ssh://git@github.com:ricalbr/"]
-;   insteadOf = https://github.com/ricalbr/
-;   insteadOf = http://github.com/ricalbr/
-[credential]
-    helper = /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
+[url "ssh://git@github.com:ricalbr/"]
+  insteadOf = https://github.com/ricalbr/
+  insteadOf = http://github.com/ricalbr/
 
 [init]
     defaultBranch = main
