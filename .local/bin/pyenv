@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory where Python environments are stored
-VENV_DIR="$HOME/.venv"
+VENV_DIR="$HOME/.venvs"
 
 # Function to display usage information
 usage() {
