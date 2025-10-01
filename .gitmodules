@@ -4,3 +4,6 @@
 [submodule "/home/ricalbr/.config/zsh/plugins/zsh-autosuggestions"]
 	path = .config/zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "/home/ricalbr/.config/mpv/scripts/autosubsync"]
+	path = /home/ricalbr/.config/mpv/scripts/autosubsync
+	url = https://github.com/Ajatt-Tools/autosubsync-mpv.git
