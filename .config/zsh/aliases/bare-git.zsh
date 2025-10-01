@@ -1,59 +1,59 @@
 # GIT-BARE ALIASES (for .dotfiles)
 
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias ca=config_add
-alias ccm=config_commit
-alias ccm!=config_commit_amend
-alias ccma='config commit -v -a'
-alias ccma!='config commit -v -a --amend'
-alias ccmam='config commit -v -a -m'
-alias clogs="config log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat --max-count=15"
-alias cdiff=config_diff
-alias cmv='config mv'
-alias cpull='config pull --recurse-submodules -v'
-alias cpush='config push -v'
-alias cs='config status -s'
-alias csu='config submodule update --remote --merge'
-alias cup='config pull --rebase -v'
-function csa() { config submodule add ssh://git@github.com/"$*" }
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias ca=dot_add
+alias ccm=dot_commit
+alias ccm!=dot_commit_amend
+alias ccma='dot commit -v -a'
+alias ccma!='dot commit -v -a --amend'
+alias ccmam='dot commit -v -a -m'
+alias clogs="dot log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat --max-count=15"
+alias cdiff=dot_diff
+alias cmv='dot mv'
+alias cpull='dot pull --recurse-submodules -v'
+alias cpush='dot push -v'
+alias cs='dot status -s'
+alias csu='dot submodule update --remote --merge'
+alias cup='dot pull --rebase -v'
+function csa() { dot submodule add ssh://git@github.com/"$*" }
 
 # quick updates
-alias cnvim='config commit ~/.config/nvim -m "Update Neovim module"'
-alias cgnome='config commit ~/.config/gnome_backup.txt -m "Update GNOME setting"'
-alias cpac='config commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
-alias cyay='config commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
+alias cnvim='dot commit ~/.config/nvim -m "Update Neovim module"'
+alias cgnome='dot commit ~/.config/gnome_backup.txt -m "Update GNOME setting"'
+alias cpac='dot commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
+alias cyay='dot commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
 
 # functions
-function config_add(){
+function dot_add(){
   fname=$(ls | fzf --multi --no-sort --reverse --cycle)
 
   if [ -n "$fname" ]; then
-    config add $(echo "$fname" | tr '\n' ' ')
+    dot add $(echo "$fname" | tr '\n' ' ')
   fi
 }
 
-function config_commit() {
+function dot_commit() {
   # Usa fzf per selezionare più file e salva l'elenco
-  fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
+  fname=$(dot status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
   if [ -n "$fname" ]; then
-    config commit -v $(echo "$fname" | tr '\n' ' ')
+    dot commit -v $(echo "$fname" | tr '\n' ' ')
   fi
 }
 
 
-function config_commit_amend(){
-  fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
+function dot_commit_amend(){
+  fname=$(dot status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
   if [ -n "$fname" ]; then
-    config commit -v --amend $(echo "$fname" | tr '\n' ' ')
+    dot commit -v --amend $(echo "$fname" | tr '\n' ' ')
   fi
 }
 
-function config_diff(){
-  fname=$(config status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
+function dot_diff(){
+  fname=$(dot status -s | cut -c12- | fzf --multi --no-sort --reverse --cycle)
 
   if [ -n "$fname" ]; then
-    config diff $(echo "$fname" | tr '\n' ' ')
+    dot diff $(echo "$fname" | tr '\n' ' ')
   fi
 }
