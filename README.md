@@ -8,7 +8,7 @@ dotfiles for arch-based systems.
 curl -sL https://raw.githubusercontent.com/ricalbr/dotfiles/refs/heads/master/.config/pkglist-pacman.txt | sudo pacman -S --needed -
 
 # copy dotfiles
-git clone --bare https://github.com/ricalbr/dotfiles $HOME/.dotfiles
+git clone --bare hgit@github.com:ricalbr/dotfiles.git $HOME/.dotfiles
 function config {
    /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
 }
