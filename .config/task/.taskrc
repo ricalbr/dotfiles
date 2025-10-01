@@ -14,5 +14,5 @@
 data.location=~/.config/task/task
 
 # Color theme (uncomment one to use)
-#include /usr/share/taskwarrior/dark-16.theme
+include dark-gray-256.theme
 news.version=3.4.1
