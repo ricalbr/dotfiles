@@ -7,3 +7,6 @@
 [submodule "/home/ricalbr/.config/mpv/scripts/autosubsync"]
 	path = /home/ricalbr/.config/mpv/scripts/autosubsync
 	url = https://github.com/Ajatt-Tools/autosubsync-mpv.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/ricalbr/nvim.git
