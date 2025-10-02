@@ -20,8 +20,8 @@ function dsa() { dot submodule add ssh://git@github.com/"$*" }
 # quick updates
 alias dnvim='dot commit ~/.config/nvim -m "Update Neovim module"'
 alias dgnome='dot commit ~/.config/gnome_backup.txt -m "Update GNOME setting"'
-alias dpac='dot commit ~/.config/pkglist-pacman.txt -m "Update pacman package list"'
-alias dyay='dot commit ~/.config/pkglist-yay.txt -m "Update yay package list"'
+alias dpac='pacman -Qqen > $HOME/.config/repo.txt && dot commit $HOME/.config/repo.txt -m "(chore) update pacman package list"'
+alias dyay='pacman -Qqem > $HOME/.config/aur.txt && dot commit $HOME/.config/aur.txt -m "(chore) update yay package list"'
 
 # functions
 function dot_add(){
