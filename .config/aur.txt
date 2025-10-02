@@ -1,0 +1,13 @@
+backrest
+bottles
+gnome-shell-extension-gsconnect
+gnome-shell-extension-search-light-git
+localsend
+logseq-desktop-bin
+neovim-nightly-bin
+onedrive-abraunegg-git
+onlyoffice-bin
+opera
+plugdata-bin
+webex-bin
+zen-browser-bin
