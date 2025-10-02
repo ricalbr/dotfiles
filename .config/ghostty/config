@@ -1,0 +1,8 @@
+window-padding-x = 8
+window-width = 140
+window-height = 40
+window-decoration = true
+adw-toolbar-style = flat
+window-save-state = "always"
+
+theme= Adwaita Dark
