@@ -7,6 +7,7 @@ alias ta='task add'
 alias tm='task mod'
 alias tn='task mod +next'
 alias td='task done -next'
+alias tbd='task burndown.daily'
 
 alias tapl='task add pri:L '
 alias taph='task add pri:H '
