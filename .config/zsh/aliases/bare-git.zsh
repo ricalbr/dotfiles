@@ -15,6 +15,7 @@ alias dpush='dot push -v'
 alias ds='dot status -s'
 alias dsu='dot submodule update --remote --merge'
 alias dup='dot pull --rebase -v'
+alias dfo='dot fetch origin'
 function dsa() { dot submodule add ssh://git@github.com/"$*" }
 
 # quick updates
