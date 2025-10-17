@@ -51,6 +51,7 @@ alias mkdir='mkdir -pv'
 # fix typo
 alias claer='clear'
 alias celar='clear'
+alias clera='clear'
 alias pacmna='pacman'
 alias sl='ls'
 alias al='la'
@@ -89,6 +90,7 @@ alias dwone='onedrive --synchronize --download-only'
 alias upone='onedrive --synchronize --upload-only'
 alias extback='dconf dump /org/gnome/shell/extensions/ > ~/.config/extensions_backup.txt'
 alias gbackup='dconf dump /org/gnome/> ~/.config/gnome_backup.txt'
+alias pyenv='source pyenv'
 
 # functions
 function mk () { mkdir -p "$@" && cd "$@" }
