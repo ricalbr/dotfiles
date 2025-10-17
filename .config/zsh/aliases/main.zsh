@@ -21,7 +21,7 @@ fi
 # alias la="ls ${lsflags} -A"
 # alias ll="ls ${lsflags} -l -h"
 # alias lla="ls ${lsflags} -l -A -h"
-alias ls="exa --git-ignore --group-directories-first"
+alias ls="eza --git-ignore --group-directories-first"
 alias la="ls -a"
 alias ll="ls -l -h"
 alias lla="ls -l -a -h"
@@ -79,24 +79,16 @@ source $ZDOTDIR/aliases/pacman.zsh
 # taskwarrior aliases
 source $ZDOTDIR/aliases/taskwarrior.zsh
 
-# suckless programs aliases
-alias fullclean='git checkout master && make clean && rm -f config.h && git reset --hard origin/master'
-alias configinstall='git checkout master && rm -f config.h && make && sudo make clean install'
-
 # quick fixes
-alias cdwin="cd /mnt/Windows/Users/ricca/"
 alias pip-update="pip list --outdated --format=freeze 2> /dev/null | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U"
 alias orphans='pacman -Qdtq | sudo pacman -Rnsc --noconfirm - 2> /dev/null || echo "Nothing to delete"'
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
 alias resetaudio='systemctl --user restart pulseaudio'
-# alias dwdrive='rclone -P sync GoogleDrive: ~/Drive/'
-# alias updrive='rclone -P sync ~/Drive/ GoogleDrive:'
 alias onesync='onedrive --synchronize'
 alias dwone='onedrive --synchronize --download-only'
 alias upone='onedrive --synchronize --upload-only'
 alias extback='dconf dump /org/gnome/shell/extensions/ > ~/.config/extensions_backup.txt'
 alias gbackup='dconf dump /org/gnome/> ~/.config/gnome_backup.txt'
-alias pyenv='source pyenv'
 
 # functions
 function mk () { mkdir -p "$@" && cd "$@" }
