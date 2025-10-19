@@ -1,11 +1,11 @@
-[submodule "/home/ricalbr/.config/zsh/plugins/zsh-syntax-highlighting"]
+[submodule ".config/zsh/plugins/zsh-syntax-highlighting"]
 	path = .config/zsh/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
-[submodule "/home/ricalbr/.config/zsh/plugins/zsh-autosuggestions"]
+[submodule ".config/zsh/plugins/zsh-autosuggestions"]
 	path = .config/zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
-[submodule "/home/ricalbr/.config/mpv/scripts/autosubsync"]
-	path = /home/ricalbr/.config/mpv/scripts/autosubsync
+[submodule ".config/mpv/scripts/autosubsync"]
+	path = .config/mpv/scripts/autosubsync
 	url = https://github.com/Ajatt-Tools/autosubsync-mpv.git
 [submodule ".config/nvim"]
 	path = .config/nvim
