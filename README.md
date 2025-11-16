@@ -2,12 +2,14 @@
 
 Dotfiles for Arch-based systems.
 
-### Install
+### Installation
+Install required packages
 ```bash
-# install required packages
-sudo pacman -Sy --needed curl git
-sudo pacman -S --needed - < <(curl -sL https://raw.githubusercontent.com/ricalbr/dotfiles/refs/heads/master/.config/pkglist-pacman.txt)
+fzf ripgrep zoxide bat eza
+```
 
+Cloning and installation
+```bash
 # clone dotfiles as a bare repo
 git clone --bare git@github.com:ricalbr/dotfiles.git "$HOME/.dotfiles"
 
