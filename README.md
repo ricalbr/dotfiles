@@ -5,7 +5,7 @@ Dotfiles for Arch-based systems.
 ### Installation
 Install required packages
 ```bash
-fzf ripgrep zoxide bat eza
+zsh fzf ripgrep zoxide bat eza
 ```
 
 Cloning and installation
@@ -34,13 +34,13 @@ else
 fi
 
 # initialize submodules
-dot submodule update --init --recursive
+dot submodule sync --recursive                                                                     ~
+dot submodule update --init --recursive --force
 
 # hide untracked files (to avoid noise)
 dot config status.showUntrackedFiles no
 
 # set zsh as default shell
-sudo pacman -Sy --needed zsh
 chsh -s "$(which zsh)"
 
 echo "Installation complete. You may need to restart your terminal."
