@@ -5,7 +5,7 @@ Dotfiles for Arch-based systems.
 ### Installation
 Install required packages
 ```bash
-zsh fzf ripgrep zoxide bat eza
+bat eza fzf ripgrep zoxide zsh
 ```
 
 Cloning and installation
@@ -36,6 +36,21 @@ fi
 # initialize submodules
 dot submodule sync --recursive                                                                     ~
 dot submodule update --init --recursive --force
+-- twitter mode
+vim.keymap.set('n', '<leader>tw', ':match Error "%>281v.+"<CR>')
+
+-- let s:activatedt = 0
+-- function! TwitterMode()
+--     if s:activatedt == 0
+--         let s:activatedt = 1
+--         match Error '\%>281v.\+'
+--     else
+--         let s:activatedt = 0
+--         match none
+--     endif
+-- endfunction
+
+-- nnoremap <leader>tw :call TwitterMode()<CR>
 
 # hide untracked files (to avoid noise)
 dot config status.showUntrackedFiles no
