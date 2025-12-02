@@ -85,12 +85,15 @@ alias pip-update="pip list --outdated --format=freeze 2> /dev/null | grep -v '^\
 alias orphans='pacman -Qdtq | sudo pacman -Rnsc --noconfirm - 2> /dev/null || echo "Nothing to delete"'
 alias setkeyb='setxkbmap -model pc104 -layout it -variant ,qwerty -option grp:alt_shift_toggle'
 alias resetaudio='systemctl --user restart pulseaudio'
-alias onesync='onedrive --sync'
-alias dwone='onedrive --sync --download-only'
-alias upone='onedrive --sync --upload-only'
+alias onesync='onedrive --synchronize'
+alias dwone='onedrive --synchronize --download-only'
+# alias dwone='onedrive --sync --download-only'
+alias upone='onedrive --synchronize --upload-only'
+# alias upone='onedrive --sync --upload-only'
 alias extback='dconf dump /org/gnome/shell/extensions/ > ~/.config/extensions_backup.txt'
 alias gbackup='dconf dump /org/gnome/> ~/.config/gnome_backup.txt'
 alias pyenv='source pyenv'
+alias update='sudo xbps-install -Syu && flatpak update -y && flatpak uninstall --unused'
 
 # functions
 function mk () { mkdir -p "$@" && cd "$@" }
