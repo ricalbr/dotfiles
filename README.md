@@ -5,7 +5,7 @@ Dotfiles for Arch-based systems.
 ### Installation
 Install required packages
 ```bash
-bat eza fzf ripgrep zoxide zsh
+bat eza fzf fd ripgrep zoxide zsh
 ```
 
 Cloning and installation
