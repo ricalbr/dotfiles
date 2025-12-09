@@ -23,9 +23,9 @@ mkdir -p "$HOME/.config-backup"
 
 # try checkout
 if dot checkout 2>/tmp/dotfiles-checkout.log; then
-    echo "✅ Checked out config."
+    echo "Checked out config."
 else
-    echo "⚠️  Backing up pre-existing dot files..."
+    echo "Backing up pre-existing dot files..."
     cat /tmp/dotfiles-checkout.log | grep -E "\s+\." | awk '{print $1}' | while read -r file; do
         mkdir -p "$(dirname "$HOME/.config-backup/$file")"
         mv "$HOME/$file" "$HOME/.config-backup/$file"
@@ -36,21 +36,6 @@ fi
 # initialize submodules
 dot submodule sync --recursive                                                                     ~
 dot submodule update --init --recursive --force
--- twitter mode
-vim.keymap.set('n', '<leader>tw', ':match Error "%>281v.+"<CR>')
-
--- let s:activatedt = 0
--- function! TwitterMode()
---     if s:activatedt == 0
---         let s:activatedt = 1
---         match Error '\%>281v.\+'
---     else
---         let s:activatedt = 0
---         match none
---     endif
--- endfunction
-
--- nnoremap <leader>tw :call TwitterMode()<CR>
 
 # hide untracked files (to avoid noise)
 dot config status.showUntrackedFiles no
