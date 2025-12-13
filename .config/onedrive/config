@@ -1,2 +1,2 @@
-use_intune_sso = "true"
+# use_intune_sso = "true"
 skip_dir = ".git|node_modules|__pycache__"
