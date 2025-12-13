@@ -33,6 +33,9 @@ else
     dot checkout
 fi
 
+# install virtualenv
+[ -x "$HOME/.local/bin/install-virtualenv" ] && "$HOME/.local/bin/install-virtualenv"
+
 # initialize submodules
 dot submodule sync --recursive                                                                     ~
 dot submodule update --init --recursive --force
