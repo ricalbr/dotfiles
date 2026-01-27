@@ -1,51 +1,21 @@
 #!/bin/sh
-# Simple interactive timezone selector for Void Linux (runit-friendly)
+# fzf-based timezone selector
 
 ZONEINFO="/usr/share/zoneinfo"
 
-if [ ! -d "$ZONEINFO" ]; then
-    echo "Zoneinfo directory not found."
-    exit 1
-fi
+TZ=$(find "$ZONEINFO" \
+    -type f \
+    | sed "s|$ZONEINFO/||" \
+    | grep -Ev '^(Etc/|posix/|right/|Factory)' \
+    | fzf --prompt="Timezone > " \
+          --height=40% \
+          --border)
 
-echo "Select a region:"
-REGIONS=$(ls "$ZONEINFO" | grep -Ev '^(Etc|posix|right|Factory)$')
+[ -z "$TZ" ] && exit 0
 
-i=1
-for r in $REGIONS; do
-    printf "[%d] %s\n" "$i" "$r"
-    i=$((i+1))
-done
-
-printf "\n> "
-read REGION_IDX
-
-REGION=$(echo "$REGIONS" | sed -n "${REGION_IDX}p")
-[ -z "$REGION" ] && exit 1
-
-echo
-echo "Select a city in $REGION:"
-
-CITIES=$(find "$ZONEINFO/$REGION" -type f | sed "s|$ZONEINFO/$REGION/||")
-
-i=1
-for c in $CITIES; do
-    printf "[%d] %s\n" "$i" "$c"
-    i=$((i+1))
-done
-
-printf "\n> "
-read CITY_IDX
-
-CITY=$(echo "$CITIES" | sed -n "${CITY_IDX}p")
-[ -z "$CITY" ] && exit 1
-
-TZ="$REGION/$CITY"
-
-echo
 echo "Setting timezone to: $TZ"
 sudo ln -sf "$ZONEINFO/$TZ" /etc/localtime
 
 echo
-echo "Current date:"
 date
+
