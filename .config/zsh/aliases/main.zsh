@@ -72,7 +72,7 @@ alias bat='batcat'
 
 # git aliases
 source $ZDOTDIR/aliases/git.zsh
-source $ZDOTDIR/aliases/bare-git.zsh
+source $ZDOTDIR/aliases/git-bare.zsh
 
 # pacman aliases
 source $ZDOTDIR/aliases/pacman.zsh
