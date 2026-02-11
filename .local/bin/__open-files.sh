@@ -1,73 +1,84 @@
 #!/usr/bin/env bash
-
-# The set -e option instructs bash to immediately exit if any command has a non-zero exit status
-# The set -u referencing a previously undefined variable - with the exceptions of $* and $@ - is an error
-# The set -o pipefaile if any command in a pipeline fails, that return code will be used as the return code of the whole pipeline
-# https://bit.ly/37nFgin
 set -o pipefail
 
+# help
 help_function() {
-	echo "Usage: __open_file.sh [query] [-h|--help]"
+	echo "usage: __open_file.sh [query] [-h|--help]"
 	echo ""
-	echo "This script opens files using fzf-tmux for selection and the configured editor (default: nvim) for viewing."
-	echo "It allows multi-selection and opens the selected files in different layouts depending on the number of files selected."
-	echo "An optional query can be provided to filter the file selection."
+	echo "open files using fzf (or fzf-tmux inside tmux) and the configured editor"
+	echo "supports multi-selection and smart layout in nvim"
 	echo ""
-	echo "Options:"
-	echo "  -h, --help    Show this help message and exit."
+	echo "options:"
+	echo "  -h, --help    show this help message and exit"
 	echo ""
-	echo "Arguments:"
-	echo "  [query]       Optional query to filter the file selection."
-	echo ""
-	echo "Features:"
-	echo "  - Sources a generic error handling function from __trap.sh."
-	echo "  - Filters files using fzf-tmux with an optional query."
-	echo "  - Opens selected files in the configured editor (default: nvim) with different layouts."
-	echo "  - Handles interruptions and errors gracefully."
-	echo ""
-	echo "Note: This script requires fzf-tmux and a compatible editor (e.g., nvim)."
+	echo "arguments:"
+	echo "  [query]       optional query to filter file selection"
 }
 
-# Check for help argument
-if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]; then
+if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
 	help_function
 	exit 0
 fi
+QUERY="${1:-}"
 
-# Custom error handling function for fzf-tmux
-handle_fzf_error() {
-	if [ $? -eq 130 ]; then
-		# If fzf-tmux was interrupted by Ctrl+C (exit code 130), exit gracefully
-		exit 0
-	else
-		# Otherwise, re-raise the error
-		return $?
-	fi
-}
-
-# Set new line and tab for word splitting
-IFS=$'\n' files=($(fzf --preview '[[ -d {} ]] && exa --color=always --long --all --header --icons --git {} || bat --color=always {}' --reverse --query="$1" --multi --select-1 --exit-0))
-
-# Check if any files were selected, and exit if not
-if [ ${#files[@]} -eq 0 ]; then
-	exit 0
+# choose fzf or fzf-tmux
+if [[ -n "${TMUX:-}" ]] && command -v fzf-tmux >/dev/null 2>&1; then
+	FZF_CMD=(fzf-tmux -p 80%,80%)
+else
+	FZF_CMD=(fzf --height 80% --border)
 fi
 
+# file source, fd preferred
+if command -v fd >/dev/null 2>&1; then
+	FILE_LIST_CMD=(fd --type f --hidden --follow --exclude .git)
+else
+	FILE_LIST_CMD=(find . -type f)
+fi
+
+# preview for fzf
+preview_cmd='
+if [[ -d {} ]]; then
+	eza --color=always --long --all --header --icons --git {}
+else
+	bat --color=always --style=numbers --line-range=:500 {}
+fi
+'
+
+# run fzf
+selected=$("${FILE_LIST_CMD[@]}" | "${FZF_CMD[@]}" \
+	--preview "$preview_cmd" \
+	--reverse \
+	--query "$QUERY" \
+	--multi \
+	--select-1 \
+	--exit-0
+)
+
+[[ -z "$selected" ]] && exit 0
+
+# convert selection to array safely
+IFS=$'\n' read -r -d '' -a files <<< "$selected"$'\0'
+
+# normalize paths
 for i in "${!files[@]}"; do
 	files[i]=$(realpath "${files[i]}")
 done
 
+EDITOR_CMD="${EDITOR:-nvim}"
+
+# open files in smart layout
 case "${#files[@]}" in
 2)
-	${EDITOR:-nvim} -O +'silent! normal g;' "${files[@]}"
+	"$EDITOR_CMD" -O +'silent! normal g;' "${files[@]}"
 	;;
 3)
-	${EDITOR:-nvim} -O "${files[0]}" -c 'wincmd j' -c "silent! vsplit ${files[1]}" -c "silent! split ${files[2]}"
+	"$EDITOR_CMD" -O "${files[0]}" -c 'wincmd j' -c "silent! vsplit ${files[1]}" -c "silent! split ${files[2]}"
 	;;
 4)
-	${EDITOR:-nvim} -O "${files[0]}" -c "silent! vsplit ${files[1]}" -c "silent! split ${files[2]}" -c 'wincmd h' -c "silent! split ${files[3]}"
+	"$EDITOR_CMD" -O "${files[0]}" -c "silent! vsplit ${files[1]}" -c "silent! split ${files[2]}" -c 'wincmd h' -c "silent! split ${files[3]}"
 	;;
 *)
-	${EDITOR:-nvim} "${files[@]}"
+	"$EDITOR_CMD" "${files[@]}"
 	;;
 esac
+
