@@ -69,9 +69,6 @@ setopt PROMPT_SUBST
 unsetopt CORRECT_ALL            # I don't care for 'suggestions' from ZSH
 export BLOCK_SIZE="'1"          # Add commas to file sizes
 zmodload zsh/zprof              # Enable zsh built-in profile log
-
-# # map CAPS -> ESC
-# setxkbmap -option caps:escape
 # }}}
 
 # ALIASES {{{
@@ -110,5 +107,13 @@ source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.z
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
 eval "$(zoxide init zsh)"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+# echo $PYENV_ROOT
+eval "$(pyenv init - zsh)"
 # }}}
 
+
+# opencode
+export PATH=/home/ricalbr/.opencode/bin:$PATH

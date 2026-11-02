@@ -5,7 +5,7 @@ VENV_DIR="$HOME/.venvs"
 
 # Function to display usage information
 usage() {
-    echo "Usage: source pyvenv [--list|-l] | [--help|-h] | <environment_name>"
+    echo "Usage: source pyv [--list|-l] | [--help|-h] | <environment_name>"
     echo "Commands:"
     echo "  --list, -l         - List available environments in $VENV_DIR"
     echo "  --help, -h         - Show this help message"
@@ -39,6 +39,7 @@ activate_env() {
         echo "Error: Environment $env_name does not have a valid activation script."
         return 1
     fi
+
     # Directly activate the environment
     source "$env_path/bin/activate"
 }

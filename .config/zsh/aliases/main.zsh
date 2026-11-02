@@ -9,18 +9,18 @@ alias zprof="zprof >> $HOME/zsh-profile.log"
 
 # basic aliases
 # GNU and BSD (macOS) ls flags aren't compatible
-ls --version &>/dev/null
-if [ $? -eq 0 ]; then
-  lsflags="--color --group-directories-first -F -1"
-else
-  lsflags="-GF"
-  export CLICOLOR=1
-fi
-
-# alias ls="ls ${lsflags}"
-# alias la="ls ${lsflags} -A"
-# alias ll="ls ${lsflags} -l -h"
-# alias lla="ls ${lsflags} -l -A -h"
+# ls --version &>/dev/null
+# if [ $? -eq 0 ]; then
+#   lsflags="--color --group-directories-first -F -1"
+# else
+#   lsflags="-GF"
+#   export CLICOLOR=1
+# fi
+#
+# # alias ls="ls ${lsflags}"
+# # alias la="ls ${lsflags} -A"
+# # alias ll="ls ${lsflags} -l -h"
+# # alias lla="ls ${lsflags} -l -A -h"
 alias ls="eza --git-ignore --group-directories-first"
 alias la="ls -a"
 alias ll="ls -l -h"
@@ -72,7 +72,7 @@ alias bat='batcat'
 
 # git aliases
 source $ZDOTDIR/aliases/git.zsh
-source $ZDOTDIR/aliases/bare-git.zsh
+source $ZDOTDIR/aliases/git-bare.zsh
 
 # pacman aliases
 source $ZDOTDIR/aliases/pacman.zsh
@@ -92,7 +92,7 @@ alias upone='onedrive --synchronize --upload-only'
 # alias upone='onedrive --sync --upload-only'
 alias extback='dconf dump /org/gnome/shell/extensions/ > ~/.config/extensions_backup.txt'
 alias gbackup='dconf dump /org/gnome/> ~/.config/gnome_backup.txt'
-alias pyenv='source pyenv'
+alias pyv='source pyv'
 alias update='sudo xbps-install -Syu && flatpak update -y && flatpak uninstall --unused'
 
 # functions
