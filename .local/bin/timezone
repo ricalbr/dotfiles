@@ -15,6 +15,7 @@ TZ=$(find "$ZONEINFO" \
 
 echo "Setting timezone to: $TZ"
 sudo ln -sf "$ZONEINFO/$TZ" /etc/localtime
+sudo ntpdate time.nist.gov
 
 echo
 date
